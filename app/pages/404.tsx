@@ -1,9 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Header from './components/Header'
-import Contact from './components/Contact'
 
-const contact: NextPage = () => {
+const NotFound: NextPage = () => {
   return (
     <>
       <Head>
@@ -11,9 +10,9 @@ const contact: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <Contact />
+      <h1>404 | Not Found</h1>
     </>
   )
 }
 
-export default contact
+export default NotFound
