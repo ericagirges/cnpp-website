@@ -1,19 +1,17 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
-import Header from './components/Header'
+import Home from './components/Home'
 
-const Home: NextPage = () => {
+const Landing: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Community Navigator Pilot program</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header/>
-
+      <Home/>
     </div>
   )
 }
 
-export default Home
+export default Landing
