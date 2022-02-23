@@ -4,7 +4,7 @@ import Home from './components/Home'
 
 const Landing: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <div>
       <Head>
         <title>Community Navigator Pilot program</title>
         <link rel="icon" href="/favicon.ico" />
