@@ -12,9 +12,12 @@ module.exports = {
         sbaGray: '#969696',
         sbaLiteBlue: '#07dbc',
         sbaGreen: '#197e4e',
-        sbaYellow: '#f1c400'
+        sbaYellow: '#f1c400',
+        sbaMustard: '#f1c410'
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+  ],
 }
