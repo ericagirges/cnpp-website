@@ -9,7 +9,7 @@ module.exports = {
         sbaBlue: '#002e6d',
         sbaRed: '#cc0000',
         sbaGray: '#969696',
-        sbaLiteBlue: '#07dbc',
+        sbaLiteBlue: '#007dbc',
         sbaGreen: '#197e4e',
         sbaYellow: '#f1c400',
         sbaMustard: '#f1c410'
