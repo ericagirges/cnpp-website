@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Link from 'next/link'
 import Header from './components/Header'
 
 const NotFound: NextPage = () => {
@@ -14,7 +15,7 @@ const NotFound: NextPage = () => {
         <div className="min-h-full bg-white px-4 py-16 sm:px-6 sm:py-24 md:grid md:place-items-center lg:px-8">
           <div className="mx-auto max-w-max">
             <main className="sm:flex">
-              <p className="text-4xl font-extrabold text-indigo-600 sm:text-5xl">
+              <p className="text-4xl font-extrabold text-sbaBlue sm:text-5xl">
                 404
               </p>
               <div className="sm:ml-6">
@@ -27,12 +28,11 @@ const NotFound: NextPage = () => {
                   </p>
                 </div>
                 <div className="mt-10 flex space-x-3 sm:border-l sm:border-transparent sm:pl-6">
-                  <a
-                    href="#"
-                    className="inline-flex items-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
-                  >
-                    Go back home
-                  </a>
+                  <Link href="/">
+                    <a className="inline-flex items-center rounded-md border border-transparent bg-sbaYellow  px-4 py-2 text-sm font-medium text-sbaBlue shadow-sm hover:bg-sbaGray focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+                      Go back home
+                    </a>
+                  </Link>
                 </div>
               </div>
             </main>
