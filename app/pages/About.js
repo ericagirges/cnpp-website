@@ -2,12 +2,12 @@ import React from 'react';
 
 function About() {
     return (
-        <div>
+      <div className='relative max-w-screen-2xl mx-auto'>
       <div className="relative bg-white">
         <div className="lg:absolute lg:inset-0">
           <div className="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
             <img
-              className="h-56 w-full object-cover lg:absolute lg:h-full"
+              className="h-56 w-full object-cover lg:absolute lg:h-full lg:grid lg:col-span-2"
               src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80"
               alt=""
             />
@@ -16,12 +16,12 @@ function About() {
         <div className="relative pt-12 pb-16 px-4 sm:pt-16 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2">
           <div className="lg:col-start-2 lg:pl-8">
             <div className="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0">
-              <h2 className="leading-6 text-indigo-600 font-semibold tracking-wide uppercase">Work with us</h2>
-              <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                Our Process
+              <h2 className="leading-6 font-semibold tracking-wide uppercase flex"><span className='w-7 mr-5'><img className='h-7 w-7' src="../irc_arrow_yellow.jpg" alt="IRC logo black diagonal arrow on yellow square background"></img></span>Who we are</h2>
+              <h3 className="mt-4 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl border-l-4 border-sbaYellow pl-2">
+              International Rescue Committee
               </h3>
               <p className="mt-8 text-lg text-gray-500">
-                Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique
+                Sagittis scelerisque MISSION STATEMENT HERE neque tristique
                 pellentesque. Blandit amet, sed aenean erat arcu morbi.
               </p>
               <div className="mt-5 prose prose-indigo text-gray-500">
@@ -63,13 +63,23 @@ function About() {
           </div>
         </div>
       </div>
+      <div className="lg:py-12"></div>
       <div className="relative bg-white">
-        <div className="relative pt-12 pb-16 px-4 sm:pt-16 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2">
-          <div className="lg:col-start-2 lg:pl-8">
-            <div className="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0">
-              <h2 className="leading-6 text-indigo-600 font-semibold tracking-wide uppercase">Work with us</h2>
+      <div className="lg:absolute lg:inset-0">
+          <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+            <img
+              className="h-56 w-full object-cover lg:absolute lg:h-full"
+              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80"
+              alt=""
+            />
+          </div>
+        </div>
+        <div className="relative pt-12 pb-16 px-4 sm:pt-16 sm:px-6 lg:mx-auto lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2">
+          <div className="lg:col-end-2 lg:pr-8">
+            <div className="text-base max-w-prose mx-auto lg:max-w-lg lg:mr-auto lg:ml-0">
+              <h2 className="leading-6 text-sbaBlue font-semibold tracking-wide uppercase flex items-center justify-between">Program overview<span className='w-3/5 ml-5'><img className="w-2/5" src="../SBA-PoweredBy.jpg" alt="IRC logo black diagonal arrow on yellow square background"></img></span></h2>
               <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                Our Process
+              SBA Community Navigator Pilot Program
               </h3>
               <p className="mt-8 text-lg text-gray-500">
                 Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique
@@ -111,15 +121,6 @@ function About() {
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="lg:absolute lg:inset-0">
-          <div className="lg:absolute lg:inset-y-0 lg: right-0 lg:w-1/2">
-            <img
-              className="h-56 w-full object-cover lg:absolute lg:h-full"
-              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80"
-              alt=""
-            />
           </div>
         </div>
       </div>
