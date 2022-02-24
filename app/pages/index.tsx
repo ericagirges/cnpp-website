@@ -1,6 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Home from './Home'
+import HeroHeader from './components/HeroHeader'
+import InfoBox from './components/InfoBox'
+import HorizontalCard from './components/HorizontalCard'
 
 const Landing: NextPage = () => {
   return (
@@ -9,7 +11,9 @@ const Landing: NextPage = () => {
         <title>Community Navigator Pilot program</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Home/>
+      <HeroHeader />
+      <HorizontalCard />
+      <InfoBox />
     </div>
   )
 }
