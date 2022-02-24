@@ -11,14 +11,6 @@ const NotFound: NextPage = () => {
       </Head>
       <Header />
       <>
-        {/*
-        This example requires updating your template:
-
-        ```
-        <html class="h-full">
-        <body class="h-full">
-        ```
-      */}
         <div className="min-h-full bg-white px-4 py-16 sm:px-6 sm:py-24 md:grid md:place-items-center lg:px-8">
           <div className="mx-auto max-w-max">
             <main className="sm:flex">
@@ -40,12 +32,6 @@ const NotFound: NextPage = () => {
                     className="inline-flex items-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                   >
                     Go back home
-                  </a>
-                  <a
-                    href="#"
-                    className="inline-flex items-center rounded-md border border-transparent bg-indigo-100 px-4 py-2 text-sm font-medium text-indigo-700 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
-                  >
-                    Contact support
                   </a>
                 </div>
               </div>
