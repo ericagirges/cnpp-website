@@ -6,17 +6,17 @@ import {
 } from '@heroicons/react/outline'
 
 const informationBox = [
-  {
-    title: 'Search for Community Navigators in your Region',
-    icon: (
-      <MapIcon className="invisible h-0 w-0 flex-initial text-sbaYellow lg:visible lg:h-32 lg:w-32" />
-    ),
-    description: [
-      'Learn about the participating organizations',
-      'See what resources are available within each state',
-      "Locate services throug CNPP's ecosystem map",
-    ],
-  },
+  //{
+  //  title: 'Search for Community Navigators in your Region',
+  //  icon: (
+  //    <MapIcon className="invisible h-0 w-0 flex-initial text-sbaYellow lg:visible lg:h-32 lg:w-32" />
+  //  ),
+  //  description: [
+  //    'Learn about the participating organizations',
+  //    'See what resources are available within each state',
+  //    "Locate services throug CNPP's ecosystem map",
+  //  ],
+  //},
   {
     title: 'Access Small Business Resources',
     icon: (
@@ -38,15 +38,15 @@ const informationBox = [
       'Fill out a contact form to get in touch with a business counselor to answer all your small businss questions',
     ],
   },
-  {
-    title: 'Participate in upcoming events',
-    icon: (
-      <CalendarIcon className="invisible h-0 w-0 flex-initial text-sbaYellow lg:visible lg:h-32 lg:w-32" />
-    ),
-    description: [
-      "Visit CNPP'S calendar of events to see what's comint up this month",
-    ],
-  },
+ // {
+ //   title: 'Participate in upcoming events',
+ //   icon: (
+ //     <CalendarIcon className="invisible h-0 w-0 flex-initial text-sbaYellow lg:visible lg:h-32 lg:w-32" />
+ //   ),
+ //   description: [
+ //     "Visit CNPP'S calendar of events to see what's comint up this month",
+ //   ],
+ // },
 ]
 
 const InfoBox = () => {

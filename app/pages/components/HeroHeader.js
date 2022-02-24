@@ -5,9 +5,9 @@ import {
   XIcon} from '@heroicons/react/outline'
 
   const navigation = [
-    { name: 'Home', href: '#' },
-    { name: 'About', href: '#' },
-    { name: 'Contact us', href: '#' },
+    { name: 'Home', href: '/' },
+    { name: 'About', href: '/about' },
+    { name: 'Contact us', href: '/contact' },
   ]
 
 
@@ -28,7 +28,7 @@ const HeroHeader = () => (
         <Popover>
           <div className="relative px-4 pt-6 sm:px-6 lg:px-8">
             <nav
-              className="relative flex items-center justify-between sm:h-10 lg:justify-start"
+              className="relative flex items-center justify-between sm:h-32 lg:justify-start"
               aria-label="Global"
             >
               <div className="flex flex-shrink-0 flex-grow items-center lg:flex-grow-0">
@@ -36,8 +36,8 @@ const HeroHeader = () => (
                   <a href="#">
                     <span className="sr-only">Workflow</span>
                     <img
-                      className="h-8 w-auto sm:h-10"
-                      src="https://i.ibb.co/S6T2sPW/SBA-Logo-Horizontal-RGB.png"
+                      className="h-16 w-auto sm:h-24"
+                      src="https://i.ibb.co/XZpLBp9/SBA-Powered-By-2color-transparent-FINAL.png"
                     />
                   </a>
                   <div className="-mr-2 flex items-center md:hidden">
@@ -79,8 +79,8 @@ const HeroHeader = () => (
                 <div className="flex items-center justify-between px-5 pt-4">
                   <div>
                     <img
-                      className="h-8 w-auto"
-                      src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                      className="h-24 w-auto"
+                      src="https://i.ibb.co/XZpLBp9/SBA-Powered-By-2color-transparent-FINAL.png"
                       alt=""
                     />
                   </div>
@@ -102,12 +102,6 @@ const HeroHeader = () => (
                     </a>
                   ))}
                 </div>
-                <a
-                  href="#"
-                  className="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-indigo-600 hover:bg-gray-100"
-                >
-                  Log in
-                </a>
               </div>
             </Popover.Panel>
           </Transition>

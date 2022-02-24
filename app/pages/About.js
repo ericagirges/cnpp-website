@@ -1,7 +1,9 @@
 import React from 'react';
-
+import Header from './components/Header'
 function About() {
     return (
+      <div>
+      <Header/>
       <div className='relative max-w-screen-2xl mx-auto'>
       <div className="relative bg-white">
         <div className="lg:absolute lg:inset-0">
@@ -125,6 +127,7 @@ function About() {
         </div>
       </div>
       
+      </div>
       </div>
     )
   };
