@@ -1,18 +1,16 @@
 import { Fragment } from 'react'
+import Link from 'next/link'
 import { Popover, Transition } from '@headlessui/react'
-import {
-  MenuIcon,
-  XIcon} from '@heroicons/react/outline'
+import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
-  const navigation = [
-    { name: 'Home', href: '/' },
-    { name: 'About', href: '/about' },
-    { name: 'Contact us', href: '/contact' },
-  ]
-
+const navigation = [
+  { name: 'Home', href: '/' },
+  { name: 'About', href: '/about' },
+  { name: 'Contact us', href: '/contact' },
+]
 
 const HeroHeader = () => (
-    <div className="relative overflow-hidden bg-white">
+  <div className="relative overflow-hidden bg-white">
     <div className="mx-auto max-w-7xl">
       <div className="relative z-10 bg-white pb-8 sm:pb-16 md:pb-20 lg:w-full lg:max-w-2xl lg:pb-28 xl:pb-32">
         <svg
@@ -33,13 +31,15 @@ const HeroHeader = () => (
             >
               <div className="flex flex-shrink-0 flex-grow items-center lg:flex-grow-0">
                 <div className="flex w-full items-center justify-between md:w-auto">
-                  <a href="#">
+                  <Link href="/">
+                  <a>
                     <span className="sr-only">Workflow</span>
                     <img
                       className="h-16 w-auto sm:h-24"
                       src="https://i.ibb.co/XZpLBp9/SBA-Powered-By-2color-transparent-FINAL.png"
                     />
                   </a>
+                  </Link>
                   <div className="-mr-2 flex items-center md:hidden">
                     <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                       <span className="sr-only">Open main menu</span>
@@ -50,13 +50,11 @@ const HeroHeader = () => (
               </div>
               <div className="hidden md:ml-10 md:block md:space-x-8 md:pr-4">
                 {navigation.map((item) => (
-                  <a
-                    key={item.name}
-                    href={item.href}
-                    className="font-medium text-gray-500 hover:text-gray-900"
-                  >
-                    {item.name}
-                  </a>
+                  <Link key={item.name} href={item.href}>
+                    <a className="font-medium text-gray-500 hover:text-gray-900">
+                      {item.name}
+                    </a>
+                  </Link>
                 ))}
               </div>
             </nav>
@@ -93,13 +91,11 @@ const HeroHeader = () => (
                 </div>
                 <div className="space-y-1 px-2 pt-2 pb-3">
                   {navigation.map((item) => (
-                    <a
-                      key={item.name}
-                      href={item.href}
-                      className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
-                    >
-                      {item.name}
-                    </a>
+                    <Link key={item.name} href={item.href}>
+                      <a className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900">
+                        {item.name}
+                      </a>
+                    </Link>
                   ))}
                 </div>
               </div>
@@ -116,9 +112,9 @@ const HeroHeader = () => (
               </span>
             </h1>
             <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-              qui lorem cupidatat commodo. Elit sunt amet fugiat veniam
-              occaecat fugiat aliqua.
+              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
+              lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
+              fugiat aliqua.
             </p>
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md shadow">
@@ -137,11 +133,11 @@ const HeroHeader = () => (
     <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
       <img
         className="h-56 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full"
-        src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
+        src="https://i.ibb.co/NnrvW80/hero.png"
         alt=""
       />
     </div>
-  </div>          
+  </div>
 )
 
 export default HeroHeader
