@@ -3,6 +3,7 @@ import Head from 'next/head'
 import HeroHeader from './components/HeroHeader'
 import InfoBox from './components/InfoBox'
 import HorizontalCard from './components/HorizontalCard'
+import Footer from './components/Footer'
 
 const Landing: NextPage = () => {
   return (
@@ -14,6 +15,7 @@ const Landing: NextPage = () => {
       <HeroHeader />
       <HorizontalCard />
       <InfoBox />
+      <Footer />
     </div>
   )
 }
