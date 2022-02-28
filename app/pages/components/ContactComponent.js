@@ -2,7 +2,7 @@ import { MailIcon, FolderOpenIcon } from '@heroicons/react/outline'
 
 export default function Contact() {
   return (
-    <div className="bg-white mb-32">
+    <div className="mb-32 bg-white">
       <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-lg md:grid md:max-w-none md:grid-cols-2 md:gap-8">
           <div>
@@ -16,12 +16,12 @@ export default function Contact() {
               </span>
             </div>
             <h2 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">
-              International Rescue Committee
+              Subscribe
             </h2>
             <div className="mt-3">
               <p className="text-lg text-gray-500">
-                Nullam risus blandit ac aliquam justo ipsum. Quam mauris
-                volutpat massa dictumst amet. Sapien tortor lacus arcu.
+                Subscribe to get news updates and announcements on workshops,
+                services, and small business grants available in your region.
               </p>
             </div>
             <div className="mt-9">
@@ -56,13 +56,12 @@ export default function Contact() {
             </div>
 
             <h2 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">
-              U.S. Small Business Administration
+              Get Started Today
             </h2>
             <div className="mt-3">
               <p className="text-lg text-gray-500">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni,
-                repellat error corporis doloribus similique, voluptatibus
-                numquam quam.
+                Contact your local CNPP Business Counselor today for no-cost
+                assistance.
               </p>
             </div>
             <div className="mt-9">
