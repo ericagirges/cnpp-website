@@ -61,16 +61,16 @@ const InfoBox = () => {
                   <h3 className="text-2xl font-extrabold text-sbaBlue sm:text-3xl">
                     {info.title}
                   </h3>
-                  <div className="lg:flex">
+                  <div className="lg:mt-6 lg:flex">
                     {info.icon}
                     <ul
                       role="list"
-                      className="mt-6 pt-4 text-base text-gray-500"
+                      className="pt-4 text-base text-gray-500"
                     >
                       {info.description.map((bullet) => (
                         <li
                           key={bullet}
-                          className="ml-6 flex items-start text-sm text-gray-700 lg:col-span-1"
+                          className="ml-10 flex items-start text-sm text-gray-700 lg:text-lg lg:col-span-1"
                         >
                           {bullet}
                         </li>
