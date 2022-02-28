@@ -32,13 +32,13 @@ const HeroHeader = () => (
               <div className="flex flex-shrink-0 flex-grow items-center lg:flex-grow-0">
                 <div className="flex w-full items-center justify-between md:w-auto">
                   <Link href="/">
-                  <a>
-                    <span className="sr-only">Workflow</span>
-                    <img
-                      className="h-16 w-auto sm:h-24"
-                      src="https://i.ibb.co/XZpLBp9/SBA-Powered-By-2color-transparent-FINAL.png"
-                    />
-                  </a>
+                    <a>
+                      <span className="sr-only">Workflow</span>
+                      <img
+                        className="h-16 w-auto sm:h-24"
+                        src="https://i.ibb.co/XZpLBp9/SBA-Powered-By-2color-transparent-FINAL.png"
+                      />
+                    </a>
                   </Link>
                   <div className="-mr-2 flex items-center md:hidden">
                     <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -112,14 +112,14 @@ const HeroHeader = () => (
               </span>
             </h1>
             <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-              lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-              fugiat aliqua.
+              IRC’s CNPP is designed to help small business owners access the
+              programs and supports they need to re-build and grow thriving
+              businesses as part of America’s economic recovery.
             </p>
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md shadow">
                 <a
-                  href="#"
+                  href="/contact"
                   className="flex w-full items-center justify-center rounded-md border border-transparent bg-sbaYellow px-8 py-3 text-base font-medium text-sbaBlue hover:bg-sbaGray md:py-4 md:px-10 md:text-lg"
                 >
                   Get started
