@@ -12,6 +12,8 @@ jobs:
     defaults:
       run:
         working-directory: ./app
+    env:
+      NEXT_PUBLIC_BASE_PATH: /cnpp-website
 
     strategy:
       matrix:
