@@ -118,12 +118,13 @@ const HeroHeader = () => (
             </p>
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md shadow">
+                <Link href="/contact">
                 <a
-                  href="/contact"
                   className="flex w-full items-center justify-center rounded-md border border-transparent bg-sbaYellow px-8 py-3 text-base font-medium text-sbaBlue hover:bg-sbaGray md:py-4 md:px-10 md:text-lg"
                 >
                   Get started
                 </a>
+                </Link>
               </div>
             </div>
           </div>
