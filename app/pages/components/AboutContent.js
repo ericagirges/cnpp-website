@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 function About() {
   return (
@@ -9,8 +9,8 @@ function About() {
             <div className="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
               <img
                 className="h-56 w-full object-cover lg:absolute lg:col-span-2 lg:grid lg:h-full"
-                src="../AOberstadt_Dallas03.jpg"
-                alt=""
+                src="https://i.ibb.co/mBcKms5/AOberstadt-Dallas03.jpg"
+                alt="Woman sewing"
               />
             </div>
           </div>
@@ -51,12 +51,12 @@ function About() {
             <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
               <img
                 className="h-56 w-full object-cover lg:absolute lg:h-full"
-                src="../AOberstadt_WashingtonDC.jpg"
-                alt=""
+                src="https://i.ibb.co/HxktwSk/AOberstadt-Washington-DC.jpg"
+                alt="Man smiling"
               />
             </div>
           </div>
-          <div className="relative px-4 pt-12 pb-16 sm:px-6 sm:pt-16 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:px-8 lg:mb-20">
+          <div className="relative px-4 pt-12 pb-16 sm:px-6 sm:pt-16 lg:mx-auto lg:mb-20 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:px-8">
             <div className="lg:col-end-2 lg:pr-8">
               <div className="mx-auto max-w-prose text-base lg:mr-auto lg:ml-0 lg:max-w-lg">
                 <h2 className="flex items-center font-semibold uppercase leading-6 tracking-wide text-sbaBlue">
