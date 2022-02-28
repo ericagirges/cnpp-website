@@ -17,6 +17,8 @@ jobs:
 
 
     steps:
+      - name: cd into dir
+        working-directory: ./app
       - name: Get files
         uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
