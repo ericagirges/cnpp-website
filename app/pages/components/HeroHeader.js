@@ -31,15 +31,26 @@ const HeroHeader = () => (
             >
               <div className="flex flex-shrink-0 flex-grow items-center lg:flex-grow-0">
                 <div className="flex w-full items-center justify-between md:w-auto">
-                  <Link href="/">
-                    <a>
-                      <span className="sr-only">Workflow</span>
-                      <img
-                        className="h-16 w-auto sm:h-24"
-                        src="https://i.ibb.co/XZpLBp9/SBA-Powered-By-2color-transparent-FINAL.png"
-                      />
-                    </a>
-                  </Link>
+                  <div class="flex items-center">
+                    <Link href="/">
+                      <a>
+                        <span className="sr-only">Workflow</span>
+                        <img
+                          className="h-16 w-auto sm:h-24"
+                          src="https://i.ibb.co/XZpLBp9/SBA-Powered-By-2color-transparent-FINAL.png"
+                        />
+                      </a>
+                    </Link>
+                    <Link href="/">
+                      <a>
+                        <h2 className="text-sm font-bold text-sbaBlue lg:text-base">
+                          COMMUNITY NAVIGATOR
+                          <br />
+                          PILOT PROGRAM
+                        </h2>
+                      </a>
+                    </Link>
+                  </div>
                   <div className="-mr-2 flex items-center md:hidden">
                     <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                       <span className="sr-only">Open main menu</span>
@@ -119,11 +130,9 @@ const HeroHeader = () => (
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md shadow">
                 <Link href="/contact">
-                <a
-                  className="flex w-full items-center justify-center rounded-md border border-transparent bg-sbaYellow px-8 py-3 text-base font-medium text-sbaBlue hover:bg-sbaGray md:py-4 md:px-10 md:text-lg"
-                >
-                  Get started
-                </a>
+                  <a className="flex w-full items-center justify-center rounded-md border border-transparent bg-sbaYellow px-8 py-3 text-base font-medium text-sbaBlue hover:bg-sbaGray md:py-4 md:px-10 md:text-lg">
+                    Get started
+                  </a>
                 </Link>
               </div>
             </div>
