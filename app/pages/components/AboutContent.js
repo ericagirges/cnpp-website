@@ -21,7 +21,7 @@ function About() {
                   <span className="mr-5 w-7">
                     <img
                       className="h-7 w-7"
-                      src="../irc_arrow_yellow.jpg"
+                      src="https://i.ibb.co/WB4Ctkf/irc-arrow-yellow.jpg"
                       alt="IRC logo black diagonal arrow on yellow square background"
                     ></img>
                   </span>
@@ -63,7 +63,7 @@ function About() {
                   <span className="w-1/5">
                     <img
                       className="h-1/6"
-                      src="../SBA-PoweredBy.jpg"
+                      src="https://i.ibb.co/5crvysP/irc-logo.jpg"
                       alt="IRC logo black diagonal arrow on yellow square background"
                     ></img>
                   </span>

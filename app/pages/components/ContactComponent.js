@@ -10,7 +10,7 @@ export default function Contact() {
               <span className="mr-5 w-auto">
                 <img
                   className="h-7 w-auto"
-                  src="../irc_arrow_yellow.jpg"
+                  src="https://i.ibb.co/WB4Ctkf/irc-arrow-yellow.jpg"
                   alt="IRC logo black diagonal arrow on yellow square background"
                 ></img>
               </span>
