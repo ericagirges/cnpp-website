@@ -1,18 +1,15 @@
 /* This example requires Tailwind CSS v2.0+ */
 import Link from 'next/link'
-import {useRouter} from 'next/router'
 import { Disclosure } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
 export default function Header() {
-  const router = useRouter();
-  const path = router.pathname
   return (
     <Disclosure as="nav" className="bg-white">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className={`flex h-32 items-center justify-between ${path === "/contact" && "mr-4"}`}>
+            <div className="flex h-32 items-center justify-between">
               <div className="flex w-full items-center justify-between">
                 <div className="flex items-center">
                   <div className="flex-shrink-0">
