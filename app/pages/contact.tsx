@@ -11,7 +11,7 @@ const contact: NextPage = () => {
         <title>Community Navigator Pilot program</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="h-full flex flex-col justify-between">
+      <div className="h-full flex flex-col justify-between overflow-y-scroll">
         <Header />
         <Contact />
         <Footer />

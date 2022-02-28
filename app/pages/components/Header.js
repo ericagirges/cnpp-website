@@ -10,42 +10,52 @@ export default function Header() {
         <>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="flex h-32 items-center justify-between">
-              <div className="flex items-center">
-                <div className="flex-shrink-0">
-                  <Link href="/">
-                    <a>
-                      {' '}
-                      <img
-                        className="block h-16 w-auto lg:hidden"
-                        src="https://i.ibb.co/XZpLBp9/SBA-Powered-By-2color-transparent-FINAL.png"
-                        alt="SBA Logo"
-                      />
-                      <img
-                        className="hidden h-24 w-auto lg:block"
-                        src="https://i.ibb.co/XZpLBp9/SBA-Powered-By-2color-transparent-FINAL.png"
-                        alt="SBA Logo"
-                      />
-                    </a>
-                  </Link>
-                </div>
-                <div>
-                  <h2 className="font-bold text-sbaBlue text-sm lg:text-base">COMMUNITY NAVIGATOR<br/>PILOT PROGRAM</h2>
+              <div className="flex w-full items-center justify-between">
+                <div className="flex items-center">
+                  <div className="flex-shrink-0">
+                    <Link href="/">
+                      <a>
+                        {' '}
+                        <img
+                          className="block h-16 w-auto lg:hidden"
+                          src="https://i.ibb.co/XZpLBp9/SBA-Powered-By-2color-transparent-FINAL.png"
+                          alt="SBA Logo"
+                        />
+                        <img
+                          className="hidden h-24 w-auto lg:block"
+                          src="https://i.ibb.co/XZpLBp9/SBA-Powered-By-2color-transparent-FINAL.png"
+                          alt="SBA Logo"
+                        />
+                      </a>
+                    </Link>
+                  </div>
+                  <div>
+                    <Link href="/">
+                      <a>
+                        <h2 className="text-sm font-bold text-sbaBlue lg:text-base">
+                          COMMUNITY NAVIGATOR
+                          <br />
+                          PILOT PROGRAM
+                        </h2>
+                      </a>
+                    </Link>
+                  </div>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     {/* Current: "bg-gray-900 text-white", Default: "text-gray-300  hover:text-white" */}
                     <Link href="/">
-                      <a className="rounded-md px-3 py-2 text-sm font-medium text-gray-500 hover:text-gray-900">
+                      <a className="rounded-md px-3 md:px-5 py-2 text-sm md:text-base font-medium text-gray-500 hover:text-gray-900">
                         Home
                       </a>
                     </Link>
                     <Link href="/about">
-                      <a className="rounded-md px-3 py-2 text-sm font-medium text-gray-500 hover:text-gray-900">
+                      <a className="rounded-md px-3 md:px-5 py-2 text-sm md:text-base font-medium text-gray-500 hover:text-gray-900">
                         About
                       </a>
                     </Link>
                     <Link href="/contact">
-                      <a className="rounded-md px-3 py-2 text-sm font-medium text-gray-500 hover:text-gray-900">
+                      <a className="rounded-md px-3 md:px-5 py-2 text-sm md:text-base font-medium text-gray-500 hover:text-gray-900">
                         Contact Us
                       </a>
                     </Link>
