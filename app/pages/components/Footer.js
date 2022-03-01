@@ -1,9 +1,10 @@
 import Link from 'next/link'
+import prefix from '../../utils/prefix'
 
 const navigation = [
-  { name: 'Home', href: '/' },
-  { name: 'About', href: '/about' },
-  { name: 'Contact us', href: '/contact' },
+  { name: 'Home', href: `${prefix}/` },
+  { name: 'About', href: `${prefix}/about` },
+  { name: 'Contact us', href: `${prefix}/contact` },
 ]
 
 export default function Footer() {
