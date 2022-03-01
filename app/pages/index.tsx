@@ -4,13 +4,14 @@ import HeroHeader from './components/HeroHeader'
 import InfoBox from './components/InfoBox'
 import HorizontalCard from './components/HorizontalCard'
 import Footer from './components/Footer'
+import { prefix } from './utils/prefix'
 
 const Landing: NextPage = () => {
   return (
     <div>
       <Head>
         <title>Community Navigator Pilot program</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={`${prefix}/favicon.ico`} />
       </Head>
       <HeroHeader />
       <HorizontalCard />
