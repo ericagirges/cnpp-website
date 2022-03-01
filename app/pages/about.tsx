@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Header from './components/Header'
 import About from './components/AboutContent'
 import Footer from './components/Footer'
-import { prefix } from './utils/prefix'
+import prefix from '../utils/prefix'
 const about: NextPage = () => {
   return (
     <>
