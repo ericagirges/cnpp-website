@@ -2,12 +2,11 @@ import { Fragment } from 'react'
 import Link from 'next/link'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
-import  prefix  from '../../utils/prefix'
 
 const navigation = [
-  { name: 'Home', href: `${prefix}/` },
-  { name: 'About', href: `${prefix}/about` },
-  { name: 'Contact us', href: `${prefix}/contact` },
+  { name: 'Home', href: `/` },
+  { name: 'About', href: `/about` },
+  { name: 'Contact us', href: `/contact` },
 ]
 
 const HeroHeader = () => (

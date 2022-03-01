@@ -14,7 +14,7 @@ export default function Header() {
               <div className="flex w-full items-center justify-between">
                 <div className="flex items-center">
                   <div className="flex-shrink-0">
-                    <Link href={`${prefix}/`}>
+                    <Link href={`/`}>
                       <a>
                         {' '}
                         <img
@@ -31,7 +31,7 @@ export default function Header() {
                     </Link>
                   </div>
                   <div>
-                    <Link href={`${prefix}/`}>
+                    <Link href={`/`}>
                       <a>
                         <h2 className="text-sm font-bold text-sbaBlue lg:text-base">
                           COMMUNITY NAVIGATOR
@@ -45,18 +45,18 @@ export default function Header() {
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     {/* Current: "bg-gray-900 text-white", Default: "text-gray-300  hover:text-white" */}
-                    <Link href={`${prefix}/`}>
-                      <a className="rounded-md px-3 md:px-5 py-2 text-sm md:text-base font-medium text-gray-500 hover:text-gray-900">
+                    <Link href={`/`}>
+                      <a className="rounded-md px-3 py-2 text-sm font-medium text-gray-500 hover:text-gray-900 md:px-5 md:text-base">
                         Home
                       </a>
                     </Link>
-                    <Link href={`${prefix}/about`}>
-                      <a className="rounded-md px-3 md:px-5 py-2 text-sm md:text-base font-medium text-gray-500 hover:text-gray-900">
+                    <Link href={`/about`}>
+                      <a className="rounded-md px-3 py-2 text-sm font-medium text-gray-500 hover:text-gray-900 md:px-5 md:text-base">
                         About
                       </a>
                     </Link>
-                    <Link href={`${prefix}/contact`}>
-                      <a className="rounded-md px-3 md:px-5 py-2 text-sm md:text-base font-medium text-gray-500 hover:text-gray-900">
+                    <Link href={`/contact`}>
+                      <a className="rounded-md px-3 py-2 text-sm font-medium text-gray-500 hover:text-gray-900 md:px-5 md:text-base">
                         Contact Us
                       </a>
                     </Link>
@@ -80,26 +80,20 @@ export default function Header() {
           <Disclosure.Panel className="sm:hidden">
             <div className="space-y-1 px-2 pt-2 pb-3">
               {/* Current: "bg-gray-900 text-white", Default: "text-gray-300  hover:text-white" */}
-              <Disclosure.Button
-                as="a"
-                href={`${prefix}/`}
-                className="block rounded-md px-3 py-2 text-base font-medium text-gray-500 hover:text-gray-900"
-              >
-                Home
+              <Disclosure.Button as={Link} href={`/`}>
+                <a className="block rounded-md px-3 py-2 text-base font-medium text-gray-500 hover:text-gray-900">
+                  Home
+                </a>
               </Disclosure.Button>
-              <Disclosure.Button
-                as="a"
-                href={`${prefix}/about`}
-                className="block rounded-md px-3 py-2 text-base font-medium text-gray-500 hover:text-gray-900"
-              >
-                About
+              <Disclosure.Button as={Link} href={`/about`}>
+                <a className="block rounded-md px-3 py-2 text-base font-medium text-gray-500 hover:text-gray-900">
+                  About
+                </a>
               </Disclosure.Button>
-              <Disclosure.Button
-                as="a"
-                href={`${prefix}/contact`}
-                className="block rounded-md px-3 py-2 text-base font-medium text-gray-500 hover:text-gray-900"
-              >
-                Contact
+              <Disclosure.Button as={Link} href={`/contact`}>
+                <a className="block rounded-md px-3 py-2 text-base font-medium text-gray-500 hover:text-gray-900">
+                  Contact
+                </a>
               </Disclosure.Button>
             </div>
           </Disclosure.Panel>
