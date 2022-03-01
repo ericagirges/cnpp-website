@@ -63,8 +63,8 @@ function About() {
                   <span className="w-1/5">
                     <img
                       className="h-1/6"
-                      src="https://i.ibb.co/5crvysP/irc-logo.jpg"
-                      alt="IRC logo black diagonal arrow on yellow square background"
+                      src="https://i.ibb.co/QrPxhzr/SBA-Powered-By.jpg"
+                      alt="Powered by SBA logo - Small Business Administration"
                     ></img>
                   </span>
                   Program overview
