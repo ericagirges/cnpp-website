@@ -17,7 +17,7 @@ function About() {
           <div className="relative px-4 pt-12 pb-16 sm:px-6 sm:pt-16 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:px-8">
             <div className="lg:col-start-2 lg:pl-8">
               <div className="mx-auto max-w-prose text-base lg:ml-auto lg:mr-0 lg:max-w-lg">
-                <h2 className="flex font-semibold uppercase leading-6 tracking-wide">
+                <h2 className="flex font-semibold uppercase leading-6 tracking-wide text-sbaBlue">
                   <span className="mr-5 w-7">
                     <img
                       className="h-7 w-7"
@@ -60,9 +60,9 @@ function About() {
             <div className="lg:col-end-2 lg:pr-8">
               <div className="mx-auto max-w-prose text-base lg:mr-auto lg:ml-0 lg:max-w-lg">
                 <h2 className="flex items-center font-semibold uppercase leading-6 tracking-wide text-sbaBlue">
-                  <span className="w-1/5">
+                  <span className="mr-5 w-12">
                     <img
-                      className="h-1/6"
+                      className="h-auto w-12"
                       src="https://i.ibb.co/QrPxhzr/SBA-Powered-By.jpg"
                       alt="Powered by SBA logo - Small Business Administration"
                     ></img>
