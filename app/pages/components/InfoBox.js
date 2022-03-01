@@ -35,7 +35,7 @@ const informationBox = [
       <ChatAlt2Icon className="invisible h-0 w-0 flex-initial text-sbaYellow lg:visible lg:h-32 lg:w-32" />
     ),
     description: [
-      'Fill out a contact form to get in touch with a business counselor to answer all your small businss questions',
+      'Fill out a contact form to get in touch with a business counselor to answer all your small business questions',
     ],
   },
  // {
