@@ -2,7 +2,6 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
 import Header from './components/Header'
-import prefix  from '../utils/prefix';
 
 
 const NotFound: NextPage = () => {
@@ -10,7 +9,7 @@ const NotFound: NextPage = () => {
     <>
       <Head>
         <title>Community Navigator Pilot program</title>
-        <link rel="icon" href={`${prefix}/favicon.ico`} />
+        <link rel="icon" href={`/favicon.ico`} />
       </Head>
       <Header />
       <>

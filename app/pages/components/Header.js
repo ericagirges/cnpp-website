@@ -2,7 +2,6 @@
 import Link from 'next/link'
 import { Disclosure } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
-import prefix from '../../utils/prefix'
 
 export default function Header() {
   return (
