@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Header from './components/Header'
 import Contact from './components/ContactComponent'
 import Footer from './components/Footer'
-import { prefix } from './utils/prefix'
+import prefix from '../utils/prefix'
 
 const contact: NextPage = () => {
   return (

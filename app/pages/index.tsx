@@ -4,7 +4,7 @@ import HeroHeader from './components/HeroHeader'
 import InfoBox from './components/InfoBox'
 import HorizontalCard from './components/HorizontalCard'
 import Footer from './components/Footer'
-import { prefix } from './utils/prefix'
+import prefix  from '../utils/prefix'
 
 const Landing: NextPage = () => {
   return (
