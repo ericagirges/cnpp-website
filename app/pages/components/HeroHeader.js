@@ -123,7 +123,7 @@ const HeroHeader = () => (
               </span>
             </h1>
             <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
-              IRC’s CNPP is designed to help small business owners access the
+              The International Rescue Committee's (IRC) CNPP is designed to help diverse small business owners access the
               programs and supports they need to re-build and grow thriving
               businesses as part of America’s economic recovery.
             </p>

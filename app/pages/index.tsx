@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import HeroHeader from './components/HeroHeader'
 import InfoBox from './components/InfoBox'
+import InfoBlob from './components/InfoBlob'
 import HorizontalCard from './components/HorizontalCard'
 import Footer from './components/Footer'
 
@@ -15,6 +16,7 @@ const Landing: NextPage = () => {
       <HeroHeader />
       <HorizontalCard />
       <InfoBox />
+      <InfoBlob />
       <Footer />
     </div>
   )
