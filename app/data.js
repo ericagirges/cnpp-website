@@ -6,7 +6,7 @@ export const data = {
       {
         name: 'Access, Inc',
         image: 'https://i.ibb.co/2ySwDj9/Access-Inc-California.png',
-        website: 'www.access2jobs.org',
+        website: 'https://www.access2jobs.org',
       },
       {
         name: 'Karen Organization of San Diego',
@@ -49,7 +49,7 @@ export const data = {
         name: 'Iowa Center for Economic Success',
         image:
           'https://i.ibb.co/XsyWvfV/Iowa-Center-for-Economic-Success-Iowa.jpg',
-        website: 'www.theiowacenter.org',
+        website: 'https://www.theiowacenter.org',
       },
       {
         name: 'Lutheran Services',
@@ -129,7 +129,7 @@ export const data = {
       {
         name: 'Somali American United Council of Arizona',
         image: 'https://i.ibb.co/WkQTvMQ/sauca.png',
-        website: 'www.somaliunitedcouncil.org',
+        website: 'https://www.somaliunitedcouncil.org',
       },
       {
         name: 'Refugees and Immigrants Community for Empowerment',
@@ -151,23 +151,10 @@ export const data = {
     body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quod sunt minima fugit ipsa, doloribus modi vitae aut architecto pariatur reiciendis ut. Quisquam id architecto corrupti molestias maiores saepe amet doloremque assumenda? Dicta voluptatibus cupiditate, nihil libero assumenda corporis nisi repellendus harum, ullam ea maiores inventore atque. Eius, rerum pariatur.',
     events: [],
   },
-  maine: {
+  kansas: {
     name: 'Kansas',
     id: '6',
-    partners: [
-      {
-        name: 'Access, Inc',
-        image: 'https://example.com/jpg',
-      },
-      {
-        name: 'Karen Organization of San Diego',
-        image: 'https://example.com/jpg',
-      },
-      {
-        name: 'Somali Family Services of San Diego',
-        image: 'https://example.com/jpg',
-      },
-    ],
+    partners: [],
     body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quod sunt minima fugit ipsa, doloribus modi vitae aut architecto pariatur reiciendis ut. Quisquam id architecto corrupti molestias maiores saepe amet doloremque assumenda? Dicta voluptatibus cupiditate, nihil libero assumenda corporis nisi repellendus harum, ullam ea maiores inventore atque. Eius, rerum pariatur.',
     events: [],
   },

@@ -7,7 +7,6 @@ const StateContent = ({ data, state }) => {
 
   return (
     <div className="bg-white">
-      {/* Header */}
       <div className="relative h-96 bg-white pb-32 md:h-[34rem]">
         <div className="absolute inset-0">
           <img
@@ -33,8 +32,6 @@ const StateContent = ({ data, state }) => {
           </a>
         </div>
       </div>
-
-      {/* Overlapping cards */}
       <section
         className="relative z-10 mx-auto max-w-7xl px-4 pb-32 sm:px-6 lg:px-8"
         aria-labelledby="contact-heading"
