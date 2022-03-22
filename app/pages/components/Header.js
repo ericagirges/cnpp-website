@@ -14,7 +14,7 @@ const mobileMenu = [
   {name:"About", href:"/about"},
   {name:"Small Business Resources", href:"/about"},
   {name:"News", href:"/news"},
-  {name:"Contact Us", href:"/Contact"}
+  {name:"Contact Us", href:"/contact"}
 ]
 
 const stateArr = [
@@ -80,12 +80,12 @@ export default function Header() {
         <div className="hidden md:flex-1 md:flex md:items-center md:justify-between">
             
           <Popover.Group as="nav" className="flex space-x-10">
-          <a href="/" className="text-base font-medium text-gray-500 hover:text-gray-900">
+          <Link href="/" className="text-base font-medium text-gray-500 hover:text-gray-900">
               Home
-            </a>
-            <a href="/about" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            </Link>
+            <Link href="/about" className="text-base font-medium text-gray-500 hover:text-gray-900">
               About
-            </a>
+            </Link>
             <Popover className="relative">
               {({ open }) => (
                 <>
@@ -118,10 +118,10 @@ export default function Header() {
                       <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                         <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                           {stateArr.map((item) => (
-                            <a key={item.name} href={item.href} className="-m-3 p-3 block rounded-md hover:bg-gray-50">
+                            <Link key={item.name} href={item.href} className="-m-3 p-3 block rounded-md hover:bg-gray-50">
                               <p className="text-base font-medium text-gray-900">{item.name}</p>
                               <p className="mt-1 text-sm text-gray-500">{item.description}</p>
-                            </a>
+                            </Link>
                           ))}
                         </div>
                       </div>
@@ -130,15 +130,15 @@ export default function Header() {
                 </>
               )}
             </Popover>
-            <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            <Link href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
               Small Business Resources
-            </a>
-            <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            </Link>
+            <Link href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
               News
-            </a>
-            <a href="/contact" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            </Link>
+            <Link href="/contact" className="text-base font-medium text-gray-500 hover:text-gray-900">
               Contact us
-            </a>
+            </Link>
 
           </Popover.Group>
         </div>
@@ -175,13 +175,13 @@ export default function Header() {
               <div className="mt-6">
               <nav className="grid grid-cols-1 gap-7">
                   {mobileMenu.map((item) => (
-                    <a
+                    <Link
                       key={item.name}
                       href={item.href}
                       className="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50"
                     >
                       <div className="ml-4 text-base font-medium text-gray-900">{item.name}</div>
-                    </a>
+                    </Link>
                   ))}
                 </nav>       
               </div>
@@ -194,13 +194,13 @@ export default function Header() {
 
 
                 {stateArr.map((item) => (
-                  <a
+                  <Link
                     key={item.name}
                     href={item.href}
                     className="text-base font-medium text-gray-900 hover:text-gray-700"
                   >
                     {item.name}
-                  </a>
+                  </Link>
                 ))}
               </div>
             </div>
