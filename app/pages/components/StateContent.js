@@ -1,42 +1,9 @@
-import Link from 'next/link'
-
 import NotFound from '../404'
 
 const StateContent = ({ data, state }) => {
   if (!data[state]) {
     return <NotFound />
   }
-
-  //   return (
-  // <div>
-  //   <h1>{data[state].name}</h1>
-  //   {data[state].partners.map((partner) => (
-  //     <p key={partner.name}>{partner.name}</p>
-  //   ))}
-  // </div>
-
-  /* This example requires Tailwind CSS v2.0+ */
-
-  const supportLinks = [
-    {
-      name: 'Sales',
-      href: '#',
-      description:
-        'Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.',
-    },
-    {
-      name: 'Technical Support',
-      href: '#',
-      description:
-        'Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.',
-    },
-    {
-      name: 'Media Inquiries',
-      href: '#',
-      description:
-        'Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.',
-    },
-  ]
 
   return (
     <div className="bg-white">

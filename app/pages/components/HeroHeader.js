@@ -1,14 +1,6 @@
 import Link from 'next/link'
 import Header from './Header'
 
-const navigation = [
-  { name: 'Home', href: `/` },
-  { name: 'About', href: `/about` },
-  { name: 'Contact us', href: `/contact` },
-]
-
-
-
 const HeroHeader = () => (
   <>
   <Header/>
@@ -28,7 +20,7 @@ const HeroHeader = () => (
           <main className="mx-auto mt-10 max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
-                <span className="block xl:inline">Welcome to the</span>{' '}
+                <span className="block xl:inline">Welcome to the IRC's</span>{' '}
                 <span className="block text-sbaBlue xl:inline">
                   Community Navigator Pilot Program
                 </span>
@@ -42,8 +34,8 @@ const HeroHeader = () => (
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <Link href="/contact">
-                    <a className="flex w-full items-center justify-center rounded-md border border-transparent bg-sbaYellow px-8 py-3 text-base font-medium text-sbaBlue hover:bg-sbaGray md:py-4 md:px-10 md:text-lg">
-                      Get started
+                    <a className="flex w-full items-center justify-center rounded-md border border-transparent bg-sbaYellow px-8 py-3 text-base font-medium text-sbaBlue hover:text-white hover:bg-sbaGray md:py-4 md:px-10 md:text-lg">
+                      Get connected
                     </a>
                   </Link>
                 </div>
