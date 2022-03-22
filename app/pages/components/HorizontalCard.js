@@ -20,9 +20,12 @@ const HorizontalCard = () => {
           </div>
           <div className="mt-12 flex items-center justify-center lg:col-span-2 lg:m-0">
             <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20 ">
-              <div>
-                <p className="font-base mt-6 text-3xl text-white md:text-5xl">
+              <div className="text-center lg:text-left">
+                <p className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl md:text-6xl">
                   How can CNPP help you?
+                </p>
+                <p className="mt-8 text-lg font-medium tracking-normal text-white">
+                All IRC CNPP services are delivered free of charge to participating small businesses.
                 </p>
               </div>
             </div>

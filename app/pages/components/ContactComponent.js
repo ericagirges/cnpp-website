@@ -1,3 +1,5 @@
+import { MailIcon } from '@heroicons/react/outline'
+
 export default function Contact() {
   return (
     <div className="bg-white py-16 px-4 sm:px-6 lg:px-8 lg:py-24">
@@ -35,6 +37,27 @@ export default function Contact() {
             >
               {' '}
             </iframe>
+          </div>
+        </div>
+        <div className="mt-16">
+        <h2 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">
+          Got Questions?
+        </h2>
+        </div>
+        <div className="mt-4">
+          <div className="mt-6 flex">
+            <div className="flex-shrink-0">
+              <MailIcon className="h-6 w-6 text-gray-400" aria-hidden="true" />
+            </div>
+            <div className="ml-3 text-base text-gray-500">
+              <a
+                href="mailto:sbacommunity.navigators@rescue.org"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p>sbacommunity.navigators@rescue.org</p>
+              </a>
+            </div>
           </div>
         </div>
       </div>
