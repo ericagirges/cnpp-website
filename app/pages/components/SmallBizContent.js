@@ -1,27 +1,24 @@
 import {
-    CloudUploadIcon,
-    CogIcon,
-    LockClosedIcon,
-    RefreshIcon,
-    ServerIcon,
-    ShieldCheckIcon,
+    VideoCameraIcon,
+    CloudDownloadIcon,
+    DocumentDownloadIcon,
   } from '@heroicons/react/outline'
   
   const vids = [
     {
       name: 'Video 1',
       description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-      icon: CloudUploadIcon,
+      icon: VideoCameraIcon,
     },
     {
       name: 'Video 2',
       description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-      icon: LockClosedIcon,
+      icon: VideoCameraIcon,
     },
     {
       name: 'Video 3',
       description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-      icon: RefreshIcon,
+      icon: VideoCameraIcon,
     },
   ]
 
@@ -29,17 +26,17 @@ import {
     {
         name: 'Download 1',
         description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-        icon: ShieldCheckIcon,
+        icon: CloudDownloadIcon,
       },
       {
         name: 'Download 2',
         description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-        icon: CogIcon,
+        icon: CloudDownloadIcon,
       },
       {
         name: 'Download 3',
         description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-        icon: ServerIcon,
+        icon: CloudDownloadIcon,
       },
   ]
 
@@ -47,17 +44,17 @@ import {
     {
         name: 'Document 1',
         description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-        icon: ShieldCheckIcon,
+        icon: DocumentDownloadIcon,
       },
       {
         name: 'Document 2',
         description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-        icon: CogIcon,
+        icon: DocumentDownloadIcon,
       },
       {
         name: 'Document 3',
         description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-        icon: ServerIcon,
+        icon: DocumentDownloadIcon,
       },
   ]
 
