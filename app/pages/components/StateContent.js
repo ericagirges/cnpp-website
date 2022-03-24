@@ -1,4 +1,5 @@
 import NotFound from '../404'
+import Link from 'next/link'
 
 const StateContent = ({ data, state }) => {
   if (!data[state]) {
@@ -78,91 +79,81 @@ const StateContent = ({ data, state }) => {
             Upcoming Events
           </h2>
           <div className="grid auto-rows-fr grid-cols-1 gap-y-10 lg:grid-cols-2 lg:gap-y-7 lg:gap-x-8">
-            {data[state].events.map((event) => (
-              // <div className="mb-12 text-lg text-gray-600">
-              //   <p className="text-xl text-gray-900">{event.title}</p>
-              //   <p>{`${event.date} ${event.time}`}</p>
-              //   {event.language && <p>Language: {event.language}</p>}
-              //   {event.type && <p>Type: {event.type}</p>}
-              //   {event.address && <p>Address: {event.address}</p>}
-              //   {event.link && (
-              //     <p>
-              //       Sign up here:{' '}
-              // <a
-              //   className="text-sbaBlue hover:underline"
-              //   href={event.link}
-              // >
-              //   Link
-              // </a>
-              //     </p>
-              //   )}
-              // </div>
-
-              <div className="overflow-hidden bg-white shadow sm:rounded-lg">
-                <div className="px-4 py-5 sm:px-6">
-                  <h3 className="text-lg font-medium leading-6 text-gray-900">
-                    {event.title}
-                  </h3>
+            {data[state].events.map((event) => {
+              return !event.title ? (
+                <p className="text-lg text-gray-500 -mt-7">
+                  Check back soon! Sign up for our <Link href="/contact"><span className="text-sbaBlue cursor-pointer">newsletter</span></Link> to get the latest
+                  updates on upcoming events.
+                </p>
+              ) : (
+                <div className="overflow-hidden bg-white shadow sm:rounded-lg">
+                  <div className="px-4 py-5 sm:px-6">
+                    <h3 className="text-lg font-medium leading-6 text-gray-900">
+                      {event.title}
+                    </h3>
+                  </div>
+                  <div className="border-t border-gray-200 px-4 py-5 sm:p-0">
+                    <dl className="sm:divide-y sm:divide-gray-200">
+                      {event.date && (
+                        <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
+                          <dt className="text-base font-medium text-gray-500">
+                            When:
+                          </dt>
+                          <dd className="mt-1 text-base text-gray-900 sm:col-span-2 sm:mt-0">
+                            {`${event.date} ${event.time}`}
+                          </dd>
+                        </div>
+                      )}
+                      {event.language && (
+                        <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
+                          <dt className="text-base font-medium text-gray-500">
+                            Language:
+                          </dt>
+                          <dd className="mt-1 text-base text-gray-900 sm:col-span-2 sm:mt-0">
+                            {event.language}
+                          </dd>
+                        </div>
+                      )}
+                      {event.type && (
+                        <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
+                          <dt className="text-base font-medium text-gray-500">
+                            Event type:
+                          </dt>
+                          <dd className="mt-1 text-base text-gray-900 sm:col-span-2 sm:mt-0">
+                            {event.type}
+                          </dd>
+                        </div>
+                      )}
+                      {event.address && (
+                        <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
+                          <dt className="text-base font-medium text-gray-500">
+                            Where:
+                          </dt>
+                          <dd className="mt-1 text-base text-gray-900 sm:col-span-2 sm:mt-0">
+                            {event.address}
+                          </dd>
+                        </div>
+                      )}
+                      {event.link && (
+                        <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
+                          <dt className="text-base font-medium text-gray-500">
+                            Sign-up here:
+                          </dt>
+                          <dd className="mt-1 text-base text-gray-900 sm:col-span-2 sm:mt-0">
+                            <a
+                              className="text-sbaBlue hover:underline"
+                              href={event.link}
+                            >
+                              Link
+                            </a>
+                          </dd>
+                        </div>
+                      )}
+                    </dl>
+                  </div>
                 </div>
-                <div className="border-t border-gray-200 px-4 py-5 sm:p-0">
-                  <dl className="sm:divide-y sm:divide-gray-200">
-                    <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
-                      <dt className="text-base font-medium text-gray-500">
-                        When:
-                      </dt>
-                      <dd className="mt-1 text-base text-gray-900 sm:col-span-2 sm:mt-0">
-                        {`${event.date} ${event.time}`}
-                      </dd>
-                    </div>
-                    {event.language && (
-                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
-                        <dt className="text-base font-medium text-gray-500">
-                          Language:
-                        </dt>
-                        <dd className="mt-1 text-base text-gray-900 sm:col-span-2 sm:mt-0">
-                          {event.language}
-                        </dd>
-                      </div>
-                    )}
-                    {event.type && (
-                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
-                        <dt className="text-base font-medium text-gray-500">
-                          Event type:
-                        </dt>
-                        <dd className="mt-1 text-base text-gray-900 sm:col-span-2 sm:mt-0">
-                          {event.type}
-                        </dd>
-                      </div>
-                    )}
-                    {event.address && (
-                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
-                        <dt className="text-base font-medium text-gray-500">
-                          Where:
-                        </dt>
-                        <dd className="mt-1 text-base text-gray-900 sm:col-span-2 sm:mt-0">
-                          {event.address}
-                        </dd>
-                      </div>
-                    )}
-                    {event.link && (
-                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
-                        <dt className="text-base font-medium text-gray-500">
-                          Sign-up here:
-                        </dt>
-                        <dd className="mt-1 text-base text-gray-900 sm:col-span-2 sm:mt-0">
-                          <a
-                            className="text-sbaBlue hover:underline"
-                            href={event.link}
-                          >
-                            Link
-                          </a>
-                        </dd>
-                      </div>
-                    )}
-                  </dl>
-                </div>
-              </div>
-            ))}
+              )
+            })}
           </div>
         </div>
         <div className="my-12 pt-3">
