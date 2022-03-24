@@ -52,7 +52,7 @@ const StateContent = ({ data, state }) => {
                   <img
                     src={partner.image}
                     alt=""
-                    className="m-auto align-middle"
+                    className="m-auto align-middle w-1/2 sm:w-3/4 h-auto"
                   />
                 </div>
                 <div className="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6 md:px-8">

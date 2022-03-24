@@ -99,7 +99,7 @@ export const data = {
       {
         name: 'Karen Organization of San Diego',
         image:
-          'https://i.ibb.co/kcyyddR/Karen-Organization-of-San-Diego-California.png',
+          'https://i.ibb.co/SwLmJrL/Karen-org.png',
         website: 'https://karensandiego.org/',
       },
       {
@@ -111,7 +111,7 @@ export const data = {
       {
         name: 'Union of Pan Asian Communities',
         image:
-          'https://i.ibb.co/QnTGZDc/Union-of-Pacific-Asian-Communities-Logo-California.png',
+          'https://i.ibb.co/5Gs2PTb/UPAC-logo-2x-1.png',
         website: 'https://www.upacsd.com/',
       },
     ],
