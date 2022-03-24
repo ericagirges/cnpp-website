@@ -85,17 +85,15 @@ export default function Header() {
           </div>
           <div className="hidden md:flex md:flex-1 md:items-center md:justify-between">
             <Popover.Group as="nav" className="flex space-x-10">
-              <Link
-                href="/"
-                className="text-base font-medium text-gray-500 hover:text-gray-900"
-              >
-                Home
+              <Link href="/">
+                <a className="text-base font-medium text-gray-500 hover:text-gray-900">
+                  Home
+                </a>
               </Link>
-              <Link
-                href="/about"
-                className="text-base font-medium text-gray-500 hover:text-gray-900"
-              >
-                About
+              <Link href="/about">
+                <a className="text-base font-medium text-gray-500 hover:text-gray-900">
+                  About
+                </a>
               </Link>
               <Popover className="relative">
                 {({ open }) => (
@@ -129,18 +127,18 @@ export default function Header() {
                         <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                           <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                             {stateArr.map((item) => (
-                              <Link
-                                key={item.name}
-                                href={item.href}
-                                className="-m-3 block rounded-md p-3 hover:bg-gray-50"
-                              >
-                                <p className="text-base font-medium text-gray-900">
-                                  {item.name}
-                                </p>
-                                <p className="mt-1 text-sm text-gray-500">
-                                  {item.description}
-                                </p>
-                              </Link>
+                              <div>
+                                <Link key={item.name} href={item.href}>
+                                  <div className="-m-3 cursor-pointer rounded-md p-3 hover:bg-gray-50">
+                                    <a className="block text-base font-medium capitalize text-gray-900">
+                                      {item.name}
+                                    </a>
+                                    <a className="mt-1 block text-sm text-gray-500">
+                                      {item.description}
+                                    </a>
+                                  </div>
+                                </Link>
+                              </div>
                             ))}
                           </div>
                         </div>
@@ -149,23 +147,20 @@ export default function Header() {
                   </>
                 )}
               </Popover>
-              <Link
-                href="#"
-                className="text-base font-medium text-gray-500 hover:text-gray-900"
-              >
-                Small Business Resources
+              <Link href="#">
+                <a className="text-base font-medium text-gray-500 hover:text-gray-900">
+                  Small Business Resources
+                </a>
               </Link>
-              <Link
-                href="#"
-                className="text-base font-medium text-gray-500 hover:text-gray-900"
-              >
-                News
+              <Link href="#">
+                <a className="text-base font-medium text-gray-500 hover:text-gray-900">
+                  News
+                </a>
               </Link>
-              <Link
-                href="/contact"
-                className="text-base font-medium text-gray-500 hover:text-gray-900"
-              >
-                Contact us
+              <Link href="/contact">
+                <a className="text-base font-medium text-gray-500 hover:text-gray-900">
+                  Contact us
+                </a>
               </Link>
             </Popover.Group>
           </div>
@@ -205,12 +200,10 @@ export default function Header() {
               <div className="mt-6">
                 <nav className="grid grid-cols-1 gap-7">
                   {mobileMenu.map((item) => (
-                    <Link
-                      key={item.name}
-                      href={item.href}
-                      className="text-base font-medium text-gray-900 hover:text-gray-700"
-                    >
+                    <Link key={item.name} href={item.href}>
+                      <a className="text-base font-medium text-gray-900 hover:text-gray-700">
                         {item.name}
+                      </a>
                     </Link>
                   ))}
                 </nav>
@@ -222,12 +215,10 @@ export default function Header() {
               </p>
               <div className="grid grid-cols-1 gap-4">
                 {stateArr.map((item) => (
-                  <Link
-                    key={item.name}
-                    href={item.href}
-                    className="text-base font-medium text-gray-900 hover:text-gray-700"
-                  >
-                    {item.name}
+                  <Link key={item.name} href={item.href}>
+                    <a className="text-base font-medium capitalize text-gray-900 hover:text-gray-700">
+                      {item.name}
+                    </a>
                   </Link>
                 ))}
               </div>
