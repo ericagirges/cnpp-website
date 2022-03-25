@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .footer-mobile a:nth-child(4) {
+    width: 100%;
+  }
+
+  .footer a:nth-child(4) {
+    width: auto;
+  }
+}
+
 #__next {
   @apply h-full;
 }
