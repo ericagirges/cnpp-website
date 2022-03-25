@@ -14,10 +14,10 @@ export default function Footer() {
   return (
     <footer className="bg-sbaBlue">
       <div className="mx-auto flex max-w-7xl flex-col items-center py-12 px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-wrap justify-center">
+        <div className="footer-mobile sm:footer text-center flex flex-wrap justify-center">
           {navigation.map((item) => (
             <Link key={item.name} href={item.href}>
-              <a className="text-white text-base font-medium hover:text-gray-300 pl-6 pr-6 pb-3 md:pb-0">{item.name}</a>
+              <a className="inline-block text-white text-base font-medium hover:text-gray-300 pl-6 pr-6 pb-6 sm:pb:3 md:pb-0 ">{item.name}</a>
             </Link>
           ))}
         </div>
@@ -26,7 +26,7 @@ export default function Footer() {
             <div className="flex-shrink-0">
               <MailIcon className="h-6 w-6 text-white" aria-hidden="true" />
             </div>
-            <div className="ml-3 text-base font-medium text-white block">
+            <div className="ml-3 text-base font-medium text-white hover:text-gray-300 block">
               <a
                 href="mailto:sbacommunity.navigators@rescue.org"
                 target="_blank"
