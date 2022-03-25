@@ -21,21 +21,21 @@ const stateArr = [
   {
     name: 'Arizona',
     description: "A nice description of what they'll find on this page",
-    href: '#',
+    href: '/region/arizona',
   },
   {
     name: 'California',
     description: "A nice description of what they'll find on this page",
-    href: '#',
+    href: '/region/california',
   },
   {
     name: 'Georgia',
     description: "A nice description of what they'll find on this page",
-    href: '#',
+    href: '/region/georgia',
   },
-  { name: 'Iowa', description: '', href: '#' },
-  { name: 'Kansas', description: '', href: '#' },
-  { name: 'Utah', description: '', href: '#' },
+  { name: 'Iowa', description: '', href: '/region/iowa' },
+  { name: 'Kansas', description: '', href: '/region/kansas' },
+  { name: 'Utah', description: '', href: '/region/utah' },
 ]
 
 function classNames(...classes) {
