@@ -52,7 +52,7 @@ const StateContent = ({ data, state }) => {
                   <img
                     src={partner.image}
                     alt=""
-                    className="m-auto align-middle w-1/2 sm:w-3/4 h-auto"
+                    className="m-auto h-auto w-1/2 align-middle sm:w-3/4"
                   />
                 </div>
                 <div className="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6 md:px-8">
@@ -81,9 +81,14 @@ const StateContent = ({ data, state }) => {
           <div className="grid auto-rows-fr grid-cols-1 gap-y-10 lg:grid-cols-2 lg:gap-y-7 lg:gap-x-8">
             {data[state].events.map((event) => {
               return !event.title ? (
-                <p className="text-lg text-gray-500 -mt-7">
-                  Check back soon! Sign up for our <Link href="/contact"><span className="text-sbaBlue cursor-pointer">newsletter</span></Link> to get the latest
-                  updates on upcoming events.
+                <p className="-mt-7 text-lg text-gray-500">
+                  Check back soon! Sign up for our{' '}
+                  <Link href="/contact">
+                    <span className="cursor-pointer text-sbaBlue">
+                      newsletter
+                    </span>
+                  </Link>{' '}
+                  to get the latest updates on upcoming events.
                 </p>
               ) : (
                 <div className="overflow-hidden bg-white shadow sm:rounded-lg">
