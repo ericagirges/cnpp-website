@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import News from './components/NewsContent'
+import News from './components/news/NewsContent'
 
 const news: NextPage = () => {
   return <News />
