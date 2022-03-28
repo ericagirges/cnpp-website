@@ -61,50 +61,50 @@ function RegionalLanding() {
       <h3 className='text-center text-2xl md:text-3xl font-semibold mb-10 lg:mb-20'>Select a state below to learn about regional support, upcoming events and more.</h3>
       <div className='grid grid-cols-2 md:grid-cols-3 gap-10 mx-10 justify-center content-center mb-10'>
           <Link href="/region/arizona">
-      <button className='border-t-4 border-sbaYellow bg-white'>
-          <div className='mx-auto shadow-lg'>
-            <h4 className='text-xl pt-2 font-bold text-sbaBlue uppercase'>Arizona</h4>
-            <p>Icon goes here</p>
+      <button className='border-t-8 border-sbaYellow bg-white'>
+          <div className='mx-auto shadow-lg hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 pb-2 hover:underline hover:decoration-sbaBlue'>
+            <h4 className='text-xl md:text-2xl pt-2 font-bold text-sbaBlue uppercase'>Arizona</h4>
+            <img className="mx-auto my-10 h-[200px] w-auto" src="https://i.ibb.co/1QNPV9c/icons8-arizona-90.png"/>
             </div>
         </button>
         </Link>
         <Link href="/region/california">
-        <button className='border-t-4 border-sbaYellow bg-white'>
-          <div className='mx-auto shadow-lg'>
-            <h4 className='text-xl pt-2 font-bold text-sbaBlue uppercase'>California</h4>
-            <p>Icon goes here</p>
+        <button className='border-t-8 border-sbaYellow bg-white'>
+          <div className='mx-auto shadow-lg hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 pb-2 hover:underline hover:decoration-sbaBlue'>
+            <h4 className='text-xl md:text-2xl pt-2 font-bold text-sbaBlue uppercase'>California</h4>
+            <img className="mx-auto my-10 h-[200px] w-auto" src="https://i.ibb.co/rkmGKh7/icons8-california-100.png"/>
             </div>
         </button>
         </Link>
         <Link href="/region/georgia">
-        <button className='border-t-4 border-sbaYellow bg-white'>
-          <div className='mx-auto shadow-lg'>
-            <h4 className='text-xl pt-2 font-bold text-sbaBlue uppercase'>Georgia</h4>
-            <p>Icon goes here</p>
+        <button className='border-t-8 border-sbaYellow bg-white'>
+          <div className='mx-auto shadow-lg hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 pb-2 hover:underline hover:decoration-sbaBlue'>
+            <h4 className='text-xl md:text-2xl pt-2 font-bold text-sbaBlue uppercase'>Georgia</h4>
+            <img className="mx-auto my-10 h-[200px] w-auto" src="https://i.ibb.co/KxzQw0q/icons8-georgia-100.png"/>
             </div>
         </button>
         </Link>
         <Link href="/region/iowa">
-        <button className='border-t-4 border-sbaYellow bg-white'>
-          <div className='mx-auto shadow-lg'>
-            <h4 className='text-xl pt-2 font-bold text-sbaBlue uppercase'>Iowa</h4>
-            <p>Icon goes here</p>
+        <button className='border-t-8 border-sbaYellow bg-white'>
+          <div className='mx-auto shadow-lg hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 pb-2 hover:underline hover:decoration-sbaBlue'>
+            <h4 className='text-xl md:text-2xl pt-2 font-bold text-sbaBlue uppercase'>Iowa</h4>
+            <img className="mx-auto my-10 h-[200px] w-auto" src="https://i.ibb.co/nM3LZ0B/icons8-iowa-100.png"/>
             </div>
         </button>
         </Link>
         <Link href="/region/kansas">
-        <button className='border-t-4 border-sbaYellow bg-white'>
-          <div className='mx-auto shadow-lg'>
-            <h4 className='text-xl pt-2 font-bold text-sbaBlue uppercase'>Kansas</h4>
-            <p>Icon goes here</p>
+        <button className='border-t-8 border-sbaYellow bg-white'>
+          <div className='mx-auto shadow-lg hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 pb-2 hover:underline hover:decoration-sbaBlue'>
+            <h4 className='text-xl md:text-2xl pt-2 font-bold text-sbaBlue uppercase'>Kansas</h4>
+            <img className="mx-auto my-10 h-[200px] w-auto" src="https://i.ibb.co/1qng885/icons8-kansas-100.png"/>
             </div>
         </button>
         </Link>
         <Link href="/region/utah">
-        <button className='border-t-4 border-sbaYellow bg-white'>
-          <div className='mx-auto shadow-lg'>
-            <h4 className='text-xl pt-2 font-bold text-sbaBlue uppercase'>Utah</h4>
-            <p>Icon goes here</p>
+        <button className='border-t-8 border-sbaYellow bg-white'>
+          <div className='mx-auto shadow-lg hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 pb-2 hover:underline hover:decoration-sbaBlue'>
+            <h4 className='text-xl md:text-2xl pt-2 font-bold text-sbaBlue uppercase'>Utah</h4>
+            <img className="mx-auto my-10 h-[200px] w-auto" src="https://i.ibb.co/ck954WH/icons8-utah-100.png"/>
             </div>
         </button>
         </Link>
