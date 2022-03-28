@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import UpdatesAccordion from './UpdatesAccordion'
 import ModalLayout from './ModalLayout';
-import { useState } from 'react';
+import GetConnected from '../GetConnected';
 
 const businessDescription1 = `Wichai is the proud owner of a local Salt Lake City restaurant,Laan Na Thai,which opened in 2016. Like many business owners, COVID-19 impacted their operations through a reduction of dine-in customers and loss of sales. Fortunately, he was one of the business owners who were able to apply for and receive the Paycheck Protection Program (PPP) Loan. However, when the loan forgiveness application came out, Wichai found the application process difficult and confusing as a limited English speaker to navigate. The IRC CNPP small business team, with the help of an interpreter, assisted himto collect all the necessary documents and apply for forgiveness support to Wichai in the entire process. Wichai was approved, and because of the assistance he received through CNPP, the business was able to receive $33,644 in PPP loan forgiveness. Now, the familycan focus on business operations and recovery without further liability.`
 
@@ -82,6 +82,7 @@ function News() {
         </h3>
         <UpdatesAccordion />
       </div>
+      <GetConnected />
     </div>
   )
 }

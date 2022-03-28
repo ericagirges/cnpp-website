@@ -20,14 +20,14 @@ function RegionalLanding() {
       </div>
       <div className="mx-auto my-10 flex max-w-screen-2xl flex-col justify-between px-8 md:flex-row">
         <div className="md:mr-[100px] md:w-9/12">
-          <h2 className="mt-6 pb-4 text-3xl font-semibold md:text-4xl">
+          <h2 className="mt-6 pb-4 text-3xl font-bold md:text-4xl">
             Regional Program
           </h2>
           {/* <p className="pb-10 text-xl font-semibold md:text-2xl">
             Orci vel lectus nisl eget eget ut consectetur. Sit justo viverra non
             adipisicing elit distinctio.
           </p> */}
-          <p className="md:text-xl">
+          <p className="md:text-xl text-gray-500">
             The International Rescue Committee and regional partners help local
             small businesses recover and prosper by delivering no-cost business
             assistance through in-language technical assistance training and
@@ -69,7 +69,7 @@ function RegionalLanding() {
         Select a state below to learn about regional support, upcoming events
         and more.
       </h3>
-      <div className="mx-10 mb-10 grid grid-cols-2 content-center justify-center gap-10 md:grid-cols-3">
+      <div className="mx-10 mb-10 grid grid-cols-1 sm:grid-cols-2 content-center justify-center gap-10 md:grid-cols-3">
         <Link href="/region/arizona">
           <button className="border-t-8 border-sbaYellow bg-white">
             <div className="mx-auto pb-2 shadow-lg hover:bg-gray-50 hover:underline hover:decoration-sbaBlue focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
