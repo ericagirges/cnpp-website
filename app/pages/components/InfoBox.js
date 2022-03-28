@@ -24,7 +24,7 @@ const informationBox = [
       'Learn about low-cost business loans available in your region',
       'Access trainings, workshops, and learning resources to strengthen your small business',
     ],
-    href: '#',
+    href: '/resources',
   },
   {
     title: 'Meet With a CNPP Business Counselor',

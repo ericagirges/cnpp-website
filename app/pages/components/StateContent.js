@@ -44,14 +44,15 @@ const StateContent = ({ data, state }) => {
                 key={partner.name}
                 className="flex flex-col rounded-2xl bg-white shadow-xl "
               >
-                <div className="relative flex flex-1 flex-col items-center px-6 pt-16 pb-8 md:px-8">
-                  <h3 className="pb-8 text-xl font-medium text-gray-900">
+                <div className="flex w-full basis-24 items-center justify-center rounded-tl-2xl rounded-tr-2xl bg-gray-50 px-10 py-4">
+                  <h3 className="text-xl font-medium text-gray-900">
                     {partner.name}
                   </h3>
-
+                </div>
+                <div className="relative flex flex-1 flex-col items-center px-6 pb-8 md:px-8">
                   <img
                     src={partner.image}
-                    alt=""
+                    alt={partner.name}
                     className="m-auto h-auto w-1/2 align-middle sm:w-3/4"
                   />
                 </div>
@@ -92,7 +93,7 @@ const StateContent = ({ data, state }) => {
                 </p>
               ) : (
                 <div className="overflow-hidden bg-white shadow sm:rounded-lg">
-                  <div className="px-4 py-5 sm:px-6 bg-gray-50">
+                  <div className="bg-gray-50 px-4 py-5 sm:px-6">
                     <h3 className="text-lg font-medium leading-6 text-gray-900">
                       {event.title}
                     </h3>
