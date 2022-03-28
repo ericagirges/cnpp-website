@@ -7,7 +7,7 @@ const StateContent = ({ data, state }) => {
   }
 
   return (
-    <div className="bg-white">
+    <div className="bg-white max-w-screen-2xl mx-auto">
       <div className="relative h-96 bg-white pb-32 md:h-[34rem]">
         <div className="absolute inset-0">
           <img

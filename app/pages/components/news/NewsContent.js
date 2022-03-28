@@ -21,13 +21,11 @@ function News() {
           help small businesses.
         </p>
         <div>
-          {/* <input placeholder="Enter your email"></input> */}
           <Link href="/contact">
             <button className="flex items-center justify-center rounded-md border border-transparent bg-sbaYellow px-8 py-2 text-base font-medium text-sbaBlue hover:bg-sbaGray md:text-lg">
               Subscribe
             </button>
           </Link>
-          {/* <p>Subscribed ✅</p> */}
         </div>
       </div>
       <div className="mx-auto max-w-screen-xl py-36">
@@ -69,7 +67,9 @@ function News() {
               {/* <p className="absolute left-2 bottom-7 text-2xl font-bold text-white">
                 BUSINESS TITLE
               </p> */}
-              <button className="absolute right-0 bottom-0 bg-sbaYellow py-3 px-10 font-bold text-sbaBlue hover:bg-sbaGray">
+              <button           onClick={() => {
+                  ;<ModalLayout title={"No Interest Recovery Loan Application Assistance"} description={businessDescription2}/>
+                }}className="absolute right-0 bottom-0 bg-sbaYellow py-3 px-10 font-bold text-sbaBlue hover:bg-sbaGray">
                 Read more
               </button>
             </div>
