@@ -16,7 +16,7 @@ const stateArr = [
   {
     name: 'Overview',
     description: "A nice description of what they'll find on this page",
-    href: '#',
+    href: '/region',
   },
   {
     name: 'Arizona',
@@ -152,7 +152,7 @@ export default function Header() {
                   Small Business Resources
                 </a>
               </Link>
-              <Link href="#">
+              <Link href="/news">
                 <a className="text-base font-medium text-gray-500 hover:text-gray-900">
                   News
                 </a>

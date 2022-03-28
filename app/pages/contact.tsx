@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Header from './components/Header'
-import Contact from './components/ContactComponent'
+import Contact from './components/contact/ContactComponent'
 import Footer from './components/Footer'
 
 const contact: NextPage = () => {

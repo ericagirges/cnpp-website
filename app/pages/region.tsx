@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Header from './components/Header'
-import RegionalLanding from './components/RegionalLandingContent'
+import RegionalLanding from './region/RegionalLandingContent'
 import Footer from './components/Footer'
 const regions: NextPage = () => {
   return (
