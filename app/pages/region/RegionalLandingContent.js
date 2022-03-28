@@ -7,8 +7,8 @@ function RegionalLanding() {
       <div className="relative bg-sbaGray">
         <div className="absolute inset-0">
           <img
-            className="h-full w-full object-cover"
-            src="https://i.ibb.co/M1yjK8T/20210830-AOberstadt-Richmond-012.jpg"
+            className="h-full w-full object-cover object-top"
+            src="https://i.ibb.co/6wj0nJJ/woman-selling-1.jpg"
             alt="need copy"
           />
           <div
@@ -16,25 +16,17 @@ function RegionalLanding() {
             aria-hidden="true"
           ></div>
         </div>
-        <div className="relative mx-auto max-w-7xl py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-          <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
-            Get in touch
-          </h1>
-          <p className="mt-6 max-w-3xl text-xl text-indigo-100">
-            Mattis amet hendrerit dolor, quisque lorem pharetra. Pellentesque
-            lacus nisi urna, arcu sociis eu. Orci vel lectus nisl eget eget ut
-            consectetur. Sit justo viverra non adipisicing elit distinctio.
-          </p>
+        <div className="relative mx-auto max-w-7xl py-32 px-4 sm:py-48 sm:px-6 lg:px-8">
         </div>
       </div>
-      <div className="flex flex-col mx-auto md:flex-row justify-between px-4 my-10 max-w-screen-2xl">
-        <div className="md:w-9/12 md:mr-[100px]">
-          <h2 className="mt-6 pb-4 text-4xl font-semibold">Regional Program</h2>
-          <p className="pb-10 text-2xl font-semibold">
+      <div className="mx-auto my-10 flex max-w-screen-2xl flex-col justify-between px-4 md:flex-row">
+        <div className="md:mr-[100px] md:w-9/12">
+          <h2 className="mt-6 pb-4 text-3xl md:text-4xl font-semibold">Regional Program</h2>
+          <p className="pb-10 text-xl md:text-2xl font-semibold">
             Orci vel lectus nisl eget eget ut consectetur. Sit justo viverra non
             adipisicing elit distinctio.
           </p>
-          <p className="text-xl">
+          <p className="md:text-xl">
             Mattis amet hendrerit dolor, quisque lorem pharetra. Pellentesque
             lacus nisi urna, arcu sociis eu. Orci vel lectus nisl eget eget ut
             consectetur. Sit justo viverra non adipisicing elit distinctio. Ut
@@ -44,27 +36,78 @@ function RegionalLanding() {
             pariatur.
           </p>
         </div>
-        <div className='bg-sbaBlue border rounded-md my-8 text-white py-4 px-6 md:w-3/5'>
-          <h2 className="text-3xl font-semibold mb-6">Available Services</h2>
-          <ul className='list-disc list-inside text-xl'>
-            <li className='pb-4'>
+        <div className="my-8 rounded-md border bg-sbaBlue py-4 px-6 text-white md:w-3/5">
+          <h2 className="mb-6 text-2xl md:text-3xl font-semibold">Available Services</h2>
+          <ul className="list-inside list-disc md:text-xl">
+            <li className="pb-4">
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit anim id est laborum.
             </li>
-            <li className='pb-4'>
+            <li className="pb-4">
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit anim id est laborum.
             </li>
-            <li className='pb-4'>
+            <li className="pb-4">
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit anim id est laborum.
             </li>
-            <li className='pb-4'>
+            <li className="pb-4">
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit anim id est laborum.
             </li>
           </ul>
         </div>
+      </div>
+      <h3 className='text-center text-2xl md:text-3xl font-semibold mb-10 lg:mb-20'>Select a state below to learn about regional support, upcoming events and more.</h3>
+      <div className='grid grid-cols-2 md:grid-cols-3 gap-10 mx-10 justify-center content-center mb-10'>
+          <Link href="/region/arizona">
+      <button className='border-t-4 border-sbaYellow bg-white'>
+          <div className='mx-auto shadow-lg'>
+            <h4 className='text-xl pt-2 font-bold text-sbaBlue uppercase'>Arizona</h4>
+            <p>Icon goes here</p>
+            </div>
+        </button>
+        </Link>
+        <Link href="/region/california">
+        <button className='border-t-4 border-sbaYellow bg-white'>
+          <div className='mx-auto shadow-lg'>
+            <h4 className='text-xl pt-2 font-bold text-sbaBlue uppercase'>California</h4>
+            <p>Icon goes here</p>
+            </div>
+        </button>
+        </Link>
+        <Link href="/region/georgia">
+        <button className='border-t-4 border-sbaYellow bg-white'>
+          <div className='mx-auto shadow-lg'>
+            <h4 className='text-xl pt-2 font-bold text-sbaBlue uppercase'>Georgia</h4>
+            <p>Icon goes here</p>
+            </div>
+        </button>
+        </Link>
+        <Link href="/region/iowa">
+        <button className='border-t-4 border-sbaYellow bg-white'>
+          <div className='mx-auto shadow-lg'>
+            <h4 className='text-xl pt-2 font-bold text-sbaBlue uppercase'>Iowa</h4>
+            <p>Icon goes here</p>
+            </div>
+        </button>
+        </Link>
+        <Link href="/region/kansas">
+        <button className='border-t-4 border-sbaYellow bg-white'>
+          <div className='mx-auto shadow-lg'>
+            <h4 className='text-xl pt-2 font-bold text-sbaBlue uppercase'>Kansas</h4>
+            <p>Icon goes here</p>
+            </div>
+        </button>
+        </Link>
+        <Link href="/region/utah">
+        <button className='border-t-4 border-sbaYellow bg-white'>
+          <div className='mx-auto shadow-lg'>
+            <h4 className='text-xl pt-2 font-bold text-sbaBlue uppercase'>Utah</h4>
+            <p>Icon goes here</p>
+            </div>
+        </button>
+        </Link>
       </div>
     </>
   )
