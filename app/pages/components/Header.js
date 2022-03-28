@@ -7,7 +7,7 @@ import { ChevronDownIcon } from '@heroicons/react/solid'
 const mobileMenu = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/about' },
-  { name: 'Small Business Resources', href: '/about' },
+  { name: 'Small Business Resources', href: '/resources' },
   { name: 'News', href: '/news' },
   { name: 'Contact Us', href: '/contact' },
 ]
@@ -147,7 +147,7 @@ export default function Header() {
                   </>
                 )}
               </Popover>
-              <Link href="#">
+              <Link href="resources">
                 <a className="text-base font-medium text-gray-500 hover:text-gray-900">
                   Small Business Resources
                 </a>
