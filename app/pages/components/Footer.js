@@ -4,8 +4,8 @@ import { MailIcon } from '@heroicons/react/outline'
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/about' },
-  { name: 'Regional Program', href: '/about' },
-  { name: 'Small Business Resources', href: '/about' },
+  { name: 'Regional Program', href: '/region' },
+  { name: 'Small Business Resources', href: '/resources' },
   { name: 'News', href: '/news' },
   { name: 'Contact Us', href: '/contact' },
 ]
