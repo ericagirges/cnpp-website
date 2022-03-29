@@ -1,7 +1,7 @@
 export const data = {
   arizona: {
     name: 'Arizona',
-    id: '5',
+    map: 'https://i.ibb.co/1QNPV9c/icons8-arizona-90.png',
     partners: [
       {
         name: 'Somali American United Council of Arizona',
@@ -89,7 +89,7 @@ export const data = {
   },
   california: {
     name: 'California',
-    id: '1',
+    map: 'https://i.ibb.co/rkmGKh7/icons8-california-100.png',
     partners: [
       {
         name: 'Access, Inc',
@@ -98,8 +98,7 @@ export const data = {
       },
       {
         name: 'Karen Organization of San Diego',
-        image:
-          'https://i.ibb.co/SwLmJrL/Karen-org.png',
+        image: 'https://i.ibb.co/SwLmJrL/Karen-org.png',
         website: 'https://karensandiego.org/',
       },
       {
@@ -110,8 +109,7 @@ export const data = {
       },
       {
         name: 'Union of Pan Asian Communities',
-        image:
-          'https://i.ibb.co/5Gs2PTb/UPAC-logo-2x-1.png',
+        image: 'https://i.ibb.co/5Gs2PTb/UPAC-logo-2x-1.png',
         website: 'https://www.upacsd.com/',
       },
     ],
@@ -133,7 +131,7 @@ export const data = {
   },
   georgia: {
     name: 'Georgia',
-    id: '3',
+    map: 'https://i.ibb.co/KxzQw0q/icons8-georgia-100.png',
     partners: [
       {
         name: "Refugee Women's Network",
@@ -173,7 +171,7 @@ export const data = {
   },
   iowa: {
     name: 'Iowa',
-    id: '2',
+    map: 'https://i.ibb.co/nM3LZ0B/icons8-iowa-100.png',
     partners: [
       {
         name: 'Drake University',
@@ -223,7 +221,7 @@ export const data = {
   },
   kansas: {
     name: 'Kansas',
-    id: '6',
+    map: 'https://i.ibb.co/1qng885/icons8-kansas-100.png',
     partners: [],
     body: 'IRC CNPP will support the small business communities in Kansas by providing information and tools to help stabilize and grow local small businesses, including individualized counseling, mentoring, and training.  Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  Interpretation services for all services and trainings are available upon request.',
     events: [
@@ -244,7 +242,7 @@ export const data = {
   },
   utah: {
     name: 'Utah',
-    id: '4',
+    map: 'https://i.ibb.co/ck954WH/icons8-utah-100.png',
     partners: [
       {
         name: 'Asian Association of Utah',

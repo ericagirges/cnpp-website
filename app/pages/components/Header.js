@@ -1,5 +1,8 @@
 import Link from 'next/link'
+
 import { Fragment } from 'react'
+import { data } from '../../data'
+
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { ChevronDownIcon } from '@heroicons/react/solid'
@@ -10,32 +13,6 @@ const mobileMenu = [
   { name: 'Small Business Resources', href: '/resources' },
   { name: 'News', href: '/news' },
   { name: 'Contact Us', href: '/contact' },
-]
-
-const stateArr = [
-  {
-    name: 'Overview',
-    description: "A nice description of what they'll find on this page",
-    href: '/region',
-  },
-  {
-    name: 'Arizona',
-    description: "A nice description of what they'll find on this page",
-    href: '/region/arizona',
-  },
-  {
-    name: 'California',
-    description: "A nice description of what they'll find on this page",
-    href: '/region/california',
-  },
-  {
-    name: 'Georgia',
-    description: "A nice description of what they'll find on this page",
-    href: '/region/georgia',
-  },
-  { name: 'Iowa', description: '', href: '/region/iowa' },
-  { name: 'Kansas', description: '', href: '/region/kansas' },
-  { name: 'Utah', description: '', href: '/region/utah' },
 ]
 
 function classNames(...classes) {
@@ -125,20 +102,22 @@ export default function Header() {
                     >
                       <Popover.Panel className="absolute left-1/2 z-20 mt-3 w-screen max-w-xs -translate-x-1/2 transform px-2 sm:px-0">
                         <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
-                          <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                            {stateArr.map((item) => (
-                              <div>
-                                <Link key={item.name} href={item.href}>
-                                  <div className="-m-3 cursor-pointer rounded-md p-3 hover:bg-gray-50">
-                                    <a className="block text-base font-medium capitalize text-gray-900">
-                                      {item.name}
-                                    </a>
-                                    <a className="mt-1 block text-sm text-gray-500">
-                                      {item.description}
-                                    </a>
-                                  </div>
-                                </Link>
+                          <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 ">
+                            <Link href={`/region`}>
+                              <div className="-m-3 cursor-pointer rounded-md p-3 hover:bg-gray-50">
+                                <a className="block text-base font-medium capitalize text-gray-900">
+                                  Overview
+                                </a>
                               </div>
+                            </Link>
+                            {Object.keys(data).map((state) => (
+                              <Link key={state} href={`/region/${state}`}>
+                                <div className="-m-3 cursor-pointer rounded-md p-3 hover:bg-gray-50">
+                                  <a className="block text-base font-medium capitalize text-gray-900">
+                                    {state}
+                                  </a>
+                                </div>
+                              </Link>
                             ))}
                           </div>
                         </div>
@@ -214,10 +193,17 @@ export default function Header() {
                 Regional Program Pages
               </p>
               <div className="grid grid-cols-1 gap-4">
-                {stateArr.map((item) => (
-                  <Link key={item.name} href={item.href}>
+                <Link href={`/region`}>
+                  <div className="-m-3 cursor-pointer rounded-md p-3 hover:bg-gray-50">
+                    <a className="block text-base font-medium capitalize text-gray-900">
+                      Overview
+                    </a>
+                  </div>
+                </Link>
+                {Object.keys(data).map((state) => (
+                  <Link key={state} href={`/region/${state}`}>
                     <a className="text-base font-medium capitalize text-gray-900 hover:text-gray-700">
-                      {item.name}
+                      {state}
                     </a>
                   </Link>
                 ))}
