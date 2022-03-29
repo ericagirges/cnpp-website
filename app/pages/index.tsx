@@ -5,7 +5,6 @@ import InfoBox from './components/InfoBox'
 import InfoBlob from './components/InfoBlob'
 import HorizontalCard from './components/HorizontalCard'
 import GetConnected from './components/GetConnected';
-import Footer from './components/Footer'
 
 
 const Landing: NextPage = () => {
@@ -16,7 +15,6 @@ const Landing: NextPage = () => {
       <InfoBox />
       <InfoBlob />
       <GetConnected />
-      <Footer />
     </div>
   )
 }
