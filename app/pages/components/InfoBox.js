@@ -4,6 +4,16 @@ import { MapIcon, BookOpenIcon, ChatAlt2Icon } from '@heroicons/react/outline'
 
 const informationBox = [
   {
+    title: 'Meet With a CNPP Business Counselor',
+    icon: (
+      <ChatAlt2Icon className="invisible h-0 w-0 flex-initial text-sbaYellow lg:visible lg:h-32 lg:w-32" />
+    ),
+    description: [
+      'Fill out a contact form to get in touch with a CNPP Business Counselor to answer all your small business questions',
+    ],
+    href: '/contact',
+  },
+  {
     title: 'Search for Community Navigators in your Region',
     icon: (
       <MapIcon className="invisible h-0 w-0 flex-initial text-sbaYellow lg:visible lg:h-32 lg:w-32" />
@@ -26,26 +36,6 @@ const informationBox = [
     ],
     href: '/resources',
   },
-  {
-    title: 'Meet With a CNPP Business Counselor',
-    icon: (
-      <ChatAlt2Icon className="invisible h-0 w-0 flex-initial text-sbaYellow lg:visible lg:h-32 lg:w-32" />
-    ),
-    description: [
-      'Fill out a contact form to get in touch with a CNPP Business Counselor to answer all your small business questions',
-    ],
-    href: '/contact',
-  },
-
-  // {
-  //   title: 'Participate in upcoming events',
-  //   icon: (
-  //     <CalendarIcon className="invisible h-0 w-0 flex-initial text-sbaYellow lg:visible lg:h-32 lg:w-32" />
-  //   ),
-  //   description: [
-  //     "Visit CNPP'S calendar of events to see what's comint up this month",
-  //   ],
-  // },
 ]
 
 const InfoBox = () => {
