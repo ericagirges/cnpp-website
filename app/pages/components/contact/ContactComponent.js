@@ -19,17 +19,12 @@ export default function Contact() {
           <div className="flex items-center justify-center">
             <iframe
               width="700px"
-              height="2500px"
               scrolling="no"
               src="https://forms.office.com/Pages/ResponsePage.aspx?id=jDHxBYNnJkO3Kb9TenYduO6S9GMlXKtEqpLV8A8ujnNUOEI2VzU3VEpTOVpYOUZWUDA0RjgzN0k1SC4u&embed=true"
               frameBorder="0"
               marginWidth="0"
               marginHeight="0"
-              style={{
-                border: 'none',
-                width: '100%',
-                minHeight: '80vh',
-              }}
+              className="h-[2250px] min-h-[80vh] w-full border-none sm:h-[2500px] sm:min-h-[80vh]"
               allowFullScreen
               webkitallowfullscreen="true"
               mozallowfullscreen="true"
@@ -40,9 +35,9 @@ export default function Contact() {
           </div>
         </div>
         <div className="mt-16">
-        <h2 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">
-          Got Questions?
-        </h2>
+          <h2 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">
+            Got Questions?
+          </h2>
         </div>
         <div className="mt-4">
           <div className="mt-6 flex">
