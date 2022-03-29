@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import GetConnected from '../GetConnected';
 
 function About() {
   return (
@@ -95,6 +96,7 @@ function About() {
           </div>
         </div>
       </div>
+      <GetConnected />
     </div>
   )
 }

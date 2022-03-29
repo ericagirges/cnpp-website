@@ -1,5 +1,6 @@
 import NotFound from '../404'
-import Link from 'next/link'
+import Link from 'next/link';
+import GetConnected from './GetConnected';
 
 const StateContent = ({ data, state }) => {
   if (!data[state]) {
@@ -7,7 +8,7 @@ const StateContent = ({ data, state }) => {
   }
 
   return (
-    <div className="bg-white">
+    <div className="bg-white max-w-screen-2xl mx-auto">
       <div className="relative h-96 bg-white pb-32 md:h-[34rem]">
         <div className="absolute inset-0">
           <img
@@ -168,6 +169,7 @@ const StateContent = ({ data, state }) => {
           </a>
         </div>
       </div>
+      <GetConnected />
     </div>
   )
 }

@@ -1,10 +1,11 @@
 import React from 'react'
 import Link from 'next/link'
+import GetConnected from '../components/GetConnected';
 
 function RegionalLanding() {
   return (
     <>
-      <div className="relative bg-sbaGray">
+      <div className="relative bg-sbaGray max-w-screen-2xl mx-auto">
         <div className="absolute inset-0">
           <img
             className="h-full w-full object-cover object-top"
@@ -69,7 +70,7 @@ function RegionalLanding() {
         Select a state below to learn about regional support, upcoming events
         and more.
       </h3>
-      <div className="mx-10 mb-10 grid grid-cols-1 sm:grid-cols-2 content-center justify-center gap-10 md:grid-cols-3">
+      <div className="mx-auto px-10 mb-10 grid grid-cols-1 sm:grid-cols-2 content-center justify-center gap-10 md:grid-cols-3 max-w-7xl">
         <Link href="/region/arizona">
           <button className="border-t-8 border-sbaYellow bg-white">
             <div className="mx-auto pb-2 shadow-lg hover:bg-gray-50 hover:underline hover:decoration-sbaBlue focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
@@ -149,6 +150,7 @@ function RegionalLanding() {
           </button>
         </Link>
       </div>
+      <GetConnected />
     </>
   )
 }

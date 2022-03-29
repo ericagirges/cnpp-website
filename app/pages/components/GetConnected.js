@@ -1,22 +1,43 @@
 import React from 'react'
 import Link from 'next/link'
+import { BsX, BsPlusSquareFill } from 'react-icons/bs'
+import { useState } from 'react'
 
 const GetConnected = () => {
+  const [isOpen, setIsOpen] = useState(true)
+
   return (
-    <div className="fixed bottom-80 right-0 h-48 w-60 border-t-8 border-sbaYellow bg-white p-4 shadow-lg">
-      <div className='opacity-40'></div>
-      <h6 className="text-center text-lg font-semibold pb-4">
-        Ready to meet with a Counselor?
-      </h6>
-      <Link href="/contact">
+    <>
+      {isOpen ? (
+        <div className="fixed z-40 bottom-80 right-0 h-52 w-64 rounded-md border-t-8 border-sbaYellow px-4 pt-8 shadow-lg">
+          <div className="fixed bottom-80 right-0 h-52 w-64 border-t-8 border-sbaYellow bg-white p-4 text-center opacity-60"></div>
+          <div className="fixed bottom-80 right-0 mb-4 text-center">
+            <button onClick={() => setIsOpen(false)} className="mr-56 mb-4">
+              <BsX className="h-6 w-6 text-sbaBlue" />
+            </button>
+            <h6 className="mb-2 w-60 text-center text-xl font-semibold">
+              Ready to meet with a Counselor?
+            </h6>
+            <Link href="/contact">
+              <button className="my-2 inline-flex w-48 rounded-full border border-transparent bg-sbaBlue px-3.5 py-2 text-center text-sm font-medium leading-4 text-white shadow-sm hover:bg-sbaYellow hover:text-sbaBlue focus:outline-none focus:ring-2 focus:ring-sbaGray focus:ring-offset-2">
+                Click here to get connected
+              </button>
+            </Link>
+          </div>
+        </div>
+      ) : (
         <button
           type="button"
-          className="inline-flex items-center px-3.5 py-2 border border-transparent text-sm leading-4 font-medium rounded-full shadow-sm text-white bg-sbaBlue hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          onClick={(e) => {
+            e.preventDefault()
+            setIsOpen(true)
+          }}
+          className="fixed bottom-80 right-0"
         >
-          Click here to get connected
+          <BsPlusSquareFill className="h-10 w-10 text-sbaYellow" />
         </button>
-      </Link>
-    </div>
+      )}
+    </>
   )
 }
 

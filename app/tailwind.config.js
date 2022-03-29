@@ -15,8 +15,9 @@ module.exports = {
         sbaMustard: '#f1c410',
       },
       backgroundImage: (theme) => ({
-        'business-spotlight-1': "url('https://i.ibb.co/fMQ1wf0/20130326-ehockstein-atlanta00120.jpg')",
-        'business-spotlight-2': "url('https://i.ibb.co/dPsXhDx/20180503-AOberstadt-Seattle-18.jpg')",
+        // Images for the Business Spotlight 1 & 2
+        'business-spotlight-1': "url('https://i.ibb.co/w6mDdmL/Laan-Na-Thai.jpg')",
+        'business-spotlight-2': "url('https://i.ibb.co/ZH0GXYv/Barwin-Aibesh-Aleppo-Kitchen.jpg')",
       }),
     },
   },

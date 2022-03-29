@@ -4,6 +4,8 @@ import HeroHeader from './components/HeroHeader'
 import InfoBox from './components/InfoBox'
 import InfoBlob from './components/InfoBlob'
 import HorizontalCard from './components/HorizontalCard'
+import GetConnected from './components/GetConnected';
+import Footer from './components/Footer'
 
 
 const Landing: NextPage = () => {
@@ -13,6 +15,8 @@ const Landing: NextPage = () => {
       <HorizontalCard />
       <InfoBox />
       <InfoBlob />
+      <GetConnected />
+      <Footer />
     </div>
   )
 }

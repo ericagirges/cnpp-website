@@ -6,6 +6,7 @@ import {
 } from '@heroicons/react/outline'
 
 import Link from 'next/link'
+import GetConnected from './GetConnected'
 
 const vids = [
   {
@@ -202,6 +203,7 @@ const ResourcesContent = () => (
         {gridComponent(documents)}
       </div>
     </div>
+    <GetConnected />
   </>
 )
 
