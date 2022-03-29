@@ -1,14 +1,47 @@
-import React from 'react';
-import Link from 'next/link';
+import React from 'react'
+import Link from 'next/link'
+import { BsX, BsPlusSquareFill } from 'react-icons/bs'
+import { useState } from 'react'
 
 const GetConnected = () => {
+  const [isOpen, setIsOpen] = useState(true)
+  const [showTab, setShowTab] = useState(false)
 
   return (
-    <div className='fixed bottom-80 right-0 w-60 h-32 border-t-8 border-sbaYellow p-4 shadow-lg'>
-        {/* <div className='w-full h-full opacity-40'></div> */}
-        <h6 className='text-lg font-semibold text-center'>Ready to meet with a Counselor?</h6>
-        <button>Click here to get connected</button>
-    </div>
+    <>
+      {isOpen && !showTab ? (
+        <div className="fixed bottom-80 right-0 h-52 w-64 rounded-md border-t-8 border-sbaYellow px-4 pt-8 shadow-lg">
+          <div className="fixed bottom-80 right-0 h-52 w-64 border-t-8 border-sbaYellow bg-white p-4 text-center opacity-60"></div>
+          <div className="fixed bottom-80 right-0 mb-4 text-center">
+            <button
+              onClick={() => setIsOpen(false) && setShowTab(true)}
+              className="mr-52 mb-2"
+            >
+              <BsX className="h-8 w-8 text-sbaBlue" />
+            </button>
+            <h6 className="mb-2 w-60 text-center text-xl font-semibold">
+              Ready to meet with a Counselor?
+            </h6>
+            <Link href="/contact">
+              <button className="my-2 inline-flex w-48 rounded-full border border-transparent bg-sbaBlue px-3.5 py-2 text-center text-sm font-medium leading-4 text-white shadow-sm hover:bg-sbaYellow hover:text-sbaBlue focus:outline-none focus:ring-2 focus:ring-sbaGray focus:ring-offset-2">
+                Click here to get connected
+              </button>
+            </Link>
+          </div>
+        </div>
+      ) : (
+        <button
+          type="button"
+          onClick={(e) => {
+            e.preventDefault()
+            setShowTab(false) && setIsOpen(true)
+          }}
+          className="fixed bottom-80 right-0"
+        >
+          <BsPlusSquareFill className="h-10 w-10 text-sbaYellow" />
+        </button>
+      )}
+    </>
   )
 }
 

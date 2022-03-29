@@ -70,7 +70,7 @@ function RegionalLanding() {
         Select a state below to learn about regional support, upcoming events
         and more.
       </h3>
-      <div className="mx-auto mb-10 grid grid-cols-1 sm:grid-cols-2 content-center justify-center gap-10 md:grid-cols-3 max-w-7xl">
+      <div className="mx-auto px-10 mb-10 grid grid-cols-1 sm:grid-cols-2 content-center justify-center gap-10 md:grid-cols-3 max-w-7xl">
         <Link href="/region/arizona">
           <button className="border-t-8 border-sbaYellow bg-white">
             <div className="mx-auto pb-2 shadow-lg hover:bg-gray-50 hover:underline hover:decoration-sbaBlue focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
