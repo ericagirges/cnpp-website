@@ -5,19 +5,15 @@ import { useState } from 'react'
 
 const GetConnected = () => {
   const [isOpen, setIsOpen] = useState(true)
-  const [showTab, setShowTab] = useState(false)
 
   return (
     <>
-      {isOpen && !showTab ? (
-        <div className="fixed bottom-80 right-0 h-52 w-64 rounded-md border-t-8 border-sbaYellow px-4 pt-8 shadow-lg">
+      {isOpen ? (
+        <div className="fixed z-40 bottom-80 right-0 h-52 w-64 rounded-md border-t-8 border-sbaYellow px-4 pt-8 shadow-lg">
           <div className="fixed bottom-80 right-0 h-52 w-64 border-t-8 border-sbaYellow bg-white p-4 text-center opacity-60"></div>
           <div className="fixed bottom-80 right-0 mb-4 text-center">
-            <button
-              onClick={() => setIsOpen(false) && setShowTab(true)}
-              className="mr-52 mb-2"
-            >
-              <BsX className="h-8 w-8 text-sbaBlue" />
+            <button onClick={() => setIsOpen(false)} className="mr-56 mb-4">
+              <BsX className="h-6 w-6 text-sbaBlue" />
             </button>
             <h6 className="mb-2 w-60 text-center text-xl font-semibold">
               Ready to meet with a Counselor?
@@ -34,7 +30,7 @@ const GetConnected = () => {
           type="button"
           onClick={(e) => {
             e.preventDefault()
-            setShowTab(false) && setIsOpen(true)
+            setIsOpen(true)
           }}
           className="fixed bottom-80 right-0"
         >

@@ -1,5 +1,6 @@
 import NotFound from '../404'
-import Link from 'next/link'
+import Link from 'next/link';
+import GetConnected from './GetConnected';
 
 const StateContent = ({ data, state }) => {
   if (!data[state]) {
@@ -167,6 +168,7 @@ const StateContent = ({ data, state }) => {
           </a>
         </div>
       </div>
+      <GetConnected />
     </div>
   )
 }

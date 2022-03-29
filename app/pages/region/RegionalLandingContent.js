@@ -150,6 +150,7 @@ function RegionalLanding() {
           </button>
         </Link>
       </div>
+      <GetConnected />
     </>
   )
 }
