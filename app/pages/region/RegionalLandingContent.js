@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { data } from '../../data'
+import { StateData } from '../../page-content/StateContent'
 import GetConnected from '../components/GetConnected'
 
 function RegionalLanding() {
@@ -69,8 +69,8 @@ function RegionalLanding() {
         and more.
       </h3>
       <div className="mx-auto mb-10 grid max-w-7xl grid-cols-1 content-center justify-center gap-10 px-10 sm:grid-cols-2 md:grid-cols-3">
-        {Object.keys(data).map((key) => (
-          <Link key={data[key].name} href={`/region/${key}`}>
+        {Object.keys(StateData).map((key) => (
+          <Link key={StateData[key].name} href={`/region/${key}`}>
             <button className="border-t-8 border-sbaYellow bg-white">
               <div className="mx-auto pb-2 shadow-lg hover:bg-gray-50 hover:underline hover:decoration-sbaBlue focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
                 <h4 className="pt-2 text-xl font-bold uppercase text-sbaBlue md:text-2xl">
@@ -78,7 +78,7 @@ function RegionalLanding() {
                 </h4>
                 <img
                   className="mx-auto my-10 h-[200px] w-auto"
-                  src={data[key].map}
+                  src={StateData[key].map}
                 />
               </div>
             </button>

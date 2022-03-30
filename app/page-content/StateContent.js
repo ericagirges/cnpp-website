@@ -1,4 +1,4 @@
-export const data = {
+export const StateData = {
   arizona: {
     name: 'Arizona',
     map: 'https://i.ibb.co/1QNPV9c/icons8-arizona-90.png',

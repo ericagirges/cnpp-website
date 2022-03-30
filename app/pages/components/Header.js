@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 import { Fragment } from 'react'
-import { data } from '../../data'
+import { StateData } from '../../page-content/StateContent'
 
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
@@ -21,7 +21,7 @@ function classNames(...classes) {
 
 export default function Header() {
   return (
-    <Popover className="relative bg-white z-50">
+    <Popover className="relative z-50 bg-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start md:space-x-10">
           <div className="flex items-center">
@@ -110,7 +110,7 @@ export default function Header() {
                                 </a>
                               </div>
                             </Link>
-                            {Object.keys(data).map((state) => (
+                            {Object.keys(StateData).map((state) => (
                               <Link key={state} href={`/region/${state}`}>
                                 <div className="-m-3 cursor-pointer rounded-md p-3 hover:bg-gray-50">
                                   <a className="block text-base font-medium capitalize text-gray-900">
@@ -200,7 +200,7 @@ export default function Header() {
                     </a>
                   </div>
                 </Link>
-                {Object.keys(data).map((state) => (
+                {Object.keys(StateData).map((state) => (
                   <Link key={state} href={`/region/${state}`}>
                     <a className="text-base font-medium capitalize text-gray-900 hover:text-gray-700">
                       {state}
