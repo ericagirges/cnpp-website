@@ -9,7 +9,7 @@ const GetConnected = () => {
   return (
     <>
       {isOpen ? (
-        <div className="fixed z-40 bottom-80 right-0 h-52 w-64 rounded-md border-t-8 border-sbaYellow px-4 pt-8 shadow-lg">
+        <div className="fixed z-30 bottom-80 right-0 h-52 w-64 rounded-md border-t-8 border-sbaYellow px-4 pt-8 shadow-lg">
           <div className="fixed bottom-80 right-0 h-52 w-64 border-t-8 border-sbaYellow bg-white p-4 text-center opacity-60"></div>
           <div className="fixed bottom-80 right-0 mb-4 text-center">
             <button onClick={() => setIsOpen(false)} className="mr-56 mb-4">
@@ -32,7 +32,7 @@ const GetConnected = () => {
             e.preventDefault()
             setIsOpen(true)
           }}
-          className="fixed bottom-80 right-0"
+          className="fixed z-30 bottom-80 right-0"
         >
           <BsPlusSquareFill className="h-10 w-10 text-sbaYellow" />
         </button>

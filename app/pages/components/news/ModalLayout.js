@@ -17,7 +17,7 @@ const ModalLayout = ({setShowModal, titles, descriptions, activeIdx}) => {
 
   return (
     <div
-    className="fixed backdrop-blur-[1px] z-50 inset-0 bg-[#00000080]"
+    className="fixed backdrop-blur-[1px] z-40 inset-0 bg-[#00000080]"
   >
     <div className="absolute inset-y-1/2 inset-x-1/2 -translate-x-1/2 -translate-y-1/2 bg-white max-h-fit w-4/5 lg:w-2/3 rounded-lg drop-shadow-lg text-white">
       <div className="flex-shrink-0">

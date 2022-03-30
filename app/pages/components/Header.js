@@ -21,7 +21,7 @@ function classNames(...classes) {
 
 export default function Header() {
   return (
-    <Popover className="relative bg-white">
+    <Popover className="relative bg-white z-50">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start md:space-x-10">
           <div className="flex items-center">
