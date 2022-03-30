@@ -6,11 +6,11 @@ import GetConnected from '../components/GetConnected'
 function RegionalLanding() {
   return (
     <>
-      <div className="relative mx-auto max-w-screen-2xl bg-sbaGray">
+      <div className="relative mx-auto md:h-[600px] max-w-screen-2xl bg-sbaGray">
         <div className="absolute inset-0">
           <img
             className="h-full w-full object-cover object-top"
-            src="https://i.ibb.co/6wj0nJJ/woman-selling-1.jpg"
+            src="https://i.ibb.co/44L925b/hero-1-1-1.jpg"
             alt="need copy"
           />
           <div
