@@ -15,7 +15,7 @@ const ModalLayout = ({setShowModal, content, activeIdx}) => {
       <div className="flex-shrink-0">
 
       <img
-        className="w-1/3 h-1/3 object-cover rounded-lg mx-auto pt-10"
+        className="w-1/3 h-1/3 object-cover rounded-lg mx-auto mt-10"
         src={content[index].image}
         alt={`${content[index].title} business owners`}
       />

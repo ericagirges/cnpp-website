@@ -11,8 +11,8 @@ function News() {
   const [showModal, setShowModal] = useState(false)
   const [activeIdx, setActiveIdx] = useState()
   return (
-    <div className="px-10">
-      <div className="relative mx-auto mt-8 max-w-screen-2xl border-b-8 border-sbaBlue pb-8 md:mt-[100px]">
+    <div className="px-10 max-w-7xl mx-auto">
+      <div className="relative mx-auto mt-8 max-w-7xl border-b-8 border-sbaBlue pb-8 md:mt-[100px]">
         <h2 className="text-4xl font-extrabold text-sbaBlue sm:text-5xl lg:text-6xl">
           CNPP NEWS
         </h2>
@@ -28,7 +28,7 @@ function News() {
           </Link>
         </div>
       </div>
-      <div className="mx-auto max-w-screen-xl py-24 lg:py-36">
+      <div className="mx-auto max-w-screen-lg py-24 lg:py-36">
         <h3 className="text-2xl font-extrabold uppercase tracking-wide text-sbaBlue md:text-4xl lg:text-5xl">
           Small Business Owner Spotlight
         </h3>
@@ -36,7 +36,7 @@ function News() {
           Learn about other Small Business Owners and their experiences with
           CNPP.
         </p>
-        <div className=" flex min-h-fit max-w-screen-xl flex-col flex-wrap content-between md:mt-0 md:flex-row md:flex-nowrap md:justify-between">
+        <div className=" flex min-h-fit max-w-screen-lg flex-col flex-wrap content-between md:mt-0 md:flex-row md:flex-nowrap md:justify-between">
           {BizOwnerContent.map((item, i) =>  (
               <div className="relative mt-10 h-[300px] w-11/12 self-auto md:h-[400px] lg:h-[700px]">
                 <div
@@ -70,7 +70,7 @@ function News() {
           )}
         </div>
       </div>
-      <div className="mx-auto max-w-screen-2xl border-t-8 border-sbaBlue py-3">
+      <div className="mx-auto max-w-screen-xl border-t-8 border-sbaBlue py-3">
         <h3 className="pt-10 text-2xl font-extrabold uppercase tracking-wide text-sbaBlue md:text-4xl">
           Latest Updates
         </h3>
