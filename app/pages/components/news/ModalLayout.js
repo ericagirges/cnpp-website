@@ -5,8 +5,10 @@ const businessImage2 = "https://i.ibb.co/ZH0GXYv/Barwin-Aibesh-Aleppo-Kitchen.jp
 
 const ModalLayout = ({setShowModal, content, activeIdx}) => {
 
+    if(activeIdx === undefined){
+      return null
+    } 
   let index = parseInt(activeIdx)
-
 
   return (
     <div

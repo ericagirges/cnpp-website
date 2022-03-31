@@ -3,8 +3,10 @@ import Link from 'next/link';
 import GetConnected from './GetConnected';
 
 const StateContent = ({ data, state }) => {
-  if (!data[state]) {
-    return <NotFound />
+  if (!data) {
+    return null
+  } else if (!state){
+    return null
   }
 
   return (
