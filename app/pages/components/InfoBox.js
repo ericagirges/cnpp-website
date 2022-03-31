@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-import {HomePageContent} from "../../page-content/HomePageContent"
+import { HomePageContent } from '../../page-content/HomePageContent'
 
 const InfoBox = () => {
   return (
@@ -16,12 +16,17 @@ const InfoBox = () => {
                       {info.title}
                     </h3>
                     <div className="lg:mt-6 lg:flex">
-                      {info.icon}
-                      <ul role="list" className="pt-4 text-base text-gray-500 list-disc flex flex-col items-start">
+                      <div className="invisible h-0 w-0 flex-initial text-sbaYellow lg:visible lg:h-32 lg:w-32">
+                        {info.icon}
+                      </div>
+                      <ul
+                        role="list"
+                        className="flex list-disc flex-col items-start pt-4 text-base text-gray-500"
+                      >
                         {info.description.map((bullet) => (
                           <li
                             key={bullet}
-                            className="ml-6 sm:ml-10 text-sm text-gray-700 lg:col-span-1 lg:text-lg"
+                            className="ml-6 text-sm text-gray-700 sm:ml-10 lg:col-span-1 lg:text-lg"
                           >
                             {bullet}
                           </li>
