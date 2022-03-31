@@ -21,7 +21,7 @@ const ModalLayout = ({setShowModal, content, activeIdx}) => {
       />
 
       </div>
-      <div className="flex flex-col text-center justify-center pt-4 md:pt-8 px-10 max-w-7xl mx-auto">
+      <div className="flex flex-col text-center justify-center pt-4 md:pt-8 px-10">
         <h3 className="text-lg md:text-3xl font-bold text-sbaBlue drop-shadow-md mb-8">{content[index].title}</h3>
         <div className='object-contain max-h-72 overflow-auto'>
         <p className='bg-white text-black md:p-10 mt-4 text-sm md:text-lg text-left'>{content[index].description}</p>
