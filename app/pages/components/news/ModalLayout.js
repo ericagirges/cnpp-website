@@ -1,20 +1,17 @@
 import React from 'react';
 
-const businessImage1 = "https://i.ibb.co/w6mDdmL/Laan-Na-Thai.jpg"
-const businessImage2 = "https://i.ibb.co/ZH0GXYv/Barwin-Aibesh-Aleppo-Kitchen.jpg"
-
 const ModalLayout = ({setShowModal, content, activeIdx}) => {
 
     if(activeIdx === undefined){
       return null
-    } 
+    }
   let index = parseInt(activeIdx)
 
   return (
     <div
-    className="fixed backdrop-blur-[1px] z-40 inset-0 bg-[#00000080]"
+    className="fixed backdrop-blur-[1px] z-40 inset-0 bg-[#00000080] flex justify-center items-center"
   >
-    <div className="absolute inset-y-1/2 inset-x-1/2 -translate-x-1/2 -translate-y-1/2 bg-white max-h-fit w-4/5 lg:w-2/3 rounded-lg drop-shadow-lg text-white">
+    <div className="absolute bg-white max-h-fit w-4/5 lg:w-2/3 rounded-lg drop-shadow-lg text-white">
       <div className="flex-shrink-0">
 
       <img
@@ -30,7 +27,7 @@ const ModalLayout = ({setShowModal, content, activeIdx}) => {
         <p className='bg-white text-black md:p-10 mt-4 text-sm md:text-lg text-left'>{content[index].description}</p>
         </div>
         <button
-          className="absolute right-5 top-3 text-[20px] text-white"
+          className="absolute right-5 top-3 text-[20px] text-gray-800"
           onClick={(e) => {
             e.preventDefault();
             setShowModal(false);
