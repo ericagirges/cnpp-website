@@ -6,7 +6,7 @@ import GetConnected from '../components/GetConnected'
 function RegionalLanding() {
   return (
     <>
-      <div className="relative mx-auto md:h-[600px] max-w-screen-2xl bg-sbaGray">
+      <div className="relative mx-auto max-w-screen-2xl bg-sbaGray md:h-[600px]">
         <div className="absolute inset-0">
           <img
             className="h-full w-full object-cover object-top"
@@ -71,8 +71,8 @@ function RegionalLanding() {
       <div className="mx-auto mb-10 grid max-w-7xl grid-cols-1 content-center justify-center gap-10 px-10 sm:grid-cols-2 md:grid-cols-3">
         {Object.keys(StateData).map((key) => (
           <Link key={StateData[key].name} href={`/region/${key}`}>
-            <button className="border-t-8 border-sbaYellow bg-white">
-              <div className="mx-auto pb-2 shadow-lg hover:bg-gray-50 hover:underline hover:decoration-sbaBlue focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+            <button className="border-t-8 border-sbaYellow bg-white shadow-lg">
+              <div className="mx-auto pb-2 hover:bg-gray-50 hover:underline hover:decoration-sbaBlue focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
                 <h4 className="pt-2 text-xl font-bold uppercase text-sbaBlue md:text-2xl">
                   {key}
                 </h4>
