@@ -9,6 +9,10 @@ const AccordionLayout = ({
   activeIdx,
   setActiveIdx,
 }) => {
+  if (index === undefined){
+    return null 
+  }
+
   const isExpanded = activeIdx.find(i => i === index) !== undefined;
   const handleToggle = () => {
     if (isExpanded) {

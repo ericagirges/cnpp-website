@@ -10,7 +10,6 @@ import { BizOwnerContent } from '../../../page-content/SmallBizOwnerContent'
 function News() {
   const [showModal, setShowModal] = useState(false)
   const [activeIdx, setActiveIdx] = useState()
-
   return (
     <div className="px-10">
       <div className="relative mx-auto mt-8 max-w-screen-2xl border-b-8 border-sbaBlue pb-8 md:mt-[100px]">
@@ -30,7 +29,7 @@ function News() {
         </div>
       </div>
       <div className="mx-auto max-w-screen-xl py-24 lg:py-36">
-        <h3 className="text-2xl font-extrabold uppercase tracking-wide text-sbaBlue md:text-3xl md:text-4xl lg:text-5xl">
+        <h3 className="text-2xl font-extrabold uppercase tracking-wide text-sbaBlue md:text-4xl lg:text-5xl">
           Small Business Owner Spotlight
         </h3>
         <p className="mt-8 font-bold md:mb-10 md:text-xl lg:text-2xl">
@@ -72,7 +71,7 @@ function News() {
         </div>
       </div>
       <div className="mx-auto max-w-screen-2xl border-t-8 border-sbaBlue py-3">
-        <h3 className="pt-10 text-2xl font-extrabold uppercase tracking-wide text-sbaBlue md:text-3xl md:text-4xl">
+        <h3 className="pt-10 text-2xl font-extrabold uppercase tracking-wide text-sbaBlue md:text-4xl">
           Latest Updates
         </h3>
         <UpdatesAccordion />
