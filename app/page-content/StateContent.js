@@ -196,9 +196,15 @@ export const StateData = {
         website: 'https://lsiowa.org/refugee/community-navigator-program/',
       },
       {
-        name: 'City of Sioux City',
+        name: 'Iowa’s West Coast Initiative',
         image:
           'https://i.ibb.co/LvbnHGZ/City-of-Sioux-City-Iowa-s-West-Coast-Initiative-Logo-1.png',
+        website: 'https://iawestcoast.com/',
+      },
+      {
+        name: 'Siouxland Economic Development Corporation',
+        image:
+          'https://i.ibb.co/yYJyGh8/City-of-Sioux-City-Iowa-s-West-Coast-Initiative-Logo-2.png',
         website: 'https://iawestcoast.com/',
       },
     ],

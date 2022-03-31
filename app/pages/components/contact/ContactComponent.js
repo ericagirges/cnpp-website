@@ -2,7 +2,7 @@ import { MailIcon } from '@heroicons/react/outline'
 
 export default function Contact() {
   return (
-    <div className="bg-white py-16 px-4 sm:px-6 lg:px-8 lg:py-24">
+    <div className="bg-white py-12 px-4 sm:px-6 lg:px-8 lg:pb-24 lg:pt-12">
       <div className="relative mx-auto max-w-4xl">
         <div className="text-center">
           <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">

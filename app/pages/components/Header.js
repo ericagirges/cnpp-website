@@ -23,7 +23,7 @@ export default function Header() {
   return (
     <Popover className="relative z-40 bg-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start md:space-x-10">
+        <div className="flex items-center justify-between px-4 pt-6 pb-2 sm:px-6 md:justify-start md:space-x-10">
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <Link href={`/`}>

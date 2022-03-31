@@ -12,7 +12,7 @@ function News() {
   const [activeIdx, setActiveIdx] = useState()
   return (
     <div className="px-10 max-w-7xl mx-auto">
-      <div className="relative mx-auto mt-8 max-w-7xl border-b-8 border-sbaBlue pb-8 md:mt-[100px]">
+      <div className="relative mx-auto mt-8 max-w-7xl border-b-8 border-sbaBlue pb-8 md:mt-12">
         <h2 className="text-4xl font-extrabold text-sbaBlue sm:text-5xl lg:text-6xl">
           CNPP NEWS
         </h2>

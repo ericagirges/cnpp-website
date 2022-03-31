@@ -16,7 +16,7 @@ const StateContent = ({ data, state }) => {
           <img
             className="h-full w-full object-cover"
             src="https://i.ibb.co/mFfkCZ0/20130919-dalberico-bushra-mg-5463.jpg"
-            alt=""
+            alt="dalberico bushra"
           />
         </div>
       </div>
@@ -139,7 +139,7 @@ const StateContent = ({ data, state }) => {
           className="relative z-10 mx-auto max-w-7xl px-4 pb-16 sm:px-6 lg:px-8"
           aria-labelledby="contact-heading"
         >
-          <h2 className="mb-3 text-center text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl md:text-left">
+          <h2 className="mb-3 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl md:text-left">
             Partner Organizations
           </h2>
           <div className="grid auto-rows-fr grid-cols-1 gap-y-10 lg:grid-cols-3 lg:gap-y-7 lg:gap-x-8">
@@ -149,7 +149,7 @@ const StateContent = ({ data, state }) => {
                 className="flex flex-col rounded-2xl bg-white shadow-xl "
               >
                 <div className="flex w-full basis-24 items-center justify-center rounded-tl-2xl rounded-tr-2xl bg-gray-50 px-10 py-4">
-                  <h3 className="text-xl font-medium text-gray-900">
+                  <h3 className="text-xl text-center font-medium text-gray-900">
                     {partner.name}
                   </h3>
                 </div>

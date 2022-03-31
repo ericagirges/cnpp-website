@@ -57,7 +57,7 @@ export default function Footer() {
             >
               <img
                 className="h-10 w-auto"
-                src="https://i.ibb.co/X3PW3h6/variations-horizontal-two-color-reversed.png"
+                src="https://i.ibb.co/qYNDDYQ/SBA-Powered-By-reverse-transparent-FINAL-2-1.png"
                 alt="SBA logo"
               ></img>
             </a>
