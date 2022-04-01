@@ -10,8 +10,8 @@ const StateContent = ({ data, state }) => {
   }
 
   return (
-    <div className="bg-white max-w-screen-2xl mx-auto">
-      <div className="relative h-96 bg-white pb-32 md:h-[34rem]">
+    <div className="bg-white max-w-screen-xl mx-auto">
+      <div className="relative h-96 bg-white pb-32 md:h-[30rem]">
         <div className="absolute inset-0">
           <img
             className="h-full w-full object-cover"
@@ -20,7 +20,7 @@ const StateContent = ({ data, state }) => {
           />
         </div>
       </div>
-      <div className="relative mx-auto flex max-w-7xl flex-col items-center justify-between pt-12 pb-8 px-4 sm:pt-20 sm:pb-12 sm:px-6 md:flex-row lg:px-8 ">
+      <div className="relative mx-auto flex max-w-7xl flex-col items-center justify-between pt-8 pb-4 px-4 sm:pt-20 md:flex-row lg:px-8 ">
         <h1 className="border-l-8 border-sbaYellow pl-2 text-6xl font-extrabold tracking-tight text-sbaBlue lg:text-7xl">
           {data[state].name}
         </h1>

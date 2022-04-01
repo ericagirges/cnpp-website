@@ -28,7 +28,7 @@ function News() {
           </Link>
         </div>
       </div>
-      <div className="mx-auto max-w-screen-lg py-24 lg:py-36">
+      <div className="mx-auto max-w-screen-lg py-16 lg:py-24">
         <h3 className="text-2xl font-extrabold uppercase tracking-wide text-sbaBlue md:text-4xl lg:text-5xl">
           Small Business Owner Spotlight
         </h3>
