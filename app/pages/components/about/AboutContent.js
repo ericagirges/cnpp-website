@@ -1,4 +1,6 @@
 import React from 'react'
+import GetConnected from '../GetConnected'
+import PageContent from '../../../page-content/AboutPageContent'
 
 function About() {
   return (
@@ -9,8 +11,8 @@ function About() {
             <div className="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
               <img
                 className="h-56 w-full object-cover lg:absolute lg:col-span-2 lg:grid lg:h-full"
-                src="https://i.ibb.co/mBcKms5/AOberstadt-Dallas03.jpg"
-                alt="Woman sewing"
+                src={PageContent.section1.image}
+                alt={PageContent.section1.imageAlt}
               />
             </div>
           </div>
@@ -21,25 +23,17 @@ function About() {
                   <span className="mr-5 w-7">
                     <img
                       className="h-7 w-7"
-                      src="https://i.ibb.co/WB4Ctkf/irc-arrow-yellow.jpg"
-                      alt="IRC logo black diagonal arrow on yellow square background"
+                      src={PageContent.section1.taglineImage}
+                      alt={PageContent.section1.taglineImageAlt}
                     ></img>
                   </span>
-                  Who we are
+                  {PageContent.section1.tagline}
                 </h2>
                 <h3 className="mt-4 border-l-4 border-sbaYellow pl-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">
-                  International Rescue Committee
+                  {PageContent.section1.title}
                 </h3>
                 <p className="mt-8 text-lg text-gray-500">
-                  The International Rescue Committee (IRC) helps people affected
-                  by humanitarian crises—including the climate crisis—to
-                  survive, recover and rebuild their lives. Founded at the call
-                  of Albert Einstein in 1933, the IRC is now at work in over 40
-                  crisis-affected countries as well as communities throughout
-                  Europe and the Americas. We deliver a lasting impact by
-                  providing health care, helping children learn, and empowering
-                  individuals and communities to become self-reliant, always
-                  seeking to address the inequalities facing women and girls.
+                  {PageContent.section1.description}
                 </p>
               </div>
             </div>
@@ -51,8 +45,8 @@ function About() {
             <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
               <img
                 className="h-56 w-full object-cover lg:absolute lg:h-full"
-                src="https://i.ibb.co/HxktwSk/AOberstadt-Washington-DC.jpg"
-                alt="Man smiling"
+                src={PageContent.section2.image}
+                alt={PageContent.section2.imageAlt}
               />
             </div>
           </div>
@@ -63,38 +57,24 @@ function About() {
                   <span className="mr-5 w-12">
                     <img
                       className="h-auto w-12"
-                      src="https://i.ibb.co/QrPxhzr/SBA-Powered-By.jpg"
-                      alt="Powered by SBA logo - Small Business Administration"
+                      src={PageContent.section2.taglineImage}
+                      alt={PageContent.section2.taglineImageAlt}
                     ></img>
                   </span>
-                  Program overview
+                  {PageContent.section2.tagline}
                 </h2>
                 <h3 className="mt-2 border-l-4 border-sbaBlue pl-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">
-                  Community Navigator Pilot Program
+                  {PageContent.section2.title}
                 </h3>
                 <p className="mt-8 text-lg text-gray-500">
-                  Part of a $100 million federal American Rescue Plan Act
-                  initiative to support small business economic recovery, the
-                  Community Navigator Pilot Program will help small business
-                  owners build back resilient, thriving companies. The program
-                  utilizes a “hub and spoke” model from public health care
-                  federal programming, leveraging partnerships with trusted
-                  community-based organizations to help small businesses
-                  navigate government resources and critical resources. In the
-                  two-year Community Navigator Pilot Program initiative, the IRC
-                  will work with over 21 community-based partners across
-                  Arizona, California, Georgia, Iowa, Kansas, and Utah to
-                  support up to 3,000 diverse small business owners. With a
-                  specific focus on refugee and immigrant business owners, the
-                  IRC will help these businesses recover from the impacts of
-                  COVID by providing counseling, technical assistance, and
-                  support accessing up to $30 million in small business relief.
+                  {PageContent.section2.description}
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <GetConnected />
     </div>
   )
 }
