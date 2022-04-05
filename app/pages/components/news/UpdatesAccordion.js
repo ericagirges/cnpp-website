@@ -16,8 +16,8 @@ const UpdatesAccordion = () => {
           setActiveIdx={setActiveIdx}
           index={newsItem.index}
         >
-          {newsItem.content}
-          {newsItem.link}
+          <p>{newsItem.content}</p>
+          <p>{newsItem.link}</p>
         </AccordionLayout>
       ))}
     </div>

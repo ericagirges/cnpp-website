@@ -8,7 +8,7 @@ import {
 
 // This is to be used for the grid of content at the bottom of the small business page
 const SmallBizContent = {
-  //This is the video section!
+
   header: {
     title: 'Small Business Resources',
     description:
@@ -17,6 +17,7 @@ const SmallBizContent = {
     imageAlt: 'Mechanic',
   },
 
+  //This is the video section!
   videos: [
     {
       name: 'Check Back Soon',
@@ -25,23 +26,18 @@ const SmallBizContent = {
       hyperlink: '/contact',
       icon: ExclamationIcon,
     },
-    //{
-    //  name: 'Video 1',
-    //  description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    //  icon: VideoCameraIcon,
+    // This is where you can add additional videos using the template below
+    /*
+    {
+      name: 'Video 1',
+      description: 'A description of the video',
+      hyperlink: 'https://example.com',
+      icon: VideoCameraIcon,
     //},
-    //{
-    //  name: 'Video 2',
-    //  description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    //  icon: VideoCameraIcon,
-    //},
-    //{
-    //  name: 'Video 3',
-    //  description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    //  icon: VideoCameraIcon,
-    //},
+    */
   ],
 
+  //This is the downloads section!
   downloads: [
     {
       name: 'Check Back Soon',
@@ -50,23 +46,18 @@ const SmallBizContent = {
       hyperlink: '/contact',
       icon: ExclamationIcon,
     },
-    //{
-    //    name: 'Download 1',
-    //    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    //    icon: CloudDownloadIcon,
-    //  },
-    //  {
-    //    name: 'Download 2',
-    //    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    //    icon: CloudDownloadIcon,
-    //  },
-    //  {
-    //    name: 'Download 3',
-    //    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    //    icon: CloudDownloadIcon,
-    //  },
+    // This is where you can add additional downloadable learning resources using the template below
+    /*
+    {
+      name: 'Download 1',
+      description: 'A description of the downloadable content',
+      hyperlink: 'https://example.com',
+      icon: CloudDownloadIcon,
+      },
+    */
   ],
 
+  //This is the Translated Documents section!
   documents: [
     {
       name: 'Check Back Soon',
@@ -75,21 +66,15 @@ const SmallBizContent = {
       hyperlink: '/contact',
       icon: ExclamationIcon,
     },
-    //{
-    //   name: 'Document 1',
-    //   description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    //   icon: DocumentDownloadIcon,
-    // },
-    // {
-    //   name: 'Document 2',
-    //   description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    //   icon: DocumentDownloadIcon,
-    // },
-    // {
-    //   name: 'Document 3',
-    //   description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    //   icon: DocumentDownloadIcon,
-    // },
+    // This is where you can add additional translated documents using the template below
+    /*
+    {
+      name: 'Document 1',
+      description: 'A descption of the translated document',
+      hyperlink: 'https://example.com',
+      icon: DocumentDownloadIcon,
+      },
+    */
   ],
 }
 
