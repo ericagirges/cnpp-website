@@ -16,8 +16,8 @@ const UpdatesAccordion = () => {
           setActiveIdx={setActiveIdx}
           index={newsItem.index}
         >
-          <p>{newsItem.content}</p>
-          <p>{newsItem.link}</p>
+          <p className="mb-4">{newsItem.content}</p>
+          <a href={newsItem.link} target="_blank" rel="noreferrer noopener">{newsItem.link}</a>
         </AccordionLayout>
       ))}
     </div>
