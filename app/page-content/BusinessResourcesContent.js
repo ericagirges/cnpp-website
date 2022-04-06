@@ -33,7 +33,7 @@ const SmallBizContent = {
       description: 'A description of the video',
       hyperlink: 'https://example.com',
       icon: VideoCameraIcon,
-    //},
+    },
     */
   ],
 
