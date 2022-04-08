@@ -1,16 +1,16 @@
 import NotFound from '../404'
-import Link from 'next/link';
-import GetConnected from './GetConnected';
+import Link from 'next/link'
+import GetConnected from './GetConnected'
 
 const StateContent = ({ data, state }) => {
   if (!data) {
     return null
-  } else if (!state){
+  } else if (!state) {
     return null
   }
 
   return (
-    <div className="bg-white max-w-screen-xl mx-auto">
+    <div className="mx-auto max-w-screen-xl bg-white">
       <div className="relative h-96 bg-white pb-32 md:h-[30rem]">
         <div className="absolute inset-0">
           <img
@@ -20,7 +20,7 @@ const StateContent = ({ data, state }) => {
           />
         </div>
       </div>
-      <div className="relative mx-auto flex max-w-7xl flex-col items-center justify-between pt-8 pb-4 px-4 sm:pt-20 md:flex-row lg:px-8 ">
+      <div className="relative mx-auto flex max-w-7xl flex-col items-center justify-between px-4 pt-8 pb-4 sm:pt-20 md:flex-row lg:px-8 ">
         <h1 className="border-l-8 border-sbaYellow pl-2 text-6xl font-extrabold tracking-tight text-sbaBlue lg:text-7xl">
           {data[state].name}
         </h1>
@@ -34,13 +34,12 @@ const StateContent = ({ data, state }) => {
             ECO SYSTEM MAP
           </a>
         </div> */}
-
       </div>
 
       <div className="relative mx-auto flex max-w-7xl flex-col items-center justify-between px-4 sm:px-6 md:flex-row lg:px-8 ">
-          <p className="text-lg sm:text-xl text-gray-500">{data[state].body}</p>
-        </div>
-        <div className="items-left relative mx-auto flex max-w-7xl flex-col justify-between py-4 px-4 sm:py-4 sm:px-6 lg:px-8 ">
+        <p className="text-lg text-gray-500 sm:text-xl">{data[state].body}</p>
+      </div>
+      <div className="items-left relative mx-auto flex max-w-7xl flex-col justify-between py-4 px-4 sm:py-4 sm:px-6 lg:px-8 ">
         <div className="mt-8 sm:mt-14">
           <h2 className="mb-8 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl md:text-left">
             Upcoming Events
@@ -58,7 +57,10 @@ const StateContent = ({ data, state }) => {
                   to get the latest updates on upcoming events.
                 </p>
               ) : (
-                <div key={`${event.title} ${i}`} className="overflow-hidden bg-white shadow sm:rounded-lg">
+                <div
+                  key={`${event.title} ${i}`}
+                  className="overflow-hidden bg-white shadow sm:rounded-lg"
+                >
                   <div className="bg-gray-50 px-4 py-5 sm:px-6">
                     <h3 className="text-lg font-medium leading-6 text-gray-900">
                       {event.title}
@@ -129,7 +131,11 @@ const StateContent = ({ data, state }) => {
           </div>
         </div>
         <div className="my-12 pt-3">
-          <a href={data[state].upcoming.link}>
+          <a
+            href={data[state].upcoming.link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <p className="text-lg text-gray-500">{data[state].upcoming.text}</p>
           </a>
         </div>
@@ -149,7 +155,7 @@ const StateContent = ({ data, state }) => {
                 className="flex flex-col rounded-2xl bg-white shadow-xl "
               >
                 <div className="flex w-full basis-24 items-center justify-center rounded-tl-2xl rounded-tr-2xl bg-gray-50 px-10 py-4">
-                  <h3 className="text-xl text-center font-medium text-gray-900">
+                  <h3 className="text-center text-xl font-medium text-gray-900">
                     {partner.name}
                   </h3>
                 </div>
