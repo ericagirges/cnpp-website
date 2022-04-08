@@ -115,13 +115,13 @@ export const StateData = {
     ],
     body: 'IRC CNPP will support the small business communities in San Diego County by providing information and tools to help stabilize and grow small businesses, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  This includes current San Diego County and California Relief Grant programs. Project partners also offer industry-specific trainings for entrepreneurs interested in or currently operating childcare centers.  Interpretation services for all services and trainings are available upon request.',
     events: [
-      {
-        title: 'Basic Financial Literacy -Banking, Budgeting and Credit ',
-        language: 'Burmese',
-        date: '3/24',
-        time: '10:30AM – 12PM',
-        type: 'Virtual training',
-        link: 'https://sdsbdc.ecenterdirect.com/events/15590',
+       {
+        title: 'SBA CNPP Launch Event & Earth Day Fair ',
+        language: 'English',
+        date: '4/20',
+        time: '3-7PM',
+        type: 'In-person Event, Address: 4350 El Cajon BlvdSan Diego, CA 92105',
+        link: 'https://www.facebook.com/events/1124651371435658/?acontext=%7B%22ref%22%3A%2252%22%2C%22action_history%22%3A%22[%7B%5C%22surface%5C%22%3A%5C%22share_link%5C%22%2C%5C%22mechanism%5C%22%3A%5C%22share_link%5C%22%2C%5C%22extra_data%5C%22%3A%7B%5C%22invite_link_id%5C%22%3A981191549453424%7D%7D]%22%7D',
       },
     ],
     upcoming: {
