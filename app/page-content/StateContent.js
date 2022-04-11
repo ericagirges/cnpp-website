@@ -1,3 +1,7 @@
+// This is to be used for the individual regional pages, as well as the region cards
+// that appear on the regional overview page.
+
+// View the template at the bottom of this page
 export const StateData = {
   arizona: {
     name: 'Arizona',
@@ -422,4 +426,34 @@ export const StateData = {
       link: 'https://clients.utahsbdc.org/events.aspx',
     },
   },
+  // This is where you can add additional regions or states
+  /*
+  kansas: {
+    name: 'Region Name',
+    map: 'https://example.com/image.jpg',
+    partners: [
+      {
+        name: 'Partner Name',
+        image: 'https://example.com/image.jpg',
+        website: 'https://example.com/',
+      },
+    ],
+    body: 'This is the text appearing at the top of the page',
+    events: [
+      {
+        title: 'Event title',
+        language: 'Event language',
+        date: 'Event date',
+        time: 'Event time',
+        type: 'Event type',
+        address: 'Event location address',
+        link: 'https://example.com/',
+      },
+    ],
+    upcoming: {
+      text: 'This is the text for upcoming events',
+      link: 'https://example.com',
+    },
+  },
+  */
 }

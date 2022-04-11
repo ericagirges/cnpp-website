@@ -1,5 +1,6 @@
 import { MapIcon, BookOpenIcon, ChatAlt2Icon } from '@heroicons/react/outline'
 
+// This is to be used for the grid of content at the bottom of the home page
 export const HomePageContent = [
   {
     title: 'Meet With a CNPP Business Counselor',
@@ -28,4 +29,17 @@ export const HomePageContent = [
     ],
     href: '/resources',
   },
+  // This is where you can add additional tiles
+  /*
+  {
+    title: 'Content tile 4',
+    icon: <BookOpenIcon />,
+    description: [
+      'Bullet point 1',
+      'Bullet point 2',
+      'Bullet point 3',
+    ],
+    href: '/resources',
+  },
+  */
 ]

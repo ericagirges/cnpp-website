@@ -1,3 +1,4 @@
+// This is to be used for the small business owner spotlights on the news page
 export const BizOwnerContent = [
     {
         id: 0,
@@ -9,6 +10,15 @@ export const BizOwnerContent = [
         id: 1,
         title: "No Interest Recovery Loan Application Assistance",
         description: "Barwin is the owner and chef of Aleppo Kitchen in Atlanta, Georgia. Originally from Syria, she is a wife, mother of five, and former high school history teacher, passionate about bringing traditional Syrian food to her new community. Launched in 2018, Barwin worked with the IRC to get her business license, ServSafe certification,and develop her social media and website pages. Before COVID-19, Barwin enjoyed catering events and parties. However, when the pandemic hit Georgia, she pivoted her business to operate mainly through farmers’ market stalls around Atlanta. In December, Barwin needed new equipment to expand her business and provide new products to customers, like falafel. She worked with a CNPP business advisor to prepare her loan application and receive a $10,000 loan with no interest or fees through the IRC’s Center of Economic Opportunity. With this loan, Barwin purchased much-needed equipment for her kitchen to meet customer demands and increase business revenue.",
-        image: "https://i.ibb.co/ckHTf25/Barwin-Aibesh-Aleppo-Kitchen-1.jpg",
+        image: "https://i.ibb.co/dtD4Pzc/Barwin-Aibesh-Aleppo-Kitchen.jpg",
     },
+    // This is where you can add additional spotlight tiles
+    /*
+    {
+        id: 2,
+        title: "Title 3",
+        description: "Description to appear in modal",
+        image: "https://example.com/image.jpg",
+    },
+    */
 ]

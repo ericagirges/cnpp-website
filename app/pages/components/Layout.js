@@ -10,9 +10,9 @@ const Layout = ({ children }) => {
         <link rel="icon" href={`/favicon.ico`} />
       </Head>
       <div className="h-full">
-          <Header />
-          {children}
-          <Footer />
+        <Header />
+        {children}
+        <Footer />
       </div>
     </>
   )
