@@ -15,7 +15,7 @@ const StateContent = ({ data, state }) => {
         <div className="absolute inset-0">
           <img
             className="h-full w-full object-cover"
-            src="https://i.ibb.co/mFfkCZ0/20130919-dalberico-bushra-mg-5463.jpg"
+            src="https://i.ibb.co/48LjKt4/Optimized-20130919-dalberico-bushra-mg-5463.jpg"
             alt="dalberico bushra"
           />
         </div>
