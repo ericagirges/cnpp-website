@@ -34,15 +34,6 @@ export const StateData = {
       {
         title: 'Branding Your Business to Attract Customers',
         language: 'Interpreters Available if Requested Prior',
-        date: 'April 6th',
-        time: '6:30 PM – 7:30 PM',
-        type: 'In-Person',
-        address: '1717 W Northern Ave, Phoenix, AZ 85021',
-        link: 'https://www.eventbrite.com/e/branding-your-business-to-attract-customers-in-person-tickets-292777384037?aff=ebdsoporgprofile',
-      },
-      {
-        title: 'Branding Your Business to Attract Customers',
-        language: 'Interpreters Available if Requested Prior',
         date: 'April 19th',
         time: '7:00 PM – 8:00 PM',
         type: 'Online',
@@ -142,14 +133,6 @@ export const StateData = {
         time: '4PM PST',
         type: 'Zoom',
         link: 'For more information contact Monica.Garry@rescue.org',
-      },
-               {
-        title: 'Online Marketing Training ',
-        language: 'English',
-        date: '4/8',
-        time: '4PM PST',
-        type: 'Zoom',
-        link: 'https://sdsbdc.ecenterdirect.com/events/15618',
       },
                  {
         title: 'Online Marketing Training ',
@@ -262,14 +245,6 @@ export const StateData = {
     ],
     body: 'IRC CNPP will support the small business communities in Iowa by providing information and tools to help stabilize and grow your business, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness. Partners in this project also have business accelerator programs, lending services, and expertise in scaling your agriculture business. Interpretation services for all services and trainings are available upon request.',
     events: [
-      {
-        title: 'AARP: Work For Yourself At 50+',
-        language: 'English',
-        date: '4/11',
-        time: '9-11 AM CDT',
-        type: 'Virtual',
-        link: 'https://aarp.cventevents.com/088Xr9',
-      },
         {
         title: 'Always Ready: Financials',
         language: 'English',
@@ -348,24 +323,6 @@ export const StateData = {
     ],
     body: 'IRC CNPP will support the small business communities the Salt Lake City metro region and the surrounding areas by providing information and tools to help stabilize and grow your business, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  Interpretation services are available upon request. Partners in this project also have business incubator programs for food entrepreneurs.  Interpretation services for all services and trainings are available upon request.',
     events: [
-      {
-        title: 'Sugar House Coffee Pop Up',
-        language: '',
-        date: 'April 7th',
-        time: '10:00AM - 2:00PM',
-        type: 'In-Person',
-        address: '2011 S 1100 E Salt Lake City, UT 84106',
-        link: '',
-      },
-      {
-        title: 'NADL Pitching Competition',
-        language: '',
-        date: 'April 12th',
-        time: '5:30 PM – 7:30 PM',
-        type: 'Virtual',
-        address: '',
-        link: 'https://rescue.zoom.us/meeting/register/tJ0udOytrD8pHt3xMPxXW0jBKlpSpKbG-cfx',
-      },
       {
         title: 'NADL Final Pitching Event',
         language: '',
