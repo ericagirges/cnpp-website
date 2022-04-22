@@ -9,7 +9,7 @@ import Layout from './components/Layout'
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter()
   useEffect(() => {
-    const handleRouteChange = (url) => {
+    const handleRouteChange = (url: any) => {
       window.gtag('config', 'UA-225505196-1', {
         page_path: url,
       })
