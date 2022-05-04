@@ -32,15 +32,6 @@ export const StateData = {
     body: 'IRC CNPP will support the small business communities in Metro Phoenix and the surrounding area by providing information and tools to help stabilize and grow local small businesses, including individualized counseling, mentoring, and training.  Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness. This includes the current City of Phoenix Business Relief grant program. Project partners offer specialized supports to small agricultural and related businesses.  Interpretation services for all services and trainings are available upon request.',
     events: [
       {
-        title: 'Branding Your Business to Attract Customers',
-        language: 'Interpreters Available if Requested Prior',
-        date: 'April 19th',
-        time: '7:00 PM – 8:00 PM',
-        type: 'Online',
-        address: '',
-        link: 'https://www.eventbrite.com/e/branding-your-business-to-attract-customers-online-workshop-tickets-293162505947?aff=ebdsoporgprofile',
-      },
-      {
         title: 'Using Social Media to Grow Your Business',
         language: 'Interpreters Available if Requested Prior',
         date: 'May 4th',
@@ -110,53 +101,14 @@ export const StateData = {
     ],
     body: 'IRC CNPP will support the small business communities in San Diego County by providing information and tools to help stabilize and grow small businesses, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  This includes current San Diego County and California Relief Grant programs. Project partners also offer industry-specific trainings for entrepreneurs interested in or currently operating childcare centers.  Interpretation services for all services and trainings are available upon request.',
     events: [
-       {
-        title: 'SBA CNPP Launch Event & Earth Day Fair ',
-        language: 'English',
-        date: '4/20',
-        time: '3-7PM PST',
-        type: '4350 El Cajon Blvd San Diego, CA 92105',
-        link: 'https://www.facebook.com/events/1124651371435658/?acontext=%7B%22ref%22%3A%2252%22%2C%22action_history%22%3A%22[%7B%5C%22surface%5C%22%3A%5C%22share_link%5C%22%2C%5C%22mechanism%5C%22%3A%5C%22share_link%5C%22%2C%5C%22extra_data%5C%22%3A%7B%5C%22invite_link_id%5C%22%3A981191549453424%7D%7D]%22%7D',
-      },
-            {
-        title: 'Online Budgeting Training ',
-        language: 'Karen',
-        date: '4/25',
-        time: '4PM PST',
-        type: 'Zoom',
-        link: 'For more information contact Monica.Garry@rescue.org',
-      },
-               {
-        title: 'Online Budgeting Training ',
-        language: 'Burmese',
-        date: '4/28',
-        time: '4PM PST',
-        type: 'Zoom',
-        link: 'For more information contact Monica.Garry@rescue.org',
-      },
-                 {
-        title: 'Online Marketing Training ',
-        language: 'Somali',
-        date: '4/22',
-        time: '3PM PST',
-        type: 'Zoom',
-        link: 'https://sdsbdc.ecenterdirect.com/events/15615',
-      },
-                {
-        title: 'Online Marketing Training ',
-        language: 'English',
-        date: '4/27',
-        time: '4PM PST',
-        type: 'Zoom',
-        link: 'https://sdsbdc.ecenterdirect.com/events/15614',
-      },
-             {
-        title: 'ARPA Resiliency Bootcamp Cohort *** Currently Recruiting ',
-        language: 'English',
-        date: 'April 13 - May 4 (April 30 & May 7 photography days - Time and location TBD)',
-        time: 'Wednesdays from 1 - 4 PM',
-        type: 'Zoom; 6 workshops',
-        link: 'Contact Kellie.Quinn@rescue.org or 619-800-1346',
+      {
+        title: '',
+        language: '',
+        date: '',
+        time: '',
+        type: '',
+        address: '',
+        link: '',
       },
     ],
     upcoming: {
@@ -190,13 +142,13 @@ export const StateData = {
     body: 'IRC CNPP will support the small business communities in metro Atlanta and the surrounding areas by providing information and tools to help stabilize and grow local business, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  This includes the current City of Atlanta Resurgence Grant.   Partners in this project also have business incubator programs for women and BIPOC entrepreneurs.  Interpretation services for all services and trainings are available upon request.',
     events: [
       {
-        title: 'Refuge Coffee Co. Spring Market',
+        title: '',
         language: '',
-        date: 'April 30th',
-        time: '9AM - 4PM',
+        date: '',
+        time: '',
         type: '',
-        address: '4170 E Ponce de Leon Ave, Clarkston, GA 30021',
-        link: 'https://docs.google.com/forms/d/e/1FAIpQLSd5cM-omRah3OUrJG1RlxtlyyHcP9Ka3zqDrnWG9Mp_PPcKTQ/viewform',
+        address: '',
+        link: '',
       },
     ],
     upcoming: {
@@ -245,27 +197,12 @@ export const StateData = {
     ],
     body: 'IRC CNPP will support the small business communities in Iowa by providing information and tools to help stabilize and grow your business, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness. Partners in this project also have business accelerator programs, lending services, and expertise in scaling your agriculture business. Interpretation services for all services and trainings are available upon request.',
     events: [
-        {
-        title: 'Always Ready: Financials',
-        language: 'English',
-        date: '4/20',
-        time: '12-1 PM CDT',
-        type: 'Virtual',
-        link: 'https://www.eventbrite.com/e/287987176397',
-      },
        {
         title: 'Business Pop-up Booth at Global Greens Farmers Market',
         date: '5/29 - 10/1',
         time: 'Saturdays 9AM - 12:30 PM CDT',
         type: 'LSI Global Greens Farmers Market, 3200 University Ave, Des Moines, IA 50311',
         link: 'https://lsiowa.org/market/',
-      },
-       {
-        title: 'Athene Black & Brown Business Summit',
-        date: '4/21-4/22',
-        time: 'all-day',
-        type: 'Athene (7700 Mills Civic Pkwy) in West Des Moines, Iowa',
-        link: 'https://members.wdmchamber.org/events/details/athene-black-brown-business-summit-1499?lookahead=365',
       },
     ],
     upcoming: {
@@ -323,15 +260,6 @@ export const StateData = {
     ],
     body: 'IRC CNPP will support the small business communities the Salt Lake City metro region and the surrounding areas by providing information and tools to help stabilize and grow your business, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  Interpretation services are available upon request. Partners in this project also have business incubator programs for food entrepreneurs.  Interpretation services for all services and trainings are available upon request.',
     events: [
-      {
-        title: 'NADL Final Pitching Event',
-        language: '',
-        date: 'May 3rd',
-        time: '5:30 PM – 7:30 PM',
-        type: 'Virtual',
-        address: '',
-        link: 'https://rescue.zoom.us/j/91584741355?pwd=d1FFelludlcrbUU0MG0ydTlDMWpTQT09',
-      },
       {
         title: 'Sugar House Coffee Pop Up',
         language: '',
