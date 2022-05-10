@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { MailIcon } from '@heroicons/react/outline'
+import { AiOutlineFacebook } from 'react-icons/ai'
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -24,18 +25,34 @@ export default function Footer() {
           ))}
         </div>
         <div className="mt-8 flex w-full flex-col items-center">
-          <div className="mb-6 flex">
-            <div className="flex-shrink-0">
-              <MailIcon className="h-6 w-6 text-white" aria-hidden="true" />
+          <div className="mb-6 flex flex-col sm:flex-row text-center">
+            <div className="flex mr-0 sm:mr-10">
+              <div className="flex-shrink-0">
+                <MailIcon className="h-6 w-6 text-white" aria-hidden="true" />
+              </div>
+              <div className="ml-3 block text-base font-medium text-white hover:text-gray-300">
+                <a
+                  href="mailto:sbacommunity.navigators@rescue.org"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <p>sbacommunity.navigators@rescue.org</p>
+                </a>
+              </div>
             </div>
-            <div className="ml-3 block text-base font-medium text-white hover:text-gray-300">
-              <a
-                href="mailto:sbacommunity.navigators@rescue.org"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <p>sbacommunity.navigators@rescue.org</p>
-              </a>
+            <div className="flex mt-4 justify-center sm:justify-start sm:mt-0">
+              <div className="flex-shrink-0">
+                <AiOutlineFacebook className="h-7 w-7 text-white" aria-hidden="true" />
+              </div>
+              <div className="ml-3 block text-base font-medium text-white hover:text-gray-300">
+                <a
+                  href="https://www.facebook.com/IRCsmallbiznavigator"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <p>@IRCsmallbiznavigator</p>
+                </a>
+              </div>
             </div>
           </div>
           <div className="mt-8 flex h-10 items-center justify-center md:mt-0">
