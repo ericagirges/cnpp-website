@@ -32,24 +32,6 @@ export const StateData = {
     body: 'IRC CNPP will support the small business communities in Metro Phoenix and the surrounding area by providing information and tools to help stabilize and grow local small businesses, including individualized counseling, mentoring, and training.  Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness. This includes the current City of Phoenix Business Relief grant program. Project partners offer specialized supports to small agricultural and related businesses.  Interpretation services for all services and trainings are available upon request.',
     events: [
       {
-        title: 'Using Social Media to Grow Your Business',
-        language: 'Interpreters Available if Requested Prior',
-        date: 'May 4th',
-        time: '6:30 PM – 7:30 PM ',
-        type: 'In-Person',
-        address: '1717 W Northern Ave, Phoenix, AZ 85021',
-        link: 'https://www.eventbrite.com/e/using-social-media-to-grow-your-business-in-person-tickets-293170951207?aff=ebdsoporgprofile',
-      },
-      {
-        title: 'Using Social Media to Grow Your Business',
-        language: 'Interpreters Available if Requested Prior',
-        date: 'May 17th',
-        time: '7:00 PM – 8:00 PM',
-        type: 'Online',
-        address: '',
-        link: 'https://www.eventbrite.com/e/using-social-media-to-grow-your-business-online-workshop-tickets-293184561917?aff=ebdsoporgprofile',
-      },
-      {
         title: 'Marketing to Increase Your Sales',
         language: 'Interpreters Available if Requested Prior',
         date: 'May 25th',
@@ -204,6 +186,41 @@ export const StateData = {
         type: 'LSI Global Greens Farmers Market, 3200 University Ave, Des Moines, IA 50311',
         link: 'https://lsiowa.org/market/',
       },
+      {
+        title: 'The Story Of Panka Peruvian Restaurant Mariela Maya',
+        date: 'June 3',
+        time: '12-1pm',
+        type: 'Online',
+        link: 'https://urldefense.com/v3/__https://theiowacenter.us17.list-manage.com/track/click?u=78ab2c6a80388aeee9037bd78&id=4f5b99d67e&e=29308af000__;!!IDEMUsA!C82L-RjsT5ZD71YWO_3ze7l0tNObsbXj_7xhZbjyBNY071_0LEZz8RQOr5edWxJ5WL4mCbOJnSg7kYbHavm9iwdHt9U$',
+      },
+      {
+        title: 'A Foolproof Plan on Increasing Sales',
+        date: 'June 7',
+        time: '12-1pm',
+        type: 'Online',
+        link: 'https://urldefense.com/v3/__https://theiowacenter.us17.list-manage.com/track/click?u=78ab2c6a80388aeee9037bd78&id=c669b2d636&e=29308af000__;!!IDEMUsA!C82L-RjsT5ZD71YWO_3ze7l0tNObsbXj_7xhZbjyBNY071_0LEZz8RQOr5edWxJ5WL4mCbOJnSg7kYbHavm90AAo5zo$',
+      },
+       {
+        title: 'Work For Yourself @50+ 5 Simple Steps to Get Your Started!',
+        date: 'June 13',
+        time: '9-11am',
+        type: 'Online',
+        link: 'https://urldefense.com/v3/__https://theiowacenter.us17.list-manage.com/track/click?u=78ab2c6a80388aeee9037bd78&id=fb853cc717&e=29308af000__;!!IDEMUsA!C82L-RjsT5ZD71YWO_3ze7l0tNObsbXj_7xhZbjyBNY071_0LEZz8RQOr5edWxJ5WL4mCbOJnSg7kYbHavm99OR9j1M$',
+      },
+      {
+        title: 'Always Ready: Business Plan',
+        date: 'June 15',
+        time: '12-1pm',
+        type: 'Online',
+        link: 'https://urldefense.com/v3/__https://theiowacenter.us17.list-manage.com/track/click?u=78ab2c6a80388aeee9037bd78&id=33223d96c9&e=29308af000__;!!IDEMUsA!C82L-RjsT5ZD71YWO_3ze7l0tNObsbXj_7xhZbjyBNY071_0LEZz8RQOr5edWxJ5WL4mCbOJnSg7kYbHavm9eLJZF80$',
+      },
+      {
+        title: 'Always Ready: Financials',
+        date: 'June 29',
+        time: '12-1pm',
+        type: 'Online',
+        link: 'https://urldefense.com/v3/__https://theiowacenter.us17.list-manage.com/track/click?u=78ab2c6a80388aeee9037bd78&id=719b51f33b&e=29308af000__;!!IDEMUsA!C82L-RjsT5ZD71YWO_3ze7l0tNObsbXj_7xhZbjyBNY071_0LEZz8RQOr5edWxJ5WL4mCbOJnSg7kYbHavm9go6EspU$',
+      },
     ],
     upcoming: {
       text: 'Click here for Iowa Small Business Development Center to see more upcoming events and trainers near you.',
@@ -260,15 +277,6 @@ export const StateData = {
     ],
     body: 'IRC CNPP will support the small business communities the Salt Lake City metro region and the surrounding areas by providing information and tools to help stabilize and grow your business, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  Interpretation services are available upon request. Partners in this project also have business incubator programs for food entrepreneurs.  Interpretation services for all services and trainings are available upon request.',
     events: [
-      {
-        title: 'Sugar House Coffee Pop Up',
-        language: '',
-        date: 'May 5th',
-        time: '10:00 AM - 2:00 PM',
-        type: 'In-Person',
-        address: '2011 S 1100 E Salt Lake City, UT 84106',
-        link: '',
-      },
       {
         title: 'Sugar House Coffee Pop Up',
         language: '',
