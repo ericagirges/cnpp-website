@@ -219,7 +219,7 @@ export const StateData = {
         date: 'June 17',
         time: '8am-4pm',
         type: 'In Person',
-        link: 'https://www.eventbrite.com/e/sandler-sales-boot-camp-june-2022-tickets-355220061767
+        link: 'https://www.eventbrite.com/e/sandler-sales-boot-camp-june-2022-tickets-355220061767'
       },
       {
         title: 'Always Ready: Financials',
