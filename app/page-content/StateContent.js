@@ -218,7 +218,7 @@ export const StateData = {
         title: 'Sadler Sales Boot Camp',
         date: 'June 17',
         time: '8am-4pm',
-        type: 'In Person',
+        type: 'Drake University, 2507 University Avenue, Des Moines, IA 50311',
         link: 'https://www.eventbrite.com/e/sandler-sales-boot-camp-june-2022-tickets-355220061767'
       },
       {
