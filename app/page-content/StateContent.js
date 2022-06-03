@@ -214,6 +214,13 @@ export const StateData = {
         type: 'Online',
         link: 'https://urldefense.com/v3/__https://theiowacenter.us17.list-manage.com/track/click?u=78ab2c6a80388aeee9037bd78&id=33223d96c9&e=29308af000__;!!IDEMUsA!C82L-RjsT5ZD71YWO_3ze7l0tNObsbXj_7xhZbjyBNY071_0LEZz8RQOr5edWxJ5WL4mCbOJnSg7kYbHavm9eLJZF80$',
       },
+        {
+        title: 'Sadler Sales Boot Camp',
+        date: 'June 17',
+        time: '8am-4pm',
+        type: 'In Person',
+        link: 'https://www.eventbrite.com/e/sandler-sales-boot-camp-june-2022-tickets-355220061767
+        },
       {
         title: 'Always Ready: Financials',
         date: 'June 29',
