@@ -20,11 +20,36 @@ const SmallBizContent = {
   //This is the video section!
   videos: [
     {
-      name: 'Check Back Soon',
-      description:
-        'Sign up for our newsletter to get the latest updates on workshops and training videos',
-      hyperlink: '/contact',
-      icon: ExclamationIcon,
+      name: 'Elevator Pitch',
+      description: 'This video walks you through the process of making an elevator pitch and demonstrates a time you might need it. Contact your local IRC office for information on activities to do during the pauses in the video to make your pitch alongside our actor!',
+      hyperlink: 'https://www.youtube.com/watch?v=chws4qsJbfU&list=PLhvgEsDS0faMwcGgh4y2cth-ZiGFg855K&index=4',
+      icon: VideoCameraIcon,
+    },
+    {
+      name: 'Elevator Pitch (Swahili)',
+      hyperlink: 'https://www.youtube.com/watch?v=Gt45X7SAV3Q&list=PLhvgEsDS0faNOIcI2I-JPXPBwVw2hGAI8&index=3',
+      icon: VideoCameraIcon,
+    },
+    {
+      name: 'Elevator Pitch (Dari)',
+      hyperlink: 'https://www.youtube.com/watch?v=Vg8v-NoTsZo&list=PLhvgEsDS0faMbosV-rBlIKygCit_4SlQh&index=2',
+      icon: VideoCameraIcon,
+    },
+     {
+      name: 'What is Customer Service in the U.S.?',
+      description: 'This video provides an introduction to customer service in the United States. Contact your local IRC office for information on activities to do during the pauses in the video!',
+      hyperlink: 'https://www.youtube.com/watch?v=tP-FTp8MmdA&list=PLhvgEsDS0faMwcGgh4y2cth-ZiGFg855K&index=1',
+      icon: VideoCameraIcon,
+    },
+    {
+      name: 'What is Customer Service in the U.S.? (Swahili)',
+      hyperlink: 'https://www.youtube.com/watch?v=AAB5eS-KIPw&list=PLhvgEsDS0faNOIcI2I-JPXPBwVw2hGAI8&index=4',
+      icon: VideoCameraIcon,
+    },
+     {
+      name: 'What is Customer Service in the U.S.? (Dari)',
+      hyperlink: 'https://www.youtube.com/watch?v=VuDlcJJFCIU&list=PLhvgEsDS0faMbosV-rBlIKygCit_4SlQh&index=6',
+      icon: VideoCameraIcon,
     },
     // This is where you can add additional videos using the template below
     /*
@@ -34,6 +59,7 @@ const SmallBizContent = {
       hyperlink: 'https://example.com',
       icon: VideoCameraIcon,
     },
+    
     */
   ],
 
