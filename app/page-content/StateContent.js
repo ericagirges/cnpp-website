@@ -32,22 +32,13 @@ export const StateData = {
     body: 'IRC CNPP will support the small business communities in Metro Phoenix and the surrounding area by providing information and tools to help stabilize and grow local small businesses, including individualized counseling, mentoring, and training.  Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness. This includes the current City of Phoenix Business Relief grant program. Project partners offer specialized supports to small agricultural and related businesses.  Interpretation services for all services and trainings are available upon request.',
     events: [
       {
-        title: 'Marketing to Increase Your Sales',
-        language: 'Interpreters Available if Requested Prior',
-        date: 'May 25th',
-        time: '6:30 PM – 7:30 PM',
-        type: 'In-Person',
-        address: '1717 W Northern Ave, Phoenix, AZ 85021',
-        link: 'https://www.eventbrite.com/e/marketing-to-increase-your-sales-in-person-tickets-293189396377?aff=ebdsoporgprofile',
-      },
-      {
-        title: 'Marketing to Increase Your Sales',
-        language: 'Interpreters Available if Requested Prior',
-        date: 'May 31st',
-        time: '7:00 PM – 8:00 PM',
-        type: 'Online',
+        title: '',
+        language: '',
+        date: '',
+        time: '',
+        type: '',
         address: '',
-        link: 'https://www.eventbrite.com/e/marketing-to-increase-your-sales-online-workshop-tickets-293266236207?aff=ebdsoporgprofile',
+        link: '',
       },
     ],
     upcoming: {
@@ -187,13 +178,6 @@ export const StateData = {
         link: 'https://lsiowa.org/market/',
       },
       {
-        title: 'The Story Of Panka Peruvian Restaurant Mariela Maya',
-        date: 'June 3',
-        time: '12-1pm',
-        type: 'Online',
-        link: 'https://urldefense.com/v3/__https://theiowacenter.us17.list-manage.com/track/click?u=78ab2c6a80388aeee9037bd78&id=4f5b99d67e&e=29308af000__;!!IDEMUsA!C82L-RjsT5ZD71YWO_3ze7l0tNObsbXj_7xhZbjyBNY071_0LEZz8RQOr5edWxJ5WL4mCbOJnSg7kYbHavm9iwdHt9U$',
-      },
-      {
         title: 'A Foolproof Plan on Increasing Sales',
         date: 'June 7',
         time: '12-1pm',
@@ -284,24 +268,6 @@ export const StateData = {
     ],
     body: 'IRC CNPP will support the small business communities the Salt Lake City metro region and the surrounding areas by providing information and tools to help stabilize and grow your business, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  Interpretation services are available upon request. Partners in this project also have business incubator programs for food entrepreneurs.  Interpretation services for all services and trainings are available upon request.',
     events: [
-      {
-        title: 'Sugar House Coffee Pop Up',
-        language: '',
-        date: 'June 2nd',
-        time: '10:00 AM - 2:00 PM',
-        type: 'In-Person',
-        address: '2011 S 1100 E Salt Lake City, UT 84106',
-        link: '',
-      },
-      {
-        title: 'Global Craft Bazaar',
-        language: '',
-        date: 'June 4th',
-        time: '4:00PM – 8:00PM',
-        type: 'In-Person',
-        address: '527 W State St. suite 102. Pleasant Grove, UT 84062',
-        link: 'https://docs.google.com/forms/d/e/1FAIpQLSdcYh1aqTxSk0ojkiBI6eIqD2qMQ6-ggR6TYXkxIlTs41PpDQ/viewform',
-      },
       {
         title: 'World Refugee Day Global Market',
         language: '',
