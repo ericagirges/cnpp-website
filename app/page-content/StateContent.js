@@ -365,6 +365,14 @@ export const StateData = {
         address: '',
         link: '',
       },
+           {
+        title: 'How to Make Your Website Sell, So You Dont Have To Class',
+        language: 'English',
+        date: 'June 21st',
+        time: '6:30 – 8:30PM',
+        type: 'Online',
+        link: 'https://clients.utahsbdc.org/workshop.aspx?ekey=6420053',
+      },
     ],
     upcoming: {
       text: 'Click here for Utah’s Small Business Development Center to see more upcoming events and trainers near you.',
