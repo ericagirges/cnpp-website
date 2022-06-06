@@ -50,7 +50,7 @@ export const StateData = {
               {
         title: 'Marketing Your Business - Session 2',
         language: 'English',
-        date: 'June 15th',
+        date: 'June 29th',
         time: '8am-5pm',
         type: 'Online',
         link: 'https://clients.azsbdc.net/workshop.aspx?ekey=10420067',
