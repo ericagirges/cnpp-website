@@ -296,13 +296,21 @@ export const StateData = {
     body: 'IRC CNPP will support the small business communities in Kansas by providing information and tools to help stabilize and grow local small businesses, including individualized counseling, mentoring, and training.  Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  Interpretation services for all services and trainings are available upon request.',
     events: [
       {
-        title: '',
-        language: '',
-        date: '',
-        time: '',
-        type: '',
-        address: '',
-        link: '',
+        title: 'State Tax Webinar',
+        language: 'English',
+        date: 'June 29th',
+        time: '9AM - 12PM CDT',
+        type: 'Online',
+        link: 'https://secure.touchnet.com/C21797_ustores/web/product_detail.jsp?PRODUCTID=3655&SINGLESTORE=true',
+      },
+        {
+        title: 'Retail Sales and Use Tax Workshop',
+        language: 'English',
+        date: 'June 30th',
+        time: '8:30AM - 12PM CDT',
+        type: 'In-person',
+        address: 'SBDC 6th Floor - GTP conference room719 S. Kansas Ave., Topeka KS 66603',
+        link: 'https://ksbdc.ecenterdirect.com/events/27209',
       },
     ],
     upcoming: {
