@@ -64,6 +64,7 @@ export const StateData = {
   california: {
     name: 'California',
     map: 'https://i.ibb.co/rkmGKh7/icons8-california-100.png',
+    
     partners: [
       {
         name: 'Access, Inc',
@@ -86,7 +87,8 @@ export const StateData = {
         image: 'https://i.ibb.co/5Gs2PTb/UPAC-logo-2x-1.png',
         website: 'https://www.upacsd.com/',
       },
-         {
+      ],
+        events: [ {
         title: 'Canva 102 - Learn the Possibilities',
         language: 'English',
         date: 'June 15th',
@@ -151,6 +153,7 @@ export const StateData = {
         type: 'Online',
         link: 'https://sdsbdc.ecenterdirect.com/events/15189',
       },
+      ],
     ],
     body: 'IRC CNPP will support the small business communities in San Diego County by providing information and tools to help stabilize and grow small businesses, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  This includes current San Diego County and California Relief Grant programs. Project partners also offer industry-specific trainings for entrepreneurs interested in or currently operating childcare centers.  Interpretation services for all services and trainings are available upon request.',
     events: [
