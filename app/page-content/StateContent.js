@@ -88,7 +88,9 @@ export const StateData = {
         website: 'https://www.upacsd.com/',
       },
       ],
-        events: [ {
+     body: 'IRC CNPP will support the small business communities in Metro Phoenix and the surrounding area by providing information and tools to help stabilize and grow local small businesses, including individualized counseling, mentoring, and training.  Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness. This includes the current City of Phoenix Business Relief grant program. Project partners offer specialized supports to small agricultural and related businesses.  Interpretation services for all services and trainings are available upon request.',
+     events: [
+        {
         title: 'Canva 102 - Learn the Possibilities',
         language: 'English',
         date: 'June 15th',
