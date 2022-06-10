@@ -190,13 +190,13 @@ export const StateData = {
     body: 'IRC CNPP will support the small business communities in metro Atlanta and the surrounding areas by providing information and tools to help stabilize and grow local business, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  This includes the current City of Atlanta Resurgence Grant.   Partners in this project also have business incubator programs for women and BIPOC entrepreneurs.  Interpretation services for all services and trainings are available upon request.',
     events: [
       {
-        title: '',
-        language: '',
-        date: '',
-        time: '',
-        type: '',
-        address: '',
-        link: '',
+        title: 'Artist Talk: Celebrating 10 years of DACA',
+        language: 'English',
+        date: 'June 13th',
+        time: '6-8pm',
+        type: 'In Person',
+        address: '2750 Buford Hwy NE, 2750 Buford Highway Northeast, Atlanta, GA 30324',
+        link: 'https://www.eventbrite.com/e/artist-talk-celebrating-10-years-of-daca-tickets-355329699697',
       },
     ],
     upcoming: {
