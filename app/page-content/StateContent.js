@@ -279,7 +279,7 @@ export const StateData = {
     ],
     upcoming: {
       text: 'Click here for Iowa Small Business Development Center to see more upcoming events and trainers near you.',
-      link: 'https://iowasbdc.org/calendar-2/',
+      link: 'https://theiowacenter.org/services/classes/',
     },
   },
   kansas: {
