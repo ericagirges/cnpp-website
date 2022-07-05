@@ -250,13 +250,7 @@ export const StateData = {
         type: 'LSI Global Greens Farmers Market, 3200 University Ave, Des Moines, IA 50311',
         link: 'https://lsiowa.org/market/',
       },
-      {
-        title: 'Always Ready: Financials',
-        date: 'June 29',
-        time: '12-1pm',
-        type: 'Online',
-        link: 'https://urldefense.com/v3/__https://theiowacenter.us17.list-manage.com/track/click?u=78ab2c6a80388aeee9037bd78&id=719b51f33b&e=29308af000__;!!IDEMUsA!C82L-RjsT5ZD71YWO_3ze7l0tNObsbXj_7xhZbjyBNY071_0LEZz8RQOr5edWxJ5WL4mCbOJnSg7kYbHavm9go6EspU$',
-      },
+      
        {
         title: 'Small Business Essential: Gig Workers 101',
         date: 'July 12',
@@ -265,11 +259,11 @@ export const StateData = {
         link: 'https://theiowacenter.org/event/small-business-essential-gig-workers-101/',
       },
        {
-        title: 'Small Business Essential: Gig Workers 101',
-        date: 'July 12',
+        title: 'Connecting Iowa’s Underserved Markets to Small Business Resources',
+        date: 'July 13',
         time: '12-1pm CDT',
         type: 'Online',
-        link: 'https://theiowacenter.org/event/small-business-essential-gig-workers-101/',
+        link: 'https://urldefense.com/v3/__https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjA2MzAuNjAxNDk4MjEiLCJ1cmwiOiJodHRwczovL3RlYW1zLm1pY3Jvc29mdC5jb20vZGwvbGF1bmNoZXIvbGF1bmNoZXIuaHRtbD9kZWVwbGlua0lkPWU1ZGM5ZGI0LWY3NDgtNDQyNC1iYWZiLWI3MzUzODhkZmM4NSZkaXJlY3REbD10cnVlJmVuYWJsZU1vYmlsZVBhZ2U9ZmFsc2UmbXNMYXVuY2g9dHJ1ZSZzdXBwcmVzc1Byb21wdD10cnVlJnR5cGU9bWVldHVwLWpvaW4mdXJsPSUyRl8lMjMlMkZsJTJGbWVldHVwLWpvaW4lMkYxOSUzQW1lZXRpbmdfTVRWa056WXdNRGd0TUdVME5pMDBPR0V4TFRsak5HTXRNakl6TVRRMU0yRXpOak15JTQwdGhyZWFkLnYyJTJGMCUzRmNvbnRleHQlM0QlMjU3YiUyNTIyVGlkJTI1MjIlMjUzYSUyNTIyM2M4OWZkOGEtN2Y2OC00NjY3LWFhMTUtNDFlYmYyMjA4OTYxJTI1MjIlMjUyYyUyNTIyT2lkJTI1MjIlMjUzYSUyNTIyMmYxODYxOGMtMzc1OS00YzM1LWEyZGMtZDA3ZmM4MTNiM2Q1JTI1MjIlMjU3ZCUyNmFub24lM0R0cnVlJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1nb3ZkZWxpdmVyeSJ9.SbiaFR1EWh9H43oA-DACwlvefahPw4BMcSF97GVemTk/s/2168177904/br/134791074791-l__;!!IDEMUsA!Ejdy0HweNsTdgZYE7MFJwTbiRDuWGgRRjUOwS6rcynCWzvOby6s-88Po-vQJkjFxXIcjEezsCA3vxN-0OrM42xSpoic$',
       },
        {
         title: 'Always Ready: Business Plan',
