@@ -32,7 +32,9 @@ const PageContent = {
     specific focus on refugee and immigrant business owners, the
     IRC will help these businesses recover from the impacts of
     COVID by providing counseling, technical assistance, and
-    support accessing up to $30 million in small business relief.
+    support accessing up to $30 million in small business relief. 
+    This program is funded (in part) through a grant with the 
+    U.S. Small Business Administration.
     `,
   },
 }
