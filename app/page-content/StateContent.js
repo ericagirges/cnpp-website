@@ -32,26 +32,34 @@ export const StateData = {
     body: 'IRC CNPP will support the small business communities in Metro Phoenix and the surrounding area by providing information and tools to help stabilize and grow local small businesses, including individualized counseling, mentoring, and training.  Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness. This includes the current City of Phoenix Business Relief grant program. Project partners offer specialized supports to small agricultural and related businesses.  Interpretation services for all services and trainings are available upon request.',
     events: [
                             {
-        title: 'Simple Steps for Exiting your Business: Part 1 – Succession Planning',
-        date: 'August 10th',
-        time: '10-11 AM PST',
+        title: 'Trademark Basics – What Every Small Business Should Know Now, Not Later',
+        date: 'September 15',
+        time: '10-11:30 AM PST',
         type: 'Online',
-        link: 'https://www.maricopa-sbdc.com/event/simple-steps-for-exiting-your-business-part-1-succession-planning/',
+        link: 'https://www.maricopa-sbdc.com/event/trademark-basics-what-every-small-business-should-know-now-not-later-2/',
       },
-                       {
-        title: 'Simple Steps for Exiting your Business: Part 2 – Retirement Planning',
-        date: 'August 17th',
-        time: '10-11 AM PST',
+                                        {
+        title: 'Set Your Business Up for Success',
+        date: 'September 19',
+        time: '6-7:30 PM PST',
         type: 'Online',
-        link: 'https://www.maricopa-sbdc.com/event/simple-steps-for-exiting-your-business-part-2-retirement-planning/',
+        link: 'https://www.maricopa-sbdc.com/event/set-your-business-up-for-success//',
       },
-                         {
-        title: 'Simple Steps for Exiting your Business: Part 3 – Estate Planning',
-        date: 'August 24th',
-        time: '10-11 AM PST',
+                                          {
+        title: 'Set Your Business Up for Success',
+        date: 'September 19',
+        time: '6-7:30 PM PST',
         type: 'Online',
-        link: 'https://www.maricopa-sbdc.com/event/simple-steps-for-exiting-your-business-part-3-estate-planning-8-24-2022/',
+        link: 'https://www.maricopa-sbdc.com/event/set-your-business-up-for-success/',
       },
+                                           {
+        title: 'Angel Investors and What Makes Them Tick',
+        date: 'September 21',
+        time: '10-11:30AM PST',
+        type: 'Online',
+        link: 'https://www.maricopa-sbdc.com/event/angel-investors-and-what-makes-them-tick-3/',
+      },
+            
     ],
     upcoming: {
       text: 'Click here for Maricopa Small Business Development Center to see more upcoming events and trainers near you.',
