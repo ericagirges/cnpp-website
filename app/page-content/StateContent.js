@@ -267,6 +267,13 @@ export const StateData = {
         type: 'Online',
         link: 'https://training.georgiasbdc.org/search/publicCourseSearchDetails.do?method=load&courseId=2381907#courseSectionDetails_2382056',
       },
+      {
+        title: 'Reach Customers Online with Google',
+        date: 'September 20',
+        time: '11 AM - 12 PM ET',
+        type: 'Online',
+        link: 'https://urldefense.com/v3/__https://attendee.gotowebinar.com/register/4406274581965779215__;!!IDEMUsA!EmWqBcbOoM5fxdW-t_U0c2ZLAtgYgz-EDFp-PKXW8TVv-cOFjfH1m7Wx2RnTTAgxiZ3JuZBEd77Gj0qxJRI6mkoE$',
+      },
     ],
     upcoming: {
       text: 'Click here for Georgia Small Business Development Center-Minority Office to see a list of upcoming events and trainers in the network.',
