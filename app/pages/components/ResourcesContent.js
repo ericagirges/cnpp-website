@@ -43,6 +43,18 @@ const TextComponent = () => (
       with a business counselor today to learn more about how you can access
       available CEO loans.
     </p>
+    <h2 className="mt-9 text-xl font-bold text-black md:text-2xl">
+      Available Grants & Relief
+    </h2>
+    <p className="mt-9 text-base text-black md:text-lg">
+      <b>$10,000 Verizon Small Business Grant</b> - In partnership with LISC, a new grant cycle round for Verizon! Applications are open and will close on <b>November 14, 2022 </b> and recipients will be notified the week of November 28th. To be eligible for this round, users must complete any combination of two courses, coaching events, and community events between July 1, 2022, and November 14, 2022, and submit a grant application by November 14, 2022. Eligibility is based on accurate complete submission, and priority will be given to entrepreneurs of color, women, and veteran-owned businesses and other businesses in historically under-served communities that don’t have access to flexible, affordable capital. A new application must be submitted to be considered in this round, even if applied for in a previous round (they are eligible). </p>
+      <p className="mt-3 text-base text-black md:text-lg">
+      <Link href="https://www.verizon.com/about/responsibility/digital-inclusion/small-business-training?utm_source=nawbo&utm_medium=partner&utm_campaign=digital-ready-launch&utm_term=national-national">
+        <u className="cursor-pointer">Link to Register & Application</u>
+      </Link>{' '} |  <Link href="https://rescue.box.com/s/66ayznq4zvh6zmc15vrashy82dx4ston">
+        <u className="cursor-pointer">Application FAQ</u>
+      </Link>{' '}
+    </p>
   </div>
 )
 
