@@ -153,6 +153,7 @@ export const StateData = {
         {
         title: 'Comience Su Negocio en un Día: Lo Que se Necesita para Tener Éxito, Financiamiento, Impuestos y Estr',
         date: 'October 13',
+          language: 'Spanish/Espanol',
         time: '9 AM - 12 PM PDT',
         type: 'Online',
         link: 'https://sdsbdc.ecenterdirect.com/events/15070',
@@ -259,18 +260,12 @@ export const StateData = {
     body: 'IRC CNPP will support the small business communities in metro Atlanta and the surrounding areas by providing information and tools to help stabilize and grow local business, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  This includes the current City of Atlanta Resurgence Grant.   Partners in this project also have business incubator programs for women and BIPOC entrepreneurs.  Interpretation services for all services and trainings are available upon request.',
     events: [
       {
-        title: 'Bend or Break: How to Endure Inflation',
-        date: 'September 20',
-        time: '9 - 11:30 AM ET',
-        type: 'Online',
+        title: 'SBA Lender Training',
+        date: 'October 19',
+        time: '10 AM - 3 PM ET',
+        type: 'In Person',
+        address: 'UGA Small Business Development Center at Kennesaw State University',
         link: 'https://training.georgiasbdc.org/search/publicCourseSearchDetails.do?method=load&courseId=2381907#courseSectionDetails_2382056',
-      },
-      {
-        title: 'Reach Customers Online with Google',
-        date: 'September 20',
-        time: '11 AM - 12 PM ET',
-        type: 'Online',
-        link: 'https://urldefense.com/v3/__https://attendee.gotowebinar.com/register/4406274581965779215__;!!IDEMUsA!EmWqBcbOoM5fxdW-t_U0c2ZLAtgYgz-EDFp-PKXW8TVv-cOFjfH1m7Wx2RnTTAgxiZ3JuZBEd77Gj0qxJRI6mkoE$',
       },
     ],
     upcoming: {
@@ -320,39 +315,32 @@ export const StateData = {
     body: 'IRC CNPP will support the small business communities in Iowa by providing information and tools to help stabilize and grow your business, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness. Partners in this project also have business accelerator programs, lending services, and expertise in scaling your agriculture business. Interpretation services for all services and trainings are available upon request.',
     events: [
        {
-        title: 'Business Pop-up Booth at Global Greens Farmers Market',
-        date: '5/29 - 10/1',
-        time: 'Saturdays 9AM - 12:30 PM CDT',
-        type: 'LSI Global Greens Farmers Market, 3200 University Ave, Des Moines, IA 50311',
-        link: 'https://lsiowa.org/market/',
-      },
-       {
-        title: 'The Story Of Northgate Marketing',
-        date: 'September 9',
+        title: 'Small Business Essential: Social Media Best Practices & Effective Advertising Hacks',
+        date: 'October 11',
         time: '12-1 PM CT',
         type: 'Online',
-        link: 'https://theiowacenter.org/event/the-story-of-northgate-marketing/',
+        link: 'https://theiowacenter.org/event/small-business-essential-social-media-best-practices-effective-advertising-hacks/',
       },
-          {
-        title: 'AARP: Work For Yourself At 50+',
-        date: 'September 12',
-        time: '9-11 AM CT',
-        type: 'Online',
-        link: 'https://theiowacenter.org/event/aarp-work-for-yourself-at-50-3/',
-      },
-          {
+        {
         title: 'Always Ready: Business Plan',
-        date: 'September 14',
-        time: '12-1 PM CT',
+        date: 'October 12',
+        time: '10-11 AM CT',
         type: 'Online',
-        link: 'https://theiowacenter.org/event/always-ready-business-plan-19/',
+        link: 'https://theiowacenter.org/event/always-ready-business-plan-20/',
       },
-           {
+          {
+        title: 'Learning Lab: Iowa Sales Tax Update',
+        date: 'October 13',
+        time: '5-6:30 PM CT',
+        type: 'Online',
+        link: 'https://theiowacenter.org/event/learning-lab-iowa-sales-tax-update/',
+      },
+         {
         title: 'Always Ready: Financials',
-        date: 'September 28',
+        date: 'October 26',
         time: '12-1 PM CT',
         type: 'Online',
-        link: 'https://theiowacenter.org/event/always-ready-financials-19/',
+        link: 'https://theiowacenter.org/event/always-ready-financials-20/',
       },
     ],
     upcoming: {
