@@ -32,34 +32,26 @@ export const StateData = {
     body: 'IRC CNPP will support the small business communities in Metro Phoenix and the surrounding area by providing information and tools to help stabilize and grow local small businesses, including individualized counseling, mentoring, and training.  Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness. This includes the current City of Phoenix Business Relief grant program. Project partners offer specialized supports to small agricultural and related businesses.  Interpretation services for all services and trainings are available upon request.',
     events: [
                             {
-        title: 'Trademark Basics – What Every Small Business Should Know Now, Not Later',
-        date: 'September 15',
+        title: 'Social Media Marketing',
+        date: 'October 5',
+        time: '10-11 AM PST',
+        type: 'Online',
+        link: 'https://www.maricopa-sbdc.com/event/social-media-marketing-2/',
+      },
+                           {
+        title: 'SBIR Overview: How to Leverage America’s Seed Fund',
+        date: 'October 12',
         time: '10-11:30 AM PST',
         type: 'Online',
-        link: 'https://www.maricopa-sbdc.com/event/trademark-basics-what-every-small-business-should-know-now-not-later-2/',
-      },
-                                        {
-        title: 'Set Your Business Up for Success',
-        date: 'September 19',
-        time: '6-7:30 PM PST',
+        link: 'https://www.maricopa-sbdc.com/event/sbir-overview-how-to-leverage-americas-seed-fund-2/',
+      },  
+                       {
+        title: 'Tariff Classifications - Understanding Tariffs and Duties',
+        date: 'October 19',
+        time: '10-11 AM PST',
         type: 'Online',
-        link: 'https://www.maricopa-sbdc.com/event/set-your-business-up-for-success//',
-      },
-                                          {
-        title: 'Set Your Business Up for Success',
-        date: 'September 19',
-        time: '6-7:30 PM PST',
-        type: 'Online',
-        link: 'https://www.maricopa-sbdc.com/event/set-your-business-up-for-success/',
-      },
-                                           {
-        title: 'Angel Investors and What Makes Them Tick',
-        date: 'September 21',
-        time: '10-11:30AM PST',
-        type: 'Online',
-        link: 'https://www.maricopa-sbdc.com/event/angel-investors-and-what-makes-them-tick-3/',
-      },
-            
+        link: 'https://www.maricopa-sbdc.com/event/tariff-classifications-understanding-tariffs-and-duties/',
+      },   
     ],
     upcoming: {
       text: 'Click here for Maricopa Small Business Development Center to see more upcoming events and trainers near you.',
