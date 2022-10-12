@@ -267,6 +267,20 @@ export const StateData = {
         address: 'UGA Small Business Development Center at Kennesaw State University',
         link: 'https://training.georgiasbdc.org/search/publicCourseSearchDetails.do?method=load&courseId=2381907#courseSectionDetails_2382056',
       },
+      {
+        title: 'IRC Grant Clinic',
+        date: 'October 20',
+        time: '9:30 AM - 12:30 PM ET',
+        type: 'In Person; Email Minoosh.Wakeman@rescue.org to RSVP',
+         address: 'Refugee Coffee Co., Clarkston, GA',
+      },
+            {
+        title: 'Grow with Google',
+        date: 'October 27',
+        time: '11 AM - 12 PM ET',
+        type: 'Online',
+        link: 'https://register.gotowebinar.com/register/554224655384490767',
+      },
     ],
     upcoming: {
       text: 'Click here for Georgia Small Business Development Center-Minority Office to see a list of upcoming events and trainers in the network.',
