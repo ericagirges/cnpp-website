@@ -357,7 +357,52 @@ export const StateData = {
     partners: [],
     body: 'IRC CNPP will support the small business communities in Kansas by providing information and tools to help stabilize and grow local small businesses, including individualized counseling, mentoring, and training.  Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  Interpretation services for all services and trainings are available upon request.',
     events: [
-  
+      {
+        title: 'Small Business Strategies for Employee Retention',
+        date: 'November 1',
+        time: '12-1 PM CDT',
+        type: 'Online',
+        link: 'https://jccc.zoom.us/webinar/register/WN_65bIaBuzSVS8xBrxxZmauw',
+      },
+        {
+        title: 'How to Start a Business',
+        date: 'November 1',
+        time: '10:00 AM - 11:15 AM (CDT)',
+        type: 'In Person',
+          address: '201 E Pine St, Columbus KS 66725-1844',
+        link: 'https://ksbdc.ecenterdirect.com/events/27626,
+        },
+         {
+        title: 'Marketing 101 Think like a Marketer',
+        date: 'November 2 ',
+        time: '10:30 AM - 11:30 AM (CDT)',
+        type: 'In Person',
+          address: '1 W Main St, Chanute KS 66720-1761',
+        link: 'https://ksbdc.ecenterdirect.com/events/27628,
+      },
+                 {
+        title: 'How to Write a Business Plan',
+        date: 'November 15',
+        time: '10:00 AM - 11:15 AM (CST)',
+        type: 'In Person',
+          address: '201 E Pine St, Columbus KS 66725-1844',
+        link: 'https://ksbdc.ecenterdirect.com/events/276378,
+      },
+               {
+        title: 'How to Write a Business Plan',
+        date: 'November 16',
+        time: '9:00 AM - 12:00 PM (CST)',
+        type: 'In Person',
+          address: '201 E Pine St, Columbus KS 66725-1844',
+        link: '1 W Main St, Chanute KS 66720-1761,
+      },
+                  {
+        title: 'Social Media - Where to Start',
+        date: 'November 30',
+        time: '12:30 PM – 1:30 PM (CST)',
+        type: 'Online',
+        link: '1 W Main St, Chanute KS 66720-1761,
+      },
     ],
     upcoming: {
       text: 'Click here for Kansas Small Business Development Center to see more upcoming events and trainers near you.',
