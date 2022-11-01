@@ -386,7 +386,7 @@ export const StateData = {
         time: '10:00 AM - 11:15 AM CST',
         type: 'In Person',
           address: '201 E Pine St Columbus KS 66725',
-        link: 'https://ksbdc.ecenterdirect.com/events/276378,
+        link: 'https://ksbdc.ecenterdirect.com/events/276378',
       },
                {
         title: 'How to Write a Business Plan',
@@ -399,14 +399,14 @@ export const StateData = {
                   {
         title: 'Social Media - Where to Start',
         date: 'November 30',
-        time: '12:30 PM – 1:30 PM (CST)',
+        time: '12:30 PM – 1:30 PM CST',
         type: 'Online',
         link: 'https://secure.touchnet.com/C21797_ustores/web/product_detail.jsp?PRODUCTID=3855&SINGLESTORE=true',
       },
     ],
     upcoming: {
       text: 'Click here for Kansas Small Business Development Center to see more upcoming events and trainers near you.',
-      link: 'https://www.kansassbdc.net/training ',
+      link: 'https://www.kansassbdc.net/training',
     },
   },
   utah: {
@@ -466,7 +466,6 @@ export const StateData = {
         type: 'Online',
         link: 'https://clients.utahsbdc.org/reg.aspx?mode=event&event=6420096',
       },
-
     ],
     upcoming: {
       text: 'Click here for Utah’s Small Business Development Center to see more upcoming events and trainers near you.',
