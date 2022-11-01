@@ -369,7 +369,7 @@ export const StateData = {
         date: 'November 1',
         time: '10:00 AM - 11:15 AM CDT',
         type: 'In Person',
-          address: '201 E Pine St Columbus KS 66725',
+        address: '201 E Pine St Columbus KS 66725',
         link: 'https://ksbdc.ecenterdirect.com/events/27626',
         },
          {
@@ -385,7 +385,7 @@ export const StateData = {
         date: 'November 15',
         time: '10:00 AM - 11:15 AM CST',
         type: 'In Person',
-          address: '201 E Pine St Columbus KS 66725',
+        address: '201 E Pine St Columbus KS 66725',
         link: 'https://ksbdc.ecenterdirect.com/events/276378',
       },
                {
@@ -393,10 +393,10 @@ export const StateData = {
         date: 'November 16',
         time: '9:00 AM - 12:00 PM CST',
         type: 'In Person',
-          address: '1 W Main St, Chanute KS 66720',
+          address: '1 W Main St Chanute KS 66720',
         link: 'https://ksbdc.ecenterdirect.com/events/27638',
       },
-                  {
+             {
         title: 'Social Media - Where to Start',
         date: 'November 30',
         time: '12:30 PM – 1:30 PM CST',
