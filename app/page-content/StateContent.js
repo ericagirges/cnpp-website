@@ -374,11 +374,11 @@ export const StateData = {
         },
          {
         title: 'Marketing 101 Think like a Marketer',
-        date: 'November 2 ',
+        date: 'November 2',
         time: '10:30 AM - 11:30 AM (CDT)',
         type: 'In Person',
           address: '1 W Main St Chanute KS 66720-1761',
-        link: 'https://ksbdc.ecenterdirect.com/events/27628,
+        link: 'https://ksbdc.ecenterdirect.com/events/27628',
       },
                  {
         title: 'How to Write a Business Plan',
