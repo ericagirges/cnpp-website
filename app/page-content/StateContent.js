@@ -31,13 +31,20 @@ export const StateData = {
     ],
     body: 'IRC CNPP will support the small business communities in Metro Phoenix and the surrounding area by providing information and tools to help stabilize and grow local small businesses, including individualized counseling, mentoring, and training.  Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness. This includes the current City of Phoenix Business Relief grant program. Project partners offer specialized supports to small agricultural and related businesses.  Interpretation services for all services and trainings are available upon request.',
     events: [
-                            {
+                                        {
+        title: 'Join Us in Reimagining Job Quality Measurement',
+        date: 'November 8',
+        time: '12:00 - 1:00 PM (EST)',
+        type: 'Online',
+        link: 'https://www.eventbrite.com/e/join-us-in-reimagining-job-quality-measurement-tickets-416788604937?aff=estw&utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-source=tw&utm-term=listing',
+      },
+      {
         title: 'International Finance – Payments and Terms',
         date: 'November 9',
         time: '10-11 AM PST',
         type: 'Online',
         link: 'https://www.maricopa-sbdc.com/event/international-finance-payments-and-terms/',
-      },                   
+      },  
     ],
     upcoming: {
       text: 'Click here for Maricopa Small Business Development Center to see more upcoming events and trainers near you.',
@@ -114,6 +121,13 @@ export const StateData = {
         time: '11:00 AM - 1:00 PM (PDT)',
         type: 'Online',
         link: 'https://sdsbdc.ecenterdirect.com/events/16232',
+      },
+                     {
+        title: 'Join Us in Reimagining Job Quality Measurement',
+        date: 'November 8',
+        time: '12:00 - 1:00 PM (EST)',
+        type: 'Online',
+        link: 'https://www.eventbrite.com/e/join-us-in-reimagining-job-quality-measurement-tickets-416788604937?aff=estw&utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-source=tw&utm-term=listing',
       },
                       {
         title: 'Creating a Sales Plan That Produces Long-term Results',
@@ -246,6 +260,13 @@ export const StateData = {
     ],
     body: 'IRC CNPP will support the small business communities in metro Atlanta and the surrounding areas by providing information and tools to help stabilize and grow local business, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  This includes the current City of Atlanta Resurgence Grant.   Partners in this project also have business incubator programs for women and BIPOC entrepreneurs.  Interpretation services for all services and trainings are available upon request.',
     events: [
+                     {
+        title: 'Join Us in Reimagining Job Quality Measurement',
+        date: 'November 8',
+        time: '12:00 - 1:00 PM (EST)',
+        type: 'Online',
+        link: 'https://www.eventbrite.com/e/join-us-in-reimagining-job-quality-measurement-tickets-416788604937?aff=estw&utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-source=tw&utm-term=listing',
+      },
       {
         title: 'How To Do Business With UGA',
         date: 'November 9',
@@ -324,6 +345,13 @@ export const StateData = {
         location: 'The Iowa Center (2210 Grand Ave, Des Moines, IA 50312)',
         link: 'https://theiowacenter.org/event/the-story-of-the-east-village/',
           },
+                     {
+        title: 'Join Us in Reimagining Job Quality Measurement',
+        date: 'November 8',
+        time: '12:00 - 1:00 PM (EST)',
+        type: 'Online',
+        link: 'https://www.eventbrite.com/e/join-us-in-reimagining-job-quality-measurement-tickets-416788604937?aff=estw&utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-source=tw&utm-term=listing',
+      },
               {
         title: 'Small Business Essential: Year-End Tax Planning For Small Businesses',
         date: 'November 15',
@@ -386,6 +414,13 @@ export const StateData = {
         type: 'In Person',
           address: '1 W Main St Chanute KS 66720',
         link: 'https://ksbdc.ecenterdirect.com/events/27628',
+      },
+                     {
+        title: 'Join Us in Reimagining Job Quality Measurement',
+        date: 'November 8',
+        time: '12:00 - 1:00 PM (EST)',
+        type: 'Online',
+        link: 'https://www.eventbrite.com/e/join-us-in-reimagining-job-quality-measurement-tickets-416788604937?aff=estw&utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-source=tw&utm-term=listing',
       },
                  {
         title: 'How to Write a Business Plan',
@@ -465,6 +500,13 @@ export const StateData = {
         time: '6:30-8 PM MDT',
         type: 'Online',
         link: 'https://clients.utahsbdc.org/reg.aspx?mode=event&event=6420092',
+      },
+                     {
+        title: 'Join Us in Reimagining Job Quality Measurement',
+        date: 'November 8',
+        time: '12:00 - 1:00 PM (EST)',
+        type: 'Online',
+        link: 'https://www.eventbrite.com/e/join-us-in-reimagining-job-quality-measurement-tickets-416788604937?aff=estw&utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-source=tw&utm-term=listing',
       },
           {
         title: 'Business Essentials',
