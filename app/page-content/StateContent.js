@@ -345,6 +345,13 @@ export const StateData = {
         type: 'Online',
         link: 'https://theiowacenter.org/event/always-ready-financials-21/',
           },
+                        {
+        title: 'Expanding Access To Capital For Small Business Through Innovative CDFI Collaboration - Webinar ',
+        date: 'November 30',
+        time: '10 AM - 12 PM CT',
+        type: 'Online',
+        link: 'https://web.cvent.com/event/d5a5eeda-8d11-4cc7-8521-2bed6792d36a/regProcessStep1',
+          },
     ],
     upcoming: {
       text: 'Click here for Iowa Small Business Development Center to see more upcoming events and trainers near you.',
@@ -403,6 +410,13 @@ export const StateData = {
         type: 'Online',
         link: 'https://secure.touchnet.com/C21797_ustores/web/product_detail.jsp?PRODUCTID=3855&SINGLESTORE=true',
       },
+                         {
+        title: 'Expanding Access To Capital For Small Business Through Innovative CDFI Collaboration - Webinar ',
+        date: 'November 30',
+        time: '10 AM - 12 PM CT',
+        type: 'Online',
+        link: 'https://web.cvent.com/event/d5a5eeda-8d11-4cc7-8521-2bed6792d36a/regProcessStep1',
+          },
     ],
     upcoming: {
       text: 'Click here for Kansas Small Business Development Center to see more upcoming events and trainers near you.',
