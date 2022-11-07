@@ -290,6 +290,13 @@ export const StateData = {
           address: 'The Latin American Association, 2750 Buford Hwy NE, Atlanta, GA 30324',
         link: 'https://form.jotform.com/222834280107147',
       },
+         {
+        title: 'Grow with Google: Make Your Website Work For You',
+        date: 'November 17',
+        time: '10 - 11 AM ET',
+        type: 'Online',
+        link: 'https://register.gotowebinar.com/register/7683221654884169488',
+      },
     ],
     upcoming: {
       text: 'Click here for Georgia Small Business Development Center-Minority Office to see a list of upcoming events and trainers in the network.',
