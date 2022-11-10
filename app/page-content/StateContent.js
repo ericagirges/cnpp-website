@@ -45,6 +45,13 @@ export const StateData = {
         type: 'Online',
         link: 'https://www.maricopa-sbdc.com/event/international-finance-payments-and-terms/',
       },  
+        {
+        title: 'Global Entreprenuership Week: Womens Small Biz Forum',
+        date: 'November 16',
+        time: '3-4 PM PST',
+        type: 'Online',
+        link: 'https://forms.office.com/r/dQcaCgdmxA',
+      },  
     ],
     upcoming: {
       text: 'Click here for Maricopa Small Business Development Center to see more upcoming events and trainers near you.',
@@ -180,14 +187,7 @@ export const StateData = {
         type: 'Online',
         link: 'https://sdsbdc.ecenterdirect.com/events/15881',
       },
-                               {
-        title: 'Use YouTube to Grow Your Business',
-        date: 'November 16',
-        time: '9:00 - 11:00 AM (PDT)',
-        type: 'Online',
-        link: 'https://sdsbdc.ecenterdirect.com/events/15881',
-      },
-                        {
+                                         {
         title: 'GEW: International Market and Resource Fair ',
         date: 'November 16',
         time: '12:00 - 6:00 PM (PDT)',
