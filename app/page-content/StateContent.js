@@ -193,7 +193,7 @@ export const StateData = {
         time: '12:00 - 6:00 PM (PDT)',
         type: 'In Person',
          address: 'Fair@44 4350 El Cajon Blvd., San Diego, CA, 92105',
-        link: https://forms.office.com/Pages/ShareFormPage.aspx?id=jDHxBYNnJkO3Kb9TenYduNw3VA2tyc9EmvTmuSL9XKxUMkdGNVJWU0hLM1E1MkRCNVUyTEtKMzVEUy4u&sharetoken=nv2wT2eRxpWdmJb2uMTf',
+        link: 'https://forms.office.com/Pages/ShareFormPage.aspx?id=jDHxBYNnJkO3Kb9TenYduNw3VA2tyc9EmvTmuSL9XKxUMkdGNVJWU0hLM1E1MkRCNVUyTEtKMzVEUy4u&sharetoken=nv2wT2eRxpWdmJb2uMTf',
       },
                              {
         title: 'Building a Strong Future Workforce Today',
