@@ -187,6 +187,14 @@ export const StateData = {
         type: 'Online',
         link: 'https://sdsbdc.ecenterdirect.com/events/15881',
       },
+                        {
+        title: 'GEW: International Market and Resource Fair ',
+        date: 'November 16',
+        time: '12:00 - 6:00 PM (PDT)',
+        type: 'In Person',
+         address: 'Fair@44 4350 El Cajon Blvd., San Diego, CA, 92105',
+        link: https://forms.office.com/Pages/ShareFormPage.aspx?id=jDHxBYNnJkO3Kb9TenYduNw3VA2tyc9EmvTmuSL9XKxUMkdGNVJWU0hLM1E1MkRCNVUyTEtKMzVEUy4u&sharetoken=nv2wT2eRxpWdmJb2uMTf',
+      },
                              {
         title: 'Building a Strong Future Workforce Today',
         date: 'November 17',
@@ -445,6 +453,13 @@ export const StateData = {
           address: '1 W Main St Chanute KS 66720',
         link: 'https://ksbdc.ecenterdirect.com/events/27638',
       },
+                 {
+        title: 'Women Entrepreneurship: My Talent to Business Workshop',
+        date: 'November 18',
+        time: '10:30 AM - 5:30 PM CST',
+        type: 'Online',
+        link: 'https://bit.ly/3UBFTIa',
+      },
              {
         title: 'Social Media - Where to Start',
         date: 'November 30',
@@ -528,6 +543,14 @@ export const StateData = {
         time: '6:30-7:30 PM MDT',
         type: 'Online',
         link: 'https://clients.utahsbdc.org/reg.aspx?mode=event&event=6420096',
+      },
+        {
+        title: 'Spice Kitchen Incubator Web Bank Finance Workshop',
+        date: 'November 16',
+        time: '6:30-7:30 PM MDT',
+        type: 'Online or In Person',
+          address: '221 S. 400 W., Salt Lake City, UT 84101',
+        link: 'https://rescue.zoom.us/j/94632458680?pwd=QkJQVFJDc2NQekJNbWJRYzZLZ2NIQT09',
       },
     ],
     upcoming: {
