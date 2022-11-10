@@ -550,7 +550,7 @@ export const StateData = {
         time: '6:30-7:30 PM MDT',
         type: 'Online or In Person',
           address: '221 S. 400 W., Salt Lake City, UT 84101',
-        link: 'https://rescue.zoom.us/j/94632458680?pwd=QkJQVFJDc2NQekJNbWJRYzZLZ2NIQT09',
+        link: 'https://forms.office.com/pages/responsepage.aspx?id=jDHxBYNnJkO3Kb9TenYduIhS0YjqT0lEpP9O5p1PiEZUOVFZR1hTRUYyU1RQQklMNUpTNVE1Q1RBTS4u',
       },
     ],
     upcoming: {
