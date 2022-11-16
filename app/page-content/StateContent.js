@@ -74,12 +74,6 @@ export const StateData = {
         website: 'https://karensandiego.org/',
       },
       {
-        name: 'Somali Family Services of San Diego',
-        image:
-          'https://i.ibb.co/6RZpMrP/Somali-Family-Services-of-San-Diego-California.png',
-        website: 'https://www.somalifamilyservice.org/',
-      },
-      {
         name: 'Union of Pan Asian Communities',
         image: 'https://i.ibb.co/5Gs2PTb/UPAC-logo-2x-1.png',
         website: 'https://www.upacsd.com/',
@@ -319,12 +313,6 @@ export const StateData = {
         name: 'Drake University',
         image: 'https://i.ibb.co/xzTnjJN/Drake-University-Logo-Iowa.png',
         website: 'https://www.drake.edu/',
-      },
-      {
-        name: 'Immigrant Entrepreneurs Summit',
-        image:
-          'https://i.ibb.co/F814rfd/Immigrant-Entrepreneurs-Summit-Logo-Iowa.png',
-        website: 'https://www.iesusa.org/',
       },
       {
         name: 'Iowa Center for Economic Success',
