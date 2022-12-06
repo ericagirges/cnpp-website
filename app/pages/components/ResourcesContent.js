@@ -44,7 +44,7 @@ const TextComponent = () => (
       available CEO loans.
     </p>
     <h2 className="mt-9 text-xl font-bold text-black md:text-2xl">
-      Available Grants & Relief
+      Available Grants & Relief 
     </h2>
 
 const gridComponent = (arr) => (
