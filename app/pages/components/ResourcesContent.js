@@ -42,10 +42,8 @@ const TextComponent = () => (
       with a business counselor today to learn more about how you can access
       available CEO loans.
     </p>
-    <h2 className="mt-9 text-xl font-bold text-black md:text-2xl">
-      Available Grants
-    </h2>
 </div>
+
 
 const gridComponent = (arr) => (
   <div className="mt-12">
