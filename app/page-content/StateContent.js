@@ -1,3 +1,7 @@
+// This is to be used for the individual regional pages, as well as the region cards
+// that appear on the regional overview page.
+
+// View the template at the bottom of this page
 export const StateData = {
   arizona: {
     name: 'Arizona',
@@ -27,60 +31,6 @@ export const StateData = {
     ],
     body: 'IRC CNPP will support the small business communities in Metro Phoenix and the surrounding area by providing information and tools to help stabilize and grow local small businesses, including individualized counseling, mentoring, and training.  Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness. This includes the current City of Phoenix Business Relief grant program. Project partners offer specialized supports to small agricultural and related businesses.  Interpretation services for all services and trainings are available upon request.',
     events: [
-      {
-        title: 'Branding Your Business to Attract Customers',
-        language: 'Interpreters Available if Requested Prior',
-        date: 'April 6th',
-        time: '6:30 PM – 7:30 PM',
-        type: 'In-Person',
-        address: '1717 W Northern Ave, Phoenix, AZ 85021',
-        link: 'https://www.eventbrite.com/e/branding-your-business-to-attract-customers-in-person-tickets-292777384037?aff=ebdsoporgprofile',
-      },
-      {
-        title: 'Branding Your Business to Attract Customers',
-        language: 'Interpreters Available if Requested Prior',
-        date: 'April 19th',
-        time: '7:00 PM – 8:00 PM',
-        type: 'Online',
-        address: '',
-        link: 'https://www.eventbrite.com/e/branding-your-business-to-attract-customers-online-workshop-tickets-293162505947?aff=ebdsoporgprofile',
-      },
-      {
-        title: 'Using Social Media to Grow Your Business',
-        language: 'Interpreters Available if Requested Prior',
-        date: 'May 4th',
-        time: '6:30 PM – 7:30 PM ',
-        type: 'In-Person',
-        address: '1717 W Northern Ave, Phoenix, AZ 85021',
-        link: 'https://www.eventbrite.com/e/using-social-media-to-grow-your-business-in-person-tickets-293170951207?aff=ebdsoporgprofile',
-      },
-      {
-        title: 'Using Social Media to Grow Your Business',
-        language: 'Interpreters Available if Requested Prior',
-        date: 'May 17th',
-        time: '7:00 PM – 8:00 PM',
-        type: 'Online',
-        address: '',
-        link: 'https://www.eventbrite.com/e/using-social-media-to-grow-your-business-online-workshop-tickets-293184561917?aff=ebdsoporgprofile',
-      },
-      {
-        title: 'Marketing to Increase Your Sales',
-        language: 'Interpreters Available if Requested Prior',
-        date: 'May 25th',
-        time: '6:30 PM – 7:30 PM',
-        type: 'In-Person',
-        address: '1717 W Northern Ave, Phoenix, AZ 85021',
-        link: 'https://www.eventbrite.com/e/marketing-to-increase-your-sales-in-person-tickets-293189396377?aff=ebdsoporgprofile',
-      },
-      {
-        title: 'Marketing to Increase Your Sales',
-        language: 'Interpreters Available if Requested Prior',
-        date: 'May 31st',
-        time: '7:00 PM – 8:00 PM',
-        type: 'Online',
-        address: '',
-        link: 'https://www.eventbrite.com/e/marketing-to-increase-your-sales-online-workshop-tickets-293266236207?aff=ebdsoporgprofile',
-      },
     ],
     upcoming: {
       text: 'Click here for Maricopa Small Business Development Center to see more upcoming events and trainers near you.',
@@ -90,6 +40,7 @@ export const StateData = {
   california: {
     name: 'California',
     map: 'https://i.ibb.co/rkmGKh7/icons8-california-100.png',
+    
     partners: [
       {
         name: 'Access, Inc',
@@ -102,26 +53,54 @@ export const StateData = {
         website: 'https://karensandiego.org/',
       },
       {
-        name: 'Somali Family Services of San Diego',
-        image:
-          'https://i.ibb.co/6RZpMrP/Somali-Family-Services-of-San-Diego-California.png',
-        website: 'https://www.somalifamilyservice.org/',
-      },
-      {
         name: 'Union of Pan Asian Communities',
         image: 'https://i.ibb.co/5Gs2PTb/UPAC-logo-2x-1.png',
         website: 'https://www.upacsd.com/',
       },
-    ],
+      ],
     body: 'IRC CNPP will support the small business communities in San Diego County by providing information and tools to help stabilize and grow small businesses, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  This includes current San Diego County and California Relief Grant programs. Project partners also offer industry-specific trainings for entrepreneurs interested in or currently operating childcare centers.  Interpretation services for all services and trainings are available upon request.',
     events: [
+                       {
+        title: 'How to Find Business Using Linkedin',
+        date: 'November 29',
+        time: '11:00 AM - 1:00 PM (PDT)',
+        type: 'Online',
+        link: 'https://sdsbdc.ecenterdirect.com/events/16238',
+      },
+                        {
+        title: 'Build Customer Loyalty with Excellent Customer Service',
+        date: 'November 30',
+        time: '10:00 AM - 12:00 PM (PDT)',
+        type: 'Online',
+        link: 'https://sdsbdc.ecenterdirect.com/events/16239',
+      },
       {
-        title: 'Basic Financial Literacy -Banking, Budgeting and Credit ',
-        language: 'Burmese',
-        date: '3/24',
-        time: '10:30AM – 12PM',
-        type: 'Virtual training',
-        link: 'https://sdsbdc.ecenterdirect.com/events/15590',
+        title: 'Meet the Lenders',
+        date: 'December 9',
+        time: '9:00 AM - 10:00 AM (PST)',
+        type: 'Online',
+        link: 'https://sdsbdc.ecenterdirect.com/events/16275',
+      },
+           {
+        title: 'Year-End Readiness with QBO & The Ultimate Year-End Checklist',
+        date: 'December 12',
+        time: '12:00 - 1:30 PM (PDT)',
+        type: 'Online',
+        link: 'https://sdsbdc.ecenterdirect.com/events/16075',
+      },
+      {
+        title: 'Get Set Up for Success in 2023',
+        date: 'December 14',
+        time: '10:30 AM - 11:30 AM (PST)',
+        type: 'Online',
+        link: 'https://sdsbdc.ecenterdirect.com/events/16368',
+      },
+      {
+        title: 'How To Do a Basic Audit',
+        date: 'December 14',
+        time: '12:00 PM - 1:30 PM (PST)',
+        type: 'Online',
+        link: 'https://sdsbdc.ecenterdirect.com/events/16049',
       },
     ],
     upcoming: {
@@ -154,14 +133,12 @@ export const StateData = {
     ],
     body: 'IRC CNPP will support the small business communities in metro Atlanta and the surrounding areas by providing information and tools to help stabilize and grow local business, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  This includes the current City of Atlanta Resurgence Grant.   Partners in this project also have business incubator programs for women and BIPOC entrepreneurs.  Interpretation services for all services and trainings are available upon request.',
     events: [
-      {
-        title: 'Refuge Coffee Co. Spring Market',
-        language: '',
-        date: 'April 30th',
-        time: '9AM - 4PM',
-        type: '',
-        address: '4170 E Ponce de Leon Ave, Clarkston, GA 30021',
-        link: 'https://docs.google.com/forms/d/e/1FAIpQLSd5cM-omRah3OUrJG1RlxtlyyHcP9Ka3zqDrnWG9Mp_PPcKTQ/viewform',
+           {
+        title: 'How To Do a Basic Audit',
+        date: 'December 14',
+        time: '12:00 PM - 1:30 PM (PST)',
+        type: 'Online',
+        link: 'https://sdsbdc.ecenterdirect.com/events/16049',
       },
     ],
     upcoming: {
@@ -177,12 +154,6 @@ export const StateData = {
         name: 'Drake University',
         image: 'https://i.ibb.co/xzTnjJN/Drake-University-Logo-Iowa.png',
         website: 'https://www.drake.edu/',
-      },
-      {
-        name: 'Immigrant Entrepreneurs Summit',
-        image:
-          'https://i.ibb.co/F814rfd/Immigrant-Entrepreneurs-Summit-Logo-Iowa.png',
-        website: 'https://www.iesusa.org/',
       },
       {
         name: 'Iowa Center for Economic Success',
@@ -210,19 +181,45 @@ export const StateData = {
     ],
     body: 'IRC CNPP will support the small business communities in Iowa by providing information and tools to help stabilize and grow your business, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness. Partners in this project also have business accelerator programs, lending services, and expertise in scaling your agriculture business. Interpretation services for all services and trainings are available upon request.',
     events: [
-      {
-        title: '',
-        language: '',
-        date: '',
-        time: '',
-        type: '',
-        address: '',
-        link: '',
-      },
+                      {
+        title: 'Always Ready: Financials',
+        date: 'November 30',
+        time: '12-1 PM CT',
+        type: 'Online',
+        link: 'https://theiowacenter.org/event/always-ready-financials-21/',
+          },
+                        {
+        title: 'Expanding Access To Capital For Small Business Through Innovative CDFI Collaboration - Webinar ',
+        date: 'November 30',
+        time: '10 AM - 12 PM CT',
+        type: 'Online',
+        link: 'https://web.cvent.com/event/d5a5eeda-8d11-4cc7-8521-2bed6792d36a/regProcessStep1',
+          },
+          {
+        title: 'AARP: Work For Yourself At 50+',
+        date: 'December 5',
+        time: '9 AM - 11 AM CT',
+        type: 'Online',
+        link: 'https://theiowacenter.org/event/aarp-work-for-yourself-at-50-4/',
+          },
+        {
+        title: 'Small Business Essential: Ready To Make It Happen In 2023?',
+        date: 'December 6',
+        time: '12:00 - 1:00 PM CST CT',
+        type: 'Online',
+        link: 'https://theiowacenter.org/event/small-business-essential-ready-to-make-it-happen-in-2023/',
+          },
+       {
+        title: 'Always Ready: Financials',
+        date: 'December 14',
+        time: '10:00 - 11:00 AM CST CT',
+        type: 'Online',
+        link: 'https://theiowacenter.org/event/always-ready-financials-22/',
+          },
     ],
     upcoming: {
       text: 'Click here for Iowa Small Business Development Center to see more upcoming events and trainers near you.',
-      link: 'https://iowasbdc.org/workshop-calendar/',
+      link: 'https://theiowacenter.org/services/classes/',
     },
   },
   kansas: {
@@ -231,19 +228,70 @@ export const StateData = {
     partners: [],
     body: 'IRC CNPP will support the small business communities in Kansas by providing information and tools to help stabilize and grow local small businesses, including individualized counseling, mentoring, and training.  Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  Interpretation services for all services and trainings are available upon request.',
     events: [
-      {
-        title: '',
-        language: '',
-        date: '',
-        time: '',
-        type: '',
-        address: '',
-        link: '',
+             {
+        title: 'Social Media - Where to Start',
+        date: 'November 30',
+        time: '12:30 PM – 1:30 PM CST',
+        type: 'Online',
+        link: 'https://secure.touchnet.com/C21797_ustores/web/product_detail.jsp?PRODUCTID=3855&SINGLESTORE=true',
+      },
+                         {
+        title: 'Expanding Access To Capital For Small Business Through Innovative CDFI Collaboration - Webinar ',
+        date: 'November 30',
+        time: '10 AM - 12 PM CT',
+        type: 'Online',
+        link: 'https://web.cvent.com/event/d5a5eeda-8d11-4cc7-8521-2bed6792d36a/regProcessStep1',
+          },
+        {
+        title: 'State Tax Webinar',
+        date: 'December 6',
+        time: '1 - 4 PM CST',
+        type: 'Online',
+        link: 'https://secure.touchnet.com/C21797_ustores/web/product_detail.jsp?PRODUCTID=3774&SINGLESTORE=true',
+      },
+       {
+        title: 'Human Resources - Rules and Regulations - First Employee',
+        date: 'December 13',
+        time: '10:00 - 11:15 AM CST',
+        type: 'In Person',
+         address: '201 E Pine St, Columbus, KS 66725-1844',
+        link: 'https://ksbdc.ecenterdirect.com/events/27640',
+      },
+       {
+        title: 'Startup and Start Right',
+        date: 'December 14',
+        time: '12:00 - 1:00 PM CST',
+        type: 'Online',
+        link: 'https://secure.touchnet.com/C21797_ustores/web/product_detail.jsp?PRODUCTID=3856&SINGLESTORE=true',
+      },
+       {
+        title: 'Understanding Financial Statements',
+        date: 'December 14',
+        time: '10:30 AM - 11:30 AM (CST)',
+        type: 'In Person',
+         address: '1 W Main St, Chanute KS 66720-1761',
+        link: 'https://ksbdc.ecenterdirect.com/events/27642',
+      },
+       {
+        title: 'Marketing 101: Think like a Marketer',
+        date: 'December 14',
+        time: '12:30 PM - 1:30 PM (CST)',
+        type: 'In Person',
+         address: '9 S Jefferson Ave, Iola KS 66749-3327',
+        link: 'https://ksbdc.ecenterdirect.com/events/27644',
+      },
+        {
+        title: 'Understanding Financial Statements',
+        date: 'December 14',
+        time: '2:00 PM - 3:00 PM (CST)',
+        type: 'In Person',
+         address: '9 S Jefferson Ave, Iola KS 66749-3327',
+        link: 'https://ksbdc.ecenterdirect.com/events/27643',
       },
     ],
     upcoming: {
       text: 'Click here for Kansas Small Business Development Center to see more upcoming events and trainers near you.',
-      link: 'https://www.kansassbdc.net/training ',
+      link: 'https://www.kansassbdc.net/training',
     },
   },
   utah: {
@@ -275,77 +323,55 @@ export const StateData = {
     ],
     body: 'IRC CNPP will support the small business communities the Salt Lake City metro region and the surrounding areas by providing information and tools to help stabilize and grow your business, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  Interpretation services are available upon request. Partners in this project also have business incubator programs for food entrepreneurs.  Interpretation services for all services and trainings are available upon request.',
     events: [
-      {
-        title: 'Sugar House Coffee Pop Up',
-        language: '',
-        date: 'April 7th',
-        time: '10:00AM - 2:00PM',
-        type: 'In-Person',
-        address: '2011 S 1100 E Salt Lake City, UT 84106',
-        link: '',
+        {
+        title: 'Entrepreneur 101',
+        date: 'December 1',
+        time: '6:00-8:00 PM MDT',
+        type: 'In Person',
+          address: 'Orem/Provo SBDC Utah Valley University',
+        link: 'https://clients.utahsbdc.org/workshop.aspx?ekey=6420091',
       },
-      {
-        title: 'NADL Pitching Competition',
-        language: '',
-        date: 'April 12th',
-        time: '5:30 PM – 7:30 PM',
-        type: 'Virtual',
-        address: '',
-        link: 'https://rescue.zoom.us/meeting/register/tJ0udOytrD8pHt3xMPxXW0jBKlpSpKbG-cfx',
+       {
+        title: 'Wordpress Workshop',
+        date: 'December 6',
+        time: '6:30-8:00 PM MDT',
+        type: 'Online',
+        link: 'https://clients.utahsbdc.org/workshop.aspx?ekey=6420092',
       },
-      {
-        title: 'NADL Final Pitching Event',
-        language: '',
-        date: 'May 3rd',
-        time: '5:30 PM – 7:30 PM',
-        type: 'Virtual',
-        address: '',
-        link: 'https://rescue.zoom.us/j/91584741355?pwd=d1FFelludlcrbUU0MG0ydTlDMWpTQT09',
+       {
+        title: 'Facebook/Instagram Ads: Create and Manage Ads like a Pro!',
+        date: 'December 7',
+        time: '6:00-7:00 PM MDT',
+        type: 'Online',
+        link: 'https://clients.utahsbdc.org/workshop.aspx?ekey=6420109',
       },
-      {
-        title: 'Sugar House Coffee Pop Up',
-        language: '',
-        date: 'May 5th',
-        time: '10:00 AM - 2:00 PM',
-        type: 'In-Person',
-        address: '2011 S 1100 E Salt Lake City, UT 84106',
-        link: '',
+        {
+        title: 'Business Essentials',
+        date: 'December 8',
+        time: '6:00-8:00 PM MDT',
+        type: 'Online',
+        link: 'https://clients.utahsbdc.org/workshop.aspx?ekey=6420094',
       },
-      {
-        title: 'Sugar House Coffee Pop Up',
-        language: '',
-        date: 'June 2nd',
-        time: '10:00 AM - 2:00 PM',
-        type: 'In-Person',
-        address: '2011 S 1100 E Salt Lake City, UT 84106',
-        link: '',
+        {
+        title: 'Starting Your Business 101',
+        date: 'December 13',
+        time: '12:00-1:30 PM MDT',
+        type: 'Online',
+        link: 'https://clients.utahsbdc.org/workshop.aspx?ekey=4420007',
       },
-      {
-        title: 'Global Craft Bazaar',
-        language: '',
-        date: 'June 4th',
-        time: '4:00PM – 8:00PM',
-        type: 'In-Person',
-        address: '527 W State St. suite 102. Pleasant Grove, UT 84062',
-        link: 'https://docs.google.com/forms/d/e/1FAIpQLSdcYh1aqTxSk0ojkiBI6eIqD2qMQ6-ggR6TYXkxIlTs41PpDQ/viewform',
+       {
+        title: 'Online Marketing Fundamentals',
+        date: 'December 21',
+        time: '6:00-7:30 PM MDT',
+        type: 'Online',
+        link: 'https://clients.utahsbdc.org/workshop.aspx?ekey=6420107',
       },
-      {
-        title: 'World Refugee Day Global Market',
-        language: '',
-        date: 'June 17th',
-        time: '6:00AM – 11:00PM',
-        type: '',
-        address: '',
-        link: '',
-      },
-      {
-        title: 'World Refugee Day Global Market',
-        language: '',
-        date: 'June 18th',
-        time: '10:30AM – 11:00PM',
-        type: '',
-        address: '',
-        link: '',
+        {
+        title: 'Quickbooks Workshop',
+        date: 'December 22',
+        time: '6:30-7:30 PM MDT',
+        type: 'Online',
+        link: 'https://clients.utahsbdc.org/workshop.aspx?ekey=6420097',
       },
     ],
     upcoming: {
@@ -353,4 +379,34 @@ export const StateData = {
       link: 'https://clients.utahsbdc.org/events.aspx',
     },
   },
+  // This is where you can add additional regions or states
+  /*
+  kansas: {
+    name: 'Region Name',
+    map: 'https://example.com/image.jpg',
+    partners: [
+      {
+        name: 'Partner Name',
+        image: 'https://example.com/image.jpg',
+        website: 'https://example.com/',
+      },
+    ],
+    body: 'This is the text appearing at the top of the page',
+    events: [
+      {
+        title: 'Event title',
+        language: 'Event language',
+        date: 'Event date',
+        time: 'Event time',
+        type: 'Event type',
+        address: 'Event location address',
+        link: 'https://example.com/',
+      },
+    ],
+    upcoming: {
+      text: 'This is the text for upcoming events',
+      link: 'https://example.com',
+    },
+  },
+  */
 }

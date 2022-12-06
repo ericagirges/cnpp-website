@@ -10,8 +10,8 @@ function RegionalLanding() {
         <div className="absolute inset-0">
           <img
             className="h-full w-full object-cover object-top"
-            src="https://i.ibb.co/44L925b/hero-1-1-1.jpg"
-            alt="need copy"
+            src="https://i.ibb.co/j38LKz5/hero-1-1-1.jpg"
+            alt="a woman and man sitting at a table looking at paperwork while another man is standing over them providing them with guidance through their documents"
           />
           <div
             className="absolute inset-0 bg-sbaGray mix-blend-multiply"

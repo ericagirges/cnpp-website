@@ -3,7 +3,7 @@ const PageContent = {
     taglineImage: 'https://i.ibb.co/WB4Ctkf/irc-arrow-yellow.jpg',
     taglineimageAlt: 'IRC Logo',
     tagline: 'Who we are',
-    image: 'https://i.ibb.co/mBcKms5/AOberstadt-Dallas03.jpg',
+    image: 'https://i.ibb.co/hFnzH8X/Optimized-20170824-AOberstadt-Dallas03-2.jpg',
     imageAlt: 'Woman Sewing',
     title: 'International Rescue Committee',
     description:
@@ -13,7 +13,7 @@ const PageContent = {
     taglineImage: 'https://i.ibb.co/QrPxhzr/SBA-Powered-By.jpg',
     taglineimageAlt: 'Powered by SBA logo - Small Business Administration',
     tagline: 'Program Overview',
-    image: 'https://i.ibb.co/HxktwSk/AOberstadt-Washington-DC.jpg',
+    image: 'https://i.ibb.co/kqzFpJT/Optimized-2019-05-08-AOberstadt-Washington-DC-50-1.jpg',
     imageAlt: 'Man Smiling',
     title: 'Community Navigator Pilot Program',
     description: `
@@ -32,7 +32,9 @@ const PageContent = {
     specific focus on refugee and immigrant business owners, the
     IRC will help these businesses recover from the impacts of
     COVID by providing counseling, technical assistance, and
-    support accessing up to $30 million in small business relief.
+    support accessing up to $30 million in small business relief. 
+    This program is funded (in part) through a grant with the 
+    U.S. Small Business Administration.
     `,
   },
 }

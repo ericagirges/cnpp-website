@@ -2,7 +2,7 @@
 
 Built with Next.js and Tailwind.
 
-## How to use
+## Development Getting Started Steps
 Clone repo
 
 ```
@@ -32,6 +32,5 @@ or
 yarn run dev
 ```
 
-**Deployment**
 
 

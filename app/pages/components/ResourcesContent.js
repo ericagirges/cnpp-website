@@ -16,7 +16,6 @@ const TextComponent = () => (
       <Link href="/contact">
         <u className="cursor-pointer">get connected</u>
       </Link>
-      .
     </p>
     <h2 className="mt-9 text-xl font-bold text-black md:text-2xl">
       Small Business Relief Available through IRC's Center for Economic
@@ -47,8 +46,6 @@ const TextComponent = () => (
       Available Grants & Reflief
     </h2>
   </div>
-)
-
 const gridComponent = (arr) => (
   <div className="mt-12">
     <div className="grid grid-cols-1 gap-8 sm:grid-cols-1 lg:grid-cols-1">

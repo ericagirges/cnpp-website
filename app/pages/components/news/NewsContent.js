@@ -36,13 +36,14 @@ function News() {
           Learn about other Small Business Owners and their experiences with
           CNPP.
         </p>
-        <div className=" flex min-h-fit max-w-screen-lg flex-col flex-wrap content-between md:mt-0 md:flex-row md:flex-nowrap md:justify-between">
+        <div className=" flex min-h-fit max-w-screen-lg flex-col flex-wrap content-center md:mt-0 md:flex-row md:flex-wrap md:justify-between">
           {BizOwnerContent.map((item, i) =>  (
-              <div className="relative mt-10 h-[300px] w-11/12 self-auto md:h-[400px] lg:h-[700px]">
+              <div className="relative mt-10 h-[300px] w-11/12 md:w-1/2 self-auto md:h-[400px] lg:h-[700px]">
                 <div
-                  className={`relative h-[300px] w-11/12 ${i === 0 ? 'bg-business-spotlight-1' : 'bg-business-spotlight-2'} bg-cover bg-center md:h-[400px] lg:h-[700px]`}
+                  className="relative h-[300px] w-11/12 md:h-[400px] lg:h-[700px]"
                 >
-                  <div className="h-full w-full bg-black opacity-40"></div>
+                  <img src={item.image} alt="" className="h-full w-full object-cover"/>
+                  <div className="absolute top-0 left-0 h-full w-full bg-black opacity-40"></div>
                   <p className="absolute left-2 bottom-10 py-8 text-lg font-bold text-white sm:text-2xl">
                     {item.title}
                   </p>

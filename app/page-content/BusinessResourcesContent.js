@@ -8,7 +8,7 @@ import {
 
 // This is to be used for the grid of content at the bottom of the small business page
 const SmallBizContent = {
-  //This is the video section!
+
   header: {
     title: 'Small Business Resources',
     description:
@@ -17,56 +17,62 @@ const SmallBizContent = {
     imageAlt: 'Mechanic',
   },
 
+  //This is the video section!
   videos: [
     {
-      name: 'Check Back Soon',
-      description:
-        'Sign up for our newsletter to get the latest updates on workshops and training videos',
-      hyperlink: '/contact',
-      icon: ExclamationIcon,
+      name: 'Bettering Your Business Video Series',
+      description: 'This video series walks you through the process of making an elevator pitch, communicating with your customer, interview tips, and more.',
+      hyperlink: 'https://www.youtube.com/playlist?list=PLhvgEsDS0faMwcGgh4y2cth-ZiGFg855K',
+      icon: VideoCameraIcon,
     },
-    //{
-    //  name: 'Video 1',
-    //  description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    //  icon: VideoCameraIcon,
-    //},
-    //{
-    //  name: 'Video 2',
-    //  description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    //  icon: VideoCameraIcon,
-    //},
-    //{
-    //  name: 'Video 3',
-    //  description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    //  icon: VideoCameraIcon,
-    //},
-  ],
-
-  downloads: [
     {
-      name: 'Check Back Soon',
-      description:
-        'Sign up for our newsletter to get the latest updates on downloadable learning resources',
-      hyperlink: '/contact',
-      icon: ExclamationIcon,
+      name: 'Bettering Your Business Video Series (Swahili)',
+       description: 'This video series walks you through the process of making an elevator pitch, communicating with your customer, interview tips, and more, provided in Swahili language.',
+      hyperlink: 'https://www.youtube.com/playlist?list=PLhvgEsDS0faNOIcI2I-JPXPBwVw2hGAI8',
+      icon: VideoCameraIcon,
     },
-    //{
-    //    name: 'Download 1',
-    //    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    //    icon: CloudDownloadIcon,
-    //  },
-    //  {
-    //    name: 'Download 2',
-    //    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    //    icon: CloudDownloadIcon,
-    //  },
-    //  {
-    //    name: 'Download 3',
-    //    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    //    icon: CloudDownloadIcon,
-    //  },
+    {
+      name: 'Bettering Your Business Video Series (Dari)',
+       description: 'This video series walks you through the process of making an elevator pitch, communicating with your customer, interview tips, and more, provided in Dari language.',
+      hyperlink: 'https://www.youtube.com/playlist?list=PLhvgEsDS0faMbosV-rBlIKygCit_4SlQh',
+      icon: VideoCameraIcon,
+    },
+    // This is where you can add additional videos using the template below
+    /*
+    {
+      name: 'Video 1',
+      description: 'A description of the video',
+      hyperlink: 'https://example.com',
+      icon: VideoCameraIcon,
+    },
+    
+    */
   ],
 
+  //This is the downloads section!
+  downloads: [
+      {
+      name: 'Business Plan Guide',
+      hyperlink: 'https://rescue.box.com/s/xshwz28e8w2egdv699i4lrlpwxn3woo3',
+      icon: CloudDownloadIcon,
+      },
+      {
+      name: 'Business Model Canvas',
+      hyperlink: 'https://rescue.box.com/s/jnk61b2azntvqi8kjqp9qzfkbgqdt2ii',
+      icon: CloudDownloadIcon,
+      },
+    // This is where you can add additional downloadable learning resources using the template below
+    /*
+    {
+      name: 'Download 1',
+      description: 'A description of the downloadable content',
+      hyperlink: 'https://example.com',
+      icon: CloudDownloadIcon,
+      },
+    */
+  ],
+
+  //This is the Translated Documents section!
   documents: [
     {
       name: 'Check Back Soon',
@@ -75,21 +81,15 @@ const SmallBizContent = {
       hyperlink: '/contact',
       icon: ExclamationIcon,
     },
-    //{
-    //   name: 'Document 1',
-    //   description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    //   icon: DocumentDownloadIcon,
-    // },
-    // {
-    //   name: 'Document 2',
-    //   description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    //   icon: DocumentDownloadIcon,
-    // },
-    // {
-    //   name: 'Document 3',
-    //   description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    //   icon: DocumentDownloadIcon,
-    // },
+    // This is where you can add additional translated documents using the template below
+    /*
+    {
+      name: 'Document 1',
+      description: 'A descption of the translated document',
+      hyperlink: 'https://example.com',
+      icon: DocumentDownloadIcon,
+      },
+    */
   ],
 }
 

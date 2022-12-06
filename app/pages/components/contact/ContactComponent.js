@@ -1,4 +1,5 @@
 import { MailIcon } from '@heroicons/react/outline'
+import { AiOutlineFacebook } from 'react-icons/ai'
 
 export default function Contact() {
   return (
@@ -34,24 +35,57 @@ export default function Contact() {
             </iframe>
           </div>
         </div>
-        <div className="mt-16">
-          <h2 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">
-            Got Questions?
-          </h2>
-        </div>
-        <div className="mt-4">
-          <div className="mt-6 flex">
-            <div className="flex-shrink-0">
-              <MailIcon className="h-6 w-6 text-gray-400" aria-hidden="true" />
+        <div className="flex flex-col sm:flex-row">
+          <div className="text-center sm:mr-16 sm:text-left">
+            <div className="mt-8 sm:mt-16">
+              <h2 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">
+                Got Questions?
+              </h2>
             </div>
-            <div className="ml-3 text-base text-gray-500">
-              <a
-                href="mailto:sbacommunity.navigators@rescue.org"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <p>sbacommunity.navigators@rescue.org</p>
-              </a>
+            <div className="mt-4">
+              <div className="sm:mt-6 flex justify-center sm:justify-start">
+                <div className="flex-shrink-0">
+                  <MailIcon
+                    className="h-6 w-6 text-gray-400"
+                    aria-hidden="true"
+                  />
+                </div>
+                <div className="ml-3 text-base text-gray-500">
+                  <a
+                    href="mailto:sbacommunity.navigators@rescue.org"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <p>sbacommunity.navigators@rescue.org</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="text-center sm:mr-16 sm:text-left">
+            <div className="mt-8 sm:mt-16">
+              <h2 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">
+                Follow us!
+              </h2>
+            </div>
+            <div className="mt-4">
+              <div className="sm:mt-6 flex justify-center sm:justify-start">
+                <div className="flex-shrink-0">
+                  <AiOutlineFacebook
+                    className="h-7 w-7 text-gray-400"
+                    aria-hidden="true"
+                  />
+                </div>
+                <div className="ml-3 text-base text-gray-500">
+                  <a
+                    href="https://www.facebook.com/IRCsmallbiznavigator"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <p>@IRCsmallbiznavigator</p>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
