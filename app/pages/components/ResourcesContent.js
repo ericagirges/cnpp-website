@@ -46,6 +46,7 @@ const TextComponent = () => (
     <h2 className="mt-9 text-xl font-bold text-black md:text-2xl">
       Available Grants & Relief 
     </h2>
+</div>
 
 const gridComponent = (arr) => (
   <div className="mt-12">
