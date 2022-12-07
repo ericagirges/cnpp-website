@@ -134,11 +134,11 @@ export const StateData = {
     body: 'IRC CNPP will support the small business communities in metro Atlanta and the surrounding areas by providing information and tools to help stabilize and grow local business, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  This includes the current City of Atlanta Resurgence Grant.   Partners in this project also have business incubator programs for women and BIPOC entrepreneurs.  Interpretation services for all services and trainings are available upon request.',
     events: [
            {
-        title: 'How To Do a Basic Audit',
-        date: 'December 14',
-        time: '12:00 PM - 1:30 PM (PST)',
+        title: 'Learn the Basics of Google Ads',
+        date: 'December 8',
+        time: '11:00 AM - 12:00 PM (CT)',
         type: 'Online',
-        link: 'https://sdsbdc.ecenterdirect.com/events/16049',
+        link: 'https://register.gotowebinar.com/register/8923514751480661264?fbclid=IwAR32AKAgFxF2FkbnjN-5-kD0K8nVYv4G8QVqD4u32btUlhzTpaREJdSvxQY',
       },
     ],
     upcoming: {
