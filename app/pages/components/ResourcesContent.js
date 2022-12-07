@@ -46,6 +46,7 @@ const TextComponent = () => (
       Available Grants & Reflief
     </h2>
   </div>
+)
 const gridComponent = (arr) => (
   <div className="mt-12">
     <div className="grid grid-cols-1 gap-8 sm:grid-cols-1 lg:grid-cols-1">
