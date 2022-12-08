@@ -45,6 +45,7 @@ const TextComponent = () => (
     <h2 className="mt-9 text-xl font-bold text-black md:text-2xl">
       Available Grants & Relief
     </h2>
+<p><b>National Small Business Person of the Year</b>: Do you know the next National Small Business Person of the Year? The deadline for the National Small Business Week Awards nominations is December 8, 2022, by 3:00 p.m. ET.  Other award categories include Exporter of the Year, federal procurement awards, and more. Submit your nomination today. Learn more <u><a href="https://www.sba.gov/national-small-business-week/awards?utm_medium=email&utm_source=govdelivery">here</a></u>. </p>
  </div>
 )
 const gridComponent = (arr) => (
