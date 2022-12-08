@@ -46,7 +46,8 @@ const TextComponent = () => (
       Available Grants & Relief
     </h2>
 <p><b>National Small Business Person of the Year</b>: Do you know the next National Small Business Person of the Year? The deadline for the National Small Business Week Awards nominations is December 8, 2022, by 3:00 p.m. ET.  Other award categories include Exporter of the Year, federal procurement awards, and more. Submit your nomination today. Learn more <u><a href="https://www.sba.gov/national-small-business-week/awards?utm_medium=email&utm_source=govdelivery">here</a></u>. </p>
- </div>
+ <p><b>NEW Dove InstaGrants</b>: After the success of last years grant program, DOVE has decided to launch the DOVE InstaGrants Program once again. The program was designed to support women-identifying entrepreneurs having easier access to capital. Three grant winners will each receive $10,000. To apply, women should share a 30-second business pitch over Instagram with the hashtags #DOVEInstaGrantsEntry and tag @DoveChocolate. Applicants can alternatively submit a video on the grant page website until <b>December 19</b>. <u><a href="https://dovechocolateinstagrants.com/">Website Application Link</a></u> | <a href="https://rescue.box.com/s/b3dyna6zftmpf9tgpapc3wa3t8p6w278">One-Pager Tips for Video Pitch</a></u></p>
+  </div>
 )
 const gridComponent = (arr) => (
   <div className="mt-12">
