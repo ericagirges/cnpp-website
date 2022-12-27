@@ -61,6 +61,16 @@ const SmallBizContent = {
       hyperlink: 'https://rescue.box.com/s/jnk61b2azntvqi8kjqp9qzfkbgqdt2ii',
       icon: CloudDownloadIcon,
       },
+     {
+      name: 'National Resource Guide (English)',
+      hyperlink: 'https://www.sba.gov/document/support-national-resource-guide-english?fbclid=IwAR2N8tNWsmLJAfbQu2U1m5PhjGGGHHhLRoAYYOQDT-wMbXkIUswMXGnhRFE',
+      icon: CloudDownloadIcon,
+      },
+     {
+      name: 'National Resource Guide (Spanish)',
+      hyperlink: 'https://www.sba.gov/document/support-national-resource-guide-spanish',
+      icon: CloudDownloadIcon,
+      },
     // This is where you can add additional downloadable learning resources using the template below
     /*
     {
