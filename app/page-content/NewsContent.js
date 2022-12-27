@@ -2,9 +2,8 @@
 export const NewsContent = [
   {
     index: 0,
-    date: 'March 31, 2022',
     content:
-      'The IRC’s CNPP website is live! Check back soon for updates and get connected to a CNPP counselor.',
+      'Check back soon for updates and get connected to a CNPP counselor.',
     link: ""
   },
   // This is where you can add additional news updates
