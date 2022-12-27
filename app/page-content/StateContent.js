@@ -385,56 +385,7 @@ export const StateData = {
     ],
     body: 'IRC CNPP will support the small business communities the Salt Lake City metro region and the surrounding areas by providing information and tools to help stabilize and grow your business, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  Interpretation services are available upon request. Partners in this project also have business incubator programs for food entrepreneurs.  Interpretation services for all services and trainings are available upon request.',
     events: [
-        {
-        title: 'Entrepreneur 101',
-        date: 'December 1',
-        time: '6:00-8:00 PM MDT',
-        type: 'In Person',
-          address: 'Orem/Provo SBDC Utah Valley University',
-        link: 'https://clients.utahsbdc.org/workshop.aspx?ekey=6420091',
-      },
-       {
-        title: 'Wordpress Workshop',
-        date: 'December 6',
-        time: '6:30-8:00 PM MDT',
-        type: 'Online',
-        link: 'https://clients.utahsbdc.org/workshop.aspx?ekey=6420092',
-      },
-       {
-        title: 'Facebook/Instagram Ads: Create and Manage Ads like a Pro!',
-        date: 'December 7',
-        time: '6:00-7:00 PM MDT',
-        type: 'Online',
-        link: 'https://clients.utahsbdc.org/workshop.aspx?ekey=6420109',
-      },
-        {
-        title: 'Business Essentials',
-        date: 'December 8',
-        time: '6:00-8:00 PM MDT',
-        type: 'Online',
-        link: 'https://clients.utahsbdc.org/workshop.aspx?ekey=6420094',
-      },
-        {
-        title: 'Starting Your Business 101',
-        date: 'December 13',
-        time: '12:00-1:30 PM MDT',
-        type: 'Online',
-        link: 'https://clients.utahsbdc.org/workshop.aspx?ekey=4420007',
-      },
-       {
-        title: 'Online Marketing Fundamentals',
-        date: 'December 21',
-        time: '6:00-7:30 PM MDT',
-        type: 'Online',
-        link: 'https://clients.utahsbdc.org/workshop.aspx?ekey=6420107',
-      },
-        {
-        title: 'Quickbooks Workshop',
-        date: 'December 22',
-        time: '6:30-7:30 PM MDT',
-        type: 'Online',
-        link: 'https://clients.utahsbdc.org/workshop.aspx?ekey=6420097',
-      },
+
     ],
     upcoming: {
       text: 'Click here for Utah’s Small Business Development Center to see more upcoming events and trainers near you.',
