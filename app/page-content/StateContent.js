@@ -302,13 +302,7 @@ export const StateData = {
     ],
     body: 'IRC CNPP will support the small business communities in Iowa by providing information and tools to help stabilize and grow your business, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness. Partners in this project also have business accelerator programs, lending services, and expertise in scaling your agriculture business. Interpretation services for all services and trainings are available upon request.',
     events: [
-                      {
-        title: 'Always Ready: Financials',
-        date: 'November 30',
-        time: '12-1 PM CT',
-        type: 'Online',
-        link: 'https://theiowacenter.org/event/always-ready-financials-21/',
-          },
+     
     ],
     upcoming: {
       text: 'Click here for Iowa Small Business Development Center to see more upcoming events and trainers near you.',
@@ -321,13 +315,6 @@ export const StateData = {
     partners: [],
     body: 'IRC CNPP will support the small business communities in Kansas by providing information and tools to help stabilize and grow local small businesses, including individualized counseling, mentoring, and training.  Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  Interpretation services for all services and trainings are available upon request.',
     events: [
-             {
-        title: 'Social Media - Where to Start',
-        date: 'November 30',
-        time: '12:30 PM – 1:30 PM CST',
-        type: 'Online',
-        link: 'https://secure.touchnet.com/C21797_ustores/web/product_detail.jsp?PRODUCTID=3855&SINGLESTORE=true',
-      },
                          {
         title: 'Startup and Start Right',
         date: 'January 11',
