@@ -466,41 +466,6 @@ export const StateData = {
     ],
     body: 'IRC CNPP will support the small business communities the Salt Lake City metro region and the surrounding areas by providing information and tools to help stabilize and grow your business, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  Interpretation services are available upon request. Partners in this project also have business incubator programs for food entrepreneurs.  Interpretation services for all services and trainings are available upon request.',
     events: [
-            {
-        title: 'WordPress Workshop',
-        date: 'January 3',
-        time: '7-8:30 PM MT',
-        type: 'Online',
-        link: 'https://clients.utahsbdc.org/events.aspx',
-          },
-            {
-        title: 'Facebook/Instagram Ads: Create and Manage Ads like a Pro!',
-        date: 'January 11',
-        time: '6-7 PM MT',
-        type: 'Online',
-        link: 'https://clients.utahsbdc.org/events.aspx',
-          },
-            {
-        title: 'Business Essentials',
-        date: 'January 12',
-        time: '6-8 PM MT',
-        type: 'Online',
-        link: 'https://clients.utahsbdc.org/events.aspx',
-          },
-                 {
-        title: 'Entrepreneur 101',
-        date: 'January 12',
-        time: '6-8 PM MT',
-        type: 'Online',
-        link: 'https://clients.utahsbdc.org/events.aspx',
-          },
-                {
-        title: 'Executive Leadership Series',
-        date: 'January 20',
-        time: '8 AM - 12 PM MT',
-        type: 'Online',
-        link: 'https://clients.utahsbdc.org/events.aspx',
-          },
                  {
         title: 'Starting Your Business 101',
         date: 'January 24',
@@ -515,6 +480,7 @@ export const StateData = {
         type: 'Online',
         link: 'https://clients.utahsbdc.org/events.aspx',
           },
+             
     ],
     upcoming: {
       text: 'Click here for Utah’s Small Business Development Center to see more upcoming events and trainers near you.',
