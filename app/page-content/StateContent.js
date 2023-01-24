@@ -308,6 +308,13 @@ export const StateData = {
     ],
     body: 'IRC CNPP will support the small business communities in metro Atlanta and the surrounding areas by providing information and tools to help stabilize and grow local business, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  This includes the current City of Atlanta Resurgence Grant.   Partners in this project also have business incubator programs for women and BIPOC entrepreneurs.  Interpretation services for all services and trainings are available upon request.',
     events: [
+          {
+        title: 'Value Added Producer Grant Workshop',
+        date: 'February 7',
+        time: '2:00PM to 4:00PM ET',
+        type: 'Online',
+        link: 'https://training.georgiasbdc.org/search/publicCourseSearchDetails.do?method=load&courseId=2080655#courseSectionDetails_2615859',
+          },
     ],
     upcoming: {
       text: 'Click here for Georgia Small Business Development Center-Minority Office to see a list of upcoming events and trainers in the network.',
@@ -349,7 +356,20 @@ export const StateData = {
     ],
     body: 'IRC CNPP will support the small business communities in Iowa by providing information and tools to help stabilize and grow your business, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness. Partners in this project also have business accelerator programs, lending services, and expertise in scaling your agriculture business. Interpretation services for all services and trainings are available upon request.',
     events: [
-     
+      {
+        title: 'THE STORY OF BLACK OWNED BUSINESSES IN IOWA',
+        date: 'February 3',
+        time: '12:00 pm - 1:00 pm CST',
+        type: 'Online',
+        link: 'https://theiowacenter.org/event/the-story-of-black-owned-businesses-in-iowa/',
+          },
+       {
+        title: 'Always Ready: Business Plan',
+        date: 'February 8',
+        time: '10:00 am - 11:00 am CST',
+        type: 'Online',
+        link: 'https://theiowacenter.org/event/always-ready-business-plan-23/',
+          },
     ],
     upcoming: {
       text: 'Click here for Iowa Small Business Development Center to see more upcoming events and trainers near you.',
@@ -363,26 +383,53 @@ export const StateData = {
     body: 'IRC CNPP will support the small business communities in Kansas by providing information and tools to help stabilize and grow local small businesses, including individualized counseling, mentoring, and training.  Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  Interpretation services for all services and trainings are available upon request.',
     events: [
                          {
+        title: 'QuickBooks Online: The Basics',
+        date: 'February 7',
+        time: '9 AM CT',
+        type: 'Online',
+        link: 'https://secure.touchnet.com/C21797_ustores/web/product_detail.jsp?PRODUCTID=3892&SINGLESTORE=true',
+          },
+                               {
+        title: 'QuickBooks Online: The Details',
+        date: 'February 7',
+        time: '1 PM CT',
+        type: 'Online',
+        link: 'https://secure.touchnet.com/C21797_ustores/web/product_detail.jsp?PRODUCTID=3893&SINGLESTORE=true',
+          },
+                              {
         title: 'Startup and Start Right',
-        date: 'January 11',
-        time: '12 - 1 PM CT',
+        date: 'February 8',
+        time: '12 PM CT',
         type: 'Online',
-        link: 'https://secure.touchnet.com/C21797_ustores/web/product_detail.jsp?PRODUCTID=3882&SINGLESTORE=true',
+        link: 'https://secure.touchnet.com/C21797_ustores/web/product_detail.jsp?PRODUCTID=3885&SINGLESTORE=true',
           },
-                    {
-        title: 'Intellectual Property Basics',
-        date: 'January 31',
-        time: '12 - 1 PM CT',
+                             {
+        title: 'Located in a HUBZone - Get Certified!',
+        date: 'February 15',
+        time: '10:30 AM CT',
         type: 'Online',
-        link: 'https://secure.touchnet.com/C21797_ustores/web/product_detail.jsp?PRODUCTID=3884&SINGLESTORE=true',
+        link: 'https://secure.touchnet.com/C21797_ustores/web/product_detail.jsp?PRODUCTID=3896&SINGLESTORE=true',
           },
-                     {
-        title: 'How to Write a Business Plan',
-        date: 'January 31',
-        time: '8:30 - 10 AM CT',
-        type: 'In Person',
-                       address: '1 W Main St, Chanute KS 66720-1761',
-        link: 'https://ksbdc.ecenterdirect.com/events/27688',
+                            {
+        title: 'Are You a Good Fit for SBA’s Mentor Protégé Program?',
+        date: 'February 16',
+        time: '10:30 AM CT',
+        type: 'Online',
+        link: 'https://www.kansassbdc.net/training#:~:text=Are%20You%20a%20Good%20Fit%20for%20SBA%E2%80%99s%20Mentor%20Prot%C3%A9g%C3%A9%20Program%3F',
+          },
+                              {
+        title: 'Marketing Your Business Online',
+        date: 'February 22',
+        time: '12 PM CT',
+        type: 'Online',
+        link: 'https://secure.touchnet.com/C21797_ustores/web/product_detail.jsp?PRODUCTID=3886&SINGLESTORE=true',
+          },
+                                    {
+        title: 'Market Research for Business Plans',
+        date: 'February 23',
+        time: '12 PM CT',
+        type: 'Online',
+        link: 'https://secure.touchnet.com/C21797_ustores/web/product_detail.jsp?PRODUCTID=3887&SINGLESTORE=true',
           },
     ],
     upcoming: {
