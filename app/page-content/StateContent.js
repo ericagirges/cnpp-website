@@ -467,18 +467,25 @@ export const StateData = {
     body: 'IRC CNPP will support the small business communities the Salt Lake City metro region and the surrounding areas by providing information and tools to help stabilize and grow your business, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  Interpretation services are available upon request. Partners in this project also have business incubator programs for food entrepreneurs.  Interpretation services for all services and trainings are available upon request.',
     events: [
                  {
-        title: 'Starting Your Business 101',
-        date: 'January 24',
-        time: '2-3:30 PM MT',
+        title: 'Wordpress Workshop',
+        date: 'February 7',
+        time: '7:00- 8:30 PM MT',
         type: 'Online',
-        link: 'https://clients.utahsbdc.org/events.aspx',
+        link: 'https://clients.utahsbdc.org/reg.aspx?mode=event&event=6430009',
           },
-                   {
-        title: 'Online Marketing Fundamentals',
-        date: 'January 25',
-        time: '6-7:30 PM MT',
+                     {
+        title: 'Business Essentials',
+        date: 'February 9',
+        time: '6:00- 8:00 PM MT',
         type: 'Online',
-        link: 'https://clients.utahsbdc.org/events.aspx',
+        link: 'https://clients.utahsbdc.org/reg.aspx?mode=event&event=6430010',
+          },
+                       {
+        title: 'How to Start a Business 101',
+        date: 'February 9',
+        time: '6:00- 8:00 PM MT',
+        type: 'Online',
+        link: 'https://clients.utahsbdc.org/reg.aspx?mode=event&event=6430011',
           },
              
     ],
