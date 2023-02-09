@@ -47,6 +47,8 @@ const TextComponent = () => (
     </h2>
 <p><b>Farmer Veteran Fellowship Fund</b>: A small grant program that provides direct assistance to veterans who are in their beginning years of farming or ranching. The Fellowship Fund does not give money directly to the veteran, but rather to third-party vendors for items the veteran has identified will make a crucial difference in the launch of their farm business. Awards range from $1,000 to $5,000. Must have a business plan and proof of service. Application deadline is <b>February 14, 2023</b>. <u><a href="https://farmvetco.org/fvfellowship/">Application Link</a></u> | <u><a href="https://rescue.box.com/s/n87r4o6jdjbcg72jipp5aepeu41bivqd">Sample & FAQ</a></u></p>
 <p>*** </p>
+<p><b>FedEx Small Business Grant</b>: Ten Grand Prize winners receive $30,000 each. Additional prizes may be available and will be posted to the FedEx website. Opens at the end of the month, but businesses can prepare- create a FedEx account, confirm eligibility, think about a short company bio, gather logo and high-resolution photos, develop ideas for a 2-minute video, and review tips and examples on the website. Applications close <b>February 21, 2023</b>. <u><a href="https://www.fedex.com/en-us/small-business/grant-contest.html"> Application Link</a></u></p>
+<p>*** </p>
 </div>
 )
 const gridComponent = (arr) => (
