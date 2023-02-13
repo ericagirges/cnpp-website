@@ -401,7 +401,20 @@ export const StateData = {
         type: 'Online',
         link: 'https://clients.utahsbdc.org/reg.aspx?mode=event&event=6430011',
           },
-             
+                        {
+        title: 'How to Make Your Website Sell, So You Dont Have To',
+        date: 'February 16',
+        time: '6:30- 8:00 PM MT',
+        type: 'Online',
+        link: 'https://clients.utahsbdc.org/reg.aspx?mode=event&event=6430022',
+          },
+        {
+        title: 'Facebook/Instagram Ads: Create and Manage Ads like a Pro!',
+        date: 'February 22',
+        time: '6:00- 7:00 PM MT',
+        type: 'Online',
+        link: 'https://clients.utahsbdc.org/reg.aspx?mode=event&event=6430023',
+          },
     ],
     upcoming: {
       text: 'Click here for Utah’s Small Business Development Center to see more upcoming events and trainers near you.',
