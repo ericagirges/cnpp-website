@@ -32,25 +32,39 @@ export const StateData = {
     body: 'IRC CNPP will support the small business communities in Metro Phoenix and the surrounding area by providing information and tools to help stabilize and grow local small businesses, including individualized counseling, mentoring, and training.  Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness. This includes the current City of Phoenix Business Relief grant program. Project partners offer specialized supports to small agricultural and related businesses.  Interpretation services for all services and trainings are available upon request.',
     events: [
                         {
-        title: 'Building a Compelling Website',
-        date: 'February 15',
-        time: '10:00 AM - 11:30 AM (MST)',
+        title: 'Alternatives for Financing Your Early-Stage Venture Part 1',
+        date: 'March 8',
+        time: '10:00 AM - 11:00 AM (MST)',
         type: 'Online',
-        link: 'https://www.maricopa-sbdc.com/event/building-a-compelling-website/',
+        link: 'https://www.maricopa-sbdc.com/event/alternatives-for-financing-your-early-stage-venture-part-1/',
       },
-                   {
-        title: 'Quickbooks Training 1',
-        date: 'February 22',
-        time: '8:00 AM - 11:00 AM (MST)',
+                       {
+        title: 'Opportunities with the USDA',
+        date: 'March 9',
+        time: '9:00 AM - 11:00 AM (MST)',
         type: 'Online',
-        link: 'https://www.maricopa-sbdc.com/event/quickbooks-training-1/',
+        link: 'https://www.maricopa-sbdc.com/event/opportunities-with-the-usda/',
       },
-               {
-        title: 'Quickbooks Training 2',
-        date: 'February 23',
-        time: '8:00 AM - 11:00 AM (MST)',
+                 {
+        title: 'Alternatives for Financing Your Early-Stage Venture Part 2',
+        date: 'March 22',
+        time: '10:00 AM - 11:00 AM (MST)',
         type: 'Online',
-        link: 'https://www.maricopa-sbdc.com/event/quickbooks-training-2/',
+        link: 'https://www.maricopa-sbdc.com/event/alternatives-for-financing-your-early-stage-venture-part-3/',
+      },
+                       {
+        title: 'Understanding How to Export to Canada and Mexico with Arizona SBDC Network Part 1',
+        date: 'March 29',
+        time: '10:00 AM - 11:00 AM (MST)',
+        type: 'Online',
+        link: 'https://www.maricopa-sbdc.com/event/good-neighbors-understanding-how-to-export-to-canada-and-mexico-with-arizona-sbdc-network-part-1-canada/',
+      },
+                {
+        title: 'Franchise Expo West',
+        date: 'March 31',
+        time: '10:00 AM - 4:00 PM (MST)',
+        type: 'Online',
+        link: 'https://www.maricopa-sbdc.com/event/franchise-expo-west/',
       },
     ],
     upcoming: {
