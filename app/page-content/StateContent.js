@@ -333,41 +333,20 @@ export const StateData = {
     ],
     body: 'IRC CNPP will support the small business communities in metro Atlanta and the surrounding areas by providing information and tools to help stabilize and grow local business, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  This includes the current City of Atlanta Resurgence Grant.   Partners in this project also have business incubator programs for women and BIPOC entrepreneurs.  Interpretation services for all services and trainings are available upon request.',
     events: [
-                  {
-        title: 'How to Start a Business- Ten Steps, Business Structure, Register, Rules',
-        date: 'February 15',
-        time: '12-1pm ET',
-        type: 'Online',
-        link: 'https://us02web.zoom.us/webinar/register/WN_b9IeeC2lRPqSwMYzQNS6Dw',
-      },
-             {
-        title: 'How to Start a Business- Ten Steps, Business Structure, Register, Rules',
-        date: 'February 22',
-        time: '11am-12pm ET',
-        type: 'Online',
-        link: 'https://queenslib.org/3wa8QRa',
-      },
-           {
-        title: 'How to Start a Business',
-        date: 'February 22',
-        time: '3-4pm ET',
-        type: 'Online',
-             language: 'Chinese Mandarin',
-        link: 'https://queenslib.org/3wa8QRa',
-      },
-              {
-        title: 'Access to Capital -Meet 10 Lenders',
-        date: 'February 23',
-        time: '9:30-10:45am ET',
-        type: 'Online',
-        link: 'https://www.eventbrite.com/e/access-to-capital-meet-the-lenders-tickets-513240384807',
-      },
              {
         title: 'Access to Capital -Meet the Lenders',
         date: 'February 28',
         time: '2-3pm ET',
         type: 'Online',
         link: 'https://iona.zoom.us/j/99993511139?pwd=K3NScFBiV2ZMTFFnN2Rta2xwWUpCZz09#success',
+      },
+              {
+        title: 'Serie de Negocios para Emprendedores Hispanos (HES)',
+        date: 'March 25',
+        time: '9:00AM to 4:00PM ET',
+        type: 'Online',
+                language:'Spanish',
+        link: 'https://training.georgiasbdc.org/search/publicCourseSearchDetails.do?method=load&courseId=1284306#courseSectionDetails_2649446',
       },
     ],
     upcoming: {
@@ -411,18 +390,11 @@ export const StateData = {
     body: 'IRC CNPP will support the small business communities in Iowa by providing information and tools to help stabilize and grow your business, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness. Partners in this project also have business accelerator programs, lending services, and expertise in scaling your agriculture business. Interpretation services for all services and trainings are available upon request.',
     events: [
       {
-        title: 'THE STORY OF BLACK OWNED BUSINESSES IN IOWA',
-        date: 'February 3',
-        time: '12:00 pm - 1:00 pm CST',
-        type: 'Online',
-        link: 'https://theiowacenter.org/event/the-story-of-black-owned-businesses-in-iowa/',
-          },
-       {
         title: 'Always Ready: Business Plan',
-        date: 'February 8',
+        date: 'March 8',
         time: '10:00 am - 11:00 am CST',
         type: 'Online',
-        link: 'https://theiowacenter.org/event/always-ready-business-plan-23/',
+        link: 'https://theiowacenter.org/event/always-ready-business-plan-24/',
           },
     ],
     upcoming: {
@@ -435,35 +407,7 @@ export const StateData = {
     map: 'https://i.ibb.co/1qng885/icons8-kansas-100.png',
     partners: [],
     body: 'IRC CNPP will support the small business communities in Kansas by providing information and tools to help stabilize and grow local small businesses, including individualized counseling, mentoring, and training.  Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  Interpretation services for all services and trainings are available upon request.',
-    events: [          
-                             {
-        title: 'Located in a HUBZone - Get Certified!',
-        date: 'February 15',
-        time: '10:30 AM CT',
-        type: 'Online',
-        link: 'https://secure.touchnet.com/C21797_ustores/web/product_detail.jsp?PRODUCTID=3896&SINGLESTORE=true',
-          },
-                            {
-        title: 'Are You a Good Fit for SBA’s Mentor Protégé Program?',
-        date: 'February 16',
-        time: '10:30 AM CT',
-        type: 'Online',
-        link: 'https://www.kansassbdc.net/training#:~:text=Are%20You%20a%20Good%20Fit%20for%20SBA%E2%80%99s%20Mentor%20Prot%C3%A9g%C3%A9%20Program%3F',
-          },
-                              {
-        title: 'Marketing Your Business Online',
-        date: 'February 22',
-        time: '12 PM CT',
-        type: 'Online',
-        link: 'https://secure.touchnet.com/C21797_ustores/web/product_detail.jsp?PRODUCTID=3886&SINGLESTORE=true',
-          },
-                                    {
-        title: 'Market Research for Business Plans',
-        date: 'February 23',
-        time: '12 PM CT',
-        type: 'Online',
-        link: 'https://secure.touchnet.com/C21797_ustores/web/product_detail.jsp?PRODUCTID=3887&SINGLESTORE=true',
-          },
+    events: [      
     ],
     upcoming: {
       text: 'Click here for Kansas Small Business Development Center to see more upcoming events and trainers near you.',
@@ -501,39 +445,53 @@ export const StateData = {
     events: [
                  {
         title: 'Wordpress Workshop',
-        date: 'February 7',
+        date: 'March 7',
         time: '7:00- 8:30 PM MT',
         type: 'Online',
-        link: 'https://clients.utahsbdc.org/reg.aspx?mode=event&event=6430009',
+        link: 'https://clients.utahsbdc.org/reg.aspx?mode=event&event=6430015',
           },
-                     {
+               {
+        title: 'Online Marketing Fundamentals',
+        date: 'March 8',
+        time: '6:00- 7:30 PM MT',
+        type: 'Online',
+        link: 'https://clients.utahsbdc.org/reg.aspx?mode=event&event=6430025',
+          },
+            {
         title: 'Business Essentials',
-        date: 'February 9',
+        date: 'March 9',
         time: '6:00- 8:00 PM MT',
         type: 'Online',
-        link: 'https://clients.utahsbdc.org/reg.aspx?mode=event&event=6430010',
+        link: 'https://clients.utahsbdc.org/reg.aspx?mode=event&event=6430016',
           },
-                       {
+           {
         title: 'How to Start a Business 101',
-        date: 'February 9',
+        date: 'March 9',
+        time: '6:00- 8:00 PM MT',
+        type: 'In Person, Orem/Provo SBDC Utah Valley University',
+        link: 'https://clients.utahsbdc.org/reg.aspx?mode=event&event=6430017',
+          },
+                           {
+        title: 'Starting Your Business 101',
+        date: 'March 14',
         time: '6:00- 8:00 PM MT',
         type: 'Online',
-        link: 'https://clients.utahsbdc.org/reg.aspx?mode=event&event=6430011',
+        link: 'https://clients.utahsbdc.org/workshop.aspx?ekey=4430006',
           },
-                        {
+                {
         title: 'How to Make Your Website Sell, So You Dont Have To',
-        date: 'February 16',
-        time: '6:30- 8:00 PM MT',
+        date: 'March 16',
+        time: '6:00- 8:00 PM MT',
         type: 'Online',
-        link: 'https://clients.utahsbdc.org/reg.aspx?mode=event&event=6430022',
+        link: 'https://clients.utahsbdc.org/reg.aspx?mode=event&event=6430027',
           },
         {
         title: 'Facebook/Instagram Ads: Create and Manage Ads like a Pro!',
-        date: 'February 22',
+        date: 'March 22',
         time: '6:00- 7:00 PM MT',
         type: 'Online',
-        link: 'https://clients.utahsbdc.org/reg.aspx?mode=event&event=6430023',
-          },
+        link: 'https://clients.utahsbdc.org/reg.aspx?mode=event&event=6430026',
+          },   
     ],
     upcoming: {
       text: 'Click here for Utah’s Small Business Development Center to see more upcoming events and trainers near you.',
