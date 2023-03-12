@@ -361,7 +361,7 @@ export const StateData = {
       {
         name: 'Drake University',
         image: 'https://i.ibb.co/xzTnjJN/Drake-University-Logo-Iowa.png',
-        website: 'https://www.drake.edu/',
+        website: 'https://www.drake.edu/businessclinic/',
       },
       {
         name: 'Iowa Center for Economic Success',
