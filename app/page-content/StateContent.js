@@ -87,6 +87,13 @@ export const StateData = {
         type: 'In Person, Gateway College-Venture Cafe',
         link: 'https://www.maricopa-sbdc.com/event/good-neighbors-understanding-how-to-export-to-canada-and-mexico-pt-2-mexico/',
       },
+               {
+        title: 'Small Business CEO Loan Workshop & Small Business Counseling',
+        date: 'April 26',
+        time: '5 PM - 6 PM (MST)',
+        type: 'Online, Hosted by Somali American United Council',
+        link: 'https://rescue.box.com/s/wxc3fepwr7ntfgecy6n75bd4m5q3a12y',
+      },
         {
         title: 'Maricopa Entrepreneur Days- Gateway College-Venture Cafe',
         date: 'April 27',
