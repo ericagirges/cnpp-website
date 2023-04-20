@@ -556,6 +556,13 @@ export const StateData = {
         type: 'Online',
         link: 'https://clients.utahsbdc.org/reg.aspx?mode=event&event=6430035',
           },  
+                                {
+        title: 'Turning Your Idea Into a Plan',
+        date: 'April 26',
+        time: '6:00 PM to 7:30 PM MT',
+        type: 'In person - 625 W Girard Ave, SLC, UT 84116; Spanish translation provided',
+        link: 'Email jamaica.trinnaman@rescue.org to RSVP',
+          },  
     ],
     upcoming: {
       text: 'Click here for Utah’s Small Business Development Center to see more upcoming events and trainers near you.',
