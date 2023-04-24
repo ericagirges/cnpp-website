@@ -343,6 +343,41 @@ export const StateData = {
     ],
     body: 'IRC CNPP will support the small business communities in metro Atlanta and the surrounding areas by providing information and tools to help stabilize and grow local business, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  This includes the current City of Atlanta Resurgence Grant.   Partners in this project also have business incubator programs for women and BIPOC entrepreneurs.  Interpretation services for all services and trainings are available upon request.',
     events: [
+          {
+        title: 'Establish a Professional Domain, Website & Email for Your Business',
+        date: 'April 27',
+        time: '12:00pm - 1:00pm CST',
+        type: 'Online',
+        link: 'https://community.grow.google/s/event/a0r6R000009vBmn/workshop-20230427',
+          },
+              {
+        title: 'Incoterms Overview',
+        date: 'May 8',
+        time: '1:00PM to 2:00PM CST',
+        type: 'Online',
+        link: 'https://training.georgiasbdc.org/search/publicCourseSearchDetails.do?method=load&courseId=2741185#courseSectionDetails_2741251',
+          },
+                   {
+        title: 'Tax Incentives for Exporters',
+        date: 'May 9',
+        time: '1:00PM to 2:00PM CST',
+        type: 'Online',
+        link: 'https://training.georgiasbdc.org/search/publicCourseSearchDetails.do?method=load&courseId=2706221#courseSectionDetails_2706246',
+          },
+                     {
+        title: 'Business Loans Made Easy: Lending Basics',
+        date: 'May 23',
+        time: '9:00AM to 10:30AM CST',
+        type: 'Online',
+        link: 'https://training.georgiasbdc.org/search/publicCourseSearchDetails.do?method=load&courseId=1301854#courseSectionDetails_2597889',
+          },
+                      {
+        title: 'Business Loans Made Easy: Lending Basics',
+        date: 'May 25',
+        time: '9:00AM to 10:30AM CST',
+        type: 'Online',
+        link: 'https://training.georgiasbdc.org/search/publicCourseSearchDetails.do?method=load&courseId=1304194#courseSectionDetails_2598130',
+          },
     ],
     upcoming: {
       text: 'Click here for Georgia Small Business Development Center-Minority Office to see a list of upcoming events and trainers in the network.',
