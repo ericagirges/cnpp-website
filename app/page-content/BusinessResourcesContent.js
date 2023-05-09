@@ -71,6 +71,21 @@ const SmallBizContent = {
       hyperlink: 'https://www.sba.gov/document/support-national-resource-guide-spanish',
       icon: CloudDownloadIcon,
       },
+       {
+      name: 'Support for Afghan Financial Empowerment Program - English,
+      hyperlink: 'https://rescue.box.com/s/xv2t3yh0dxilabqe3bpagvwqb18r21w5',
+      icon: CloudDownloadIcon,
+      },
+    {
+      name: 'Support for Afghan Financial Empowerment Program - Pashto,
+      hyperlink: 'https://rescue.box.com/s/s44q7p2ot2i5b4r3anp5n36mv8xhqelv',
+      icon: CloudDownloadIcon,
+      },
+      {
+      name: 'Support for Afghan Financial Empowerment Program - Dari,
+      hyperlink: 'https://rescue.box.com/s/53xitb4f9f2im0ij4832zqcrrladu4fw',
+      icon: CloudDownloadIcon,
+      },
     // This is where you can add additional downloadable learning resources using the template below
     /*
     {
