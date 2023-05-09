@@ -66,11 +66,12 @@ const SmallBizContent = {
       hyperlink: 'https://www.sba.gov/document/support-national-resource-guide-english?fbclid=IwAR2N8tNWsmLJAfbQu2U1m5PhjGGGHHhLRoAYYOQDT-wMbXkIUswMXGnhRFE',
       icon: CloudDownloadIcon,
       },
-     {
-      name: 'National Resource Guide (Spanish)',
-      hyperlink: 'https://www.sba.gov/document/support-national-resource-guide-spanish',
+           {
+      name: 'Support for Afghan Financial Empowerment Program (English)',
+      hyperlink: 'https://rescue.box.com/s/xv2t3yh0dxilabqe3bpagvwqb18r21w5',
       icon: CloudDownloadIcon,
       },
+  
     // This is where you can add additional downloadable learning resources using the template below
     /*
     {
@@ -84,13 +85,21 @@ const SmallBizContent = {
 
   //This is the Translated Documents section!
   documents: [
-    {
-      name: 'Check Back Soon',
-      description:
-        'Sign up for our newsletter to get the latest updates on translated documents and other resources',
-      hyperlink: '/contact',
-      icon: ExclamationIcon,
-    },
+     {
+      name: 'National Resource Guide (Spanish)',
+      hyperlink: 'https://www.sba.gov/document/support-national-resource-guide-spanish',
+      icon: CloudDownloadIcon,
+      },
+     {
+      name: 'Support for Afghan Financial Empowerment Program (Pashto)',
+      hyperlink: 'https://rescue.box.com/s/s44q7p2ot2i5b4r3anp5n36mv8xhqelv',
+      icon: CloudDownloadIcon,
+      },
+        {
+      name: 'Support for Afghan Financial Empowerment Program (Dari)',
+      hyperlink: 'https://rescue.box.com/s/53xitb4f9f2im0ij4832zqcrrladu4fw',
+      icon: CloudDownloadIcon,
+      },
     // This is where you can add additional translated documents using the template below
     /*
     {
