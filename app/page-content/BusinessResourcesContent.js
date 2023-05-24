@@ -51,7 +51,12 @@ const SmallBizContent = {
 
   //This is the downloads section!
   downloads: [
-      {
+       {
+      name: 'Visa Small Business Guides',
+      hyperlink: 'https://usa.visa.com/run-your-business/small-business-tools/topics/small-business-guides-hub.html',
+      icon: CloudDownloadIcon,
+      },
+    {
       name: 'Business Plan Guide',
       hyperlink: 'https://rescue.box.com/s/xshwz28e8w2egdv699i4lrlpwxn3woo3',
       icon: CloudDownloadIcon,
