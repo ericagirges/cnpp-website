@@ -31,26 +31,19 @@ export const StateData = {
     ],
     body: 'IRC CNPP will support the small business communities in Metro Phoenix and the surrounding area by providing information and tools to help stabilize and grow local small businesses, including individualized counseling, mentoring, and training.  Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness. This includes the current City of Phoenix Business Relief grant program. Project partners offer specialized supports to small agricultural and related businesses.  Interpretation services for all services and trainings are available upon request.',
     events: [
-         {
-        title: 'Maricopa Entrepreneur Days- Scottsdale Community College',
-        date: 'April 25',
-        time: '10:00 AM - 2:00 PM (MST)',
-        type: 'In Person, Scottsdale Community College',
-        link: 'https://www.maricopa-sbdc.com/event/maricopa-entrepreneur-days-scottsdale-community-college/',
-      },
-                           {
-        title: 'SBIR Overview: How to Leverage America’s Seed Fund',
-        date: 'May 17',
-        time: '10:00 AM - 11:30 AM (MST)',
-        type: 'Online',
-        link: 'https://www.maricopa-sbdc.com/event/sbir-overview-how-to-leverage-americas-seed-fund-3/',
-      },
                                  {
         title: 'How New and Small Businesses Can Compete on the BIG SCREEN',
         date: 'May 24',
         time: '10:00 AM - 11:00 AM (MST)',
         type: 'Online',
         link: 'https://www.maricopa-sbdc.com/event/how-new-and-small-businesses-can-compete-on-the-big-screen/',
+      },
+                                {
+        title: 'New Social Media Growth Strategies hosted by LAGOS PHX',
+        date: 'May 31',
+        time: '2:30 PM (MST)',
+        type: 'Online',
+        link: 'https://bizlagosphx.eventbrite.com',
       },
     ],
     upcoming: {
