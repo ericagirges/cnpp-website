@@ -536,6 +536,14 @@ export const StateData = {
         type: 'Online',
         link: 'https://clients.utahsbdc.org/reg.aspx?mode=event&event=6430055',
           }, 
+               {
+        title: 'Pitch Workshop: How To Tell The Story of Your Business',
+        date: 'June 28',
+                  language: 'English, Spanish',
+        time: '6:00 PM to 7:30 PM MT',
+        type: 'In Person - NeighborWorks, 625 W Girard Ave, SLC, UT',
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSdZCE7Zl5hAy0kgXcpQ9uZmF__-DeZ1YkhT5z2omk6AEffDfQ/viewform',
+          }, 
     ],
     upcoming: {
       text: 'Click here for Utah’s Small Business Development Center to see more upcoming events and trainers near you.',
