@@ -1,11 +1,5 @@
 // This is to be used for adding to the Latest updates section at the bottom of the News page
 export const NewsContent = [
-  {
-    index: 0,
-    content:
-      'Check back soon for updates and get connected to a CNPP counselor.',
-    link: ""
-  },
     {
     index: 1,
     date: 'June 28, 2023',
