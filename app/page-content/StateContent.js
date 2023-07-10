@@ -297,14 +297,21 @@ export const StateData = {
        {
         title: 'Digital Marketing Bootcamp',
         date: 'July 19',
-        time: '9:00 AM to 12:00 PM CST',
+        time: '9:00 AM to 12:00 PM EST',
         type: 'In Person - UGA SBDC Macon',
         link: 'https://ugasbdc.training/mcn/0435-001?programid=179792',
+          },
+       {
+        title:'Food Industry Business Workshop',
+        date: 'July 26',
+        time: '3-4 PM EST',
+        type: 'Online, Hosted by IRC Atlanta',
+        link: 'bit.ly/44rHaq1',
           },
            {
         title: 'Myths and Realities of Small Business Funding',
         date: 'July 27',
-        time: '9:00 AM to 12:00 PM CST',
+        time: '9:00 AM to 12:00 PM EST',
         type: 'In Person - UGA SBDC Office of Minority Business Development',
         link: 'https://ugasbdc.training/dkb/0461-001?programid=179822',
           },
