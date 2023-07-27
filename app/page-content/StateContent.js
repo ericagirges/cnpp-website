@@ -207,7 +207,6 @@ export const StateData = {
         type: 'Online',
         link: 'https://sdsbdc.ecenterdirect.com/events/17032',
       },
-            },
                      {
         title: 'Build Customer Loyalty with Excellent Customer Service',
         date: 'August 30',
