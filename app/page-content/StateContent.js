@@ -495,7 +495,7 @@ export const StateData = {
         link: 'https://clients.utahsbdc.org/reg.aspx?mode=event&event=6430078',
           }, 
                               {
-        title: 'How to Make Your Website Sell, So You Don't Have To',
+        title: 'How to Make Your Website Sell, So You Dont Have To',
         date: 'September 21',
         time: '6:30 PM to 8:00 PM  MT',
         type: 'Online',
