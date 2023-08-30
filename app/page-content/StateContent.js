@@ -459,14 +459,28 @@ export const StateData = {
     ],
     body: 'IRC CNPP will support the small business communities the Salt Lake City metro region and the surrounding areas by providing information and tools to help stabilize and grow your business, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  Interpretation services are available upon request. Partners in this project also have business incubator programs for food entrepreneurs.  Interpretation services for all services and trainings are available upon request.',
     events: [           
-                {
+                  {
+        title: 'Small Business First Friday',
+        date: 'September 1',
+        time: '9:00 AM to 10:00 AM MT',
+        type: 'In Person - Woodbine Food Hall',
+        link: 'Email jamaica.trinnaman@rescue.org to attend',
+          }, 
+      {
         title: 'Wordpress Workshop',
         date: 'September 5',
         time: '2:00 PM to 3:30 PM MT',
         type: 'Online',
         link: 'https://clients.utahsbdc.org/workshop.aspx?ekey=6430076',
           }, 
-                      {
+                                 {
+        title: 'Applying for Grants 101',
+        date: 'September 11',
+        time: '11:00 AM to 12:30 PM MT',
+        type: 'Online',
+        link: 'Email jamaica.trinnaman@rescue.org to attend',
+          },     
+      {
         title: 'Online Marketing Fundamentals',
         date: 'September 13',
         time: '6:00 PM to 7:30 PM MT',
