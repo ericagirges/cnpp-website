@@ -57,7 +57,7 @@ export const StateData = {
         date: 'November 1',
         time: '10:00 AM - 11:00 AM (MST)',
         type: 'Online',
-        link: 'https://www.maricopa-sbdc.com/events/#:~:text=11%3A00%20am-,Exporting%20to%20Association%20of%20Southeast%20Asian%20Nations%20(ASEAN),-0%20events%2C',
+        link: 'https://www.maricopa-sbdc.com/event/exporting-to-association-of-southeast-asian-nations-asean/',
       },
     ],
     upcoming: {
@@ -119,7 +119,7 @@ export const StateData = {
   {
         title: 'Creating an Essential Sales Plan – The Motor that Drives Your Business Success',
         date: 'October 10',
-        time: '	9:00 AM	- 11:00 AM (PDT)',
+        time: '9:00 AM- 11:00 AM (PDT)',
         type: 'Online',
         link: 'https://sdsbdc.ecenterdirect.com/events/17367',
       },
@@ -241,8 +241,7 @@ export const StateData = {
         time: '9:00 AM - 11:00 AM (PDT)',
         type: 'Online',
         link: 'https://sdsbdc.ecenterdirect.com/events/17062',
-      },
-      
+      }, 
     ],
     upcoming: {
       text: 'Click here for San Diego and Imperial Network Small Business Development Center to see more upcoming events and trainers near you.',
