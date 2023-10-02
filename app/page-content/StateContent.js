@@ -543,7 +543,6 @@ export const StateData = {
         type: 'Online',
         link: 'https://clients.utahsbdc.org/workshop.aspx?ekey=6430087',
           }, 
-      {
     ],
     upcoming: {
       text: 'Click here for Utah’s Small Business Development Center to see more upcoming events and trainers near you.',
