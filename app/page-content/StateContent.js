@@ -513,7 +513,7 @@ export const StateData = {
         date: 'October 6',
         time: '9:00 - 10:00 am MT',
         type: ' In Person - Woodbine Food Hall',
-        link: 'Email jamaica.trinnaman@rescue.org to attend',
+        link: 'https://survey.typeform.com/to/uBRSAjQ1',
           }, 
                                  {
         title: 'Online Marketing Fundamentals',
