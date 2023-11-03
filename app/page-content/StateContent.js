@@ -273,6 +273,27 @@ export const StateData = {
         type: 'In Person - UGA SBDC Jackson Office',
         link: 'https://ugasbdc.training/mcn/DMBJackson2023?programid=179879',
           },
+                         {
+        title: 'Excel Essentials: Empowering Diverse Small Business Owners',
+        date: 'November 14',
+        time: '10:00AM to 11:0AM ET',
+        type: 'In Person - The IRC in Atlanta Office',
+        link: 'bit.ly/IRCATLGEW23',
+          },
+                           {
+        title: 'Small Business Grant Clinic',
+        date: 'November 16',
+        time: '9:30AM to 12:30PM ET',
+        type: 'In Person - Refugee Coffee Co.',
+        link: 'bit.ly/IRCATLGrantClinic',
+          },
+                                 {
+        title: 'Small Business Pop-Up Event',
+        date: 'November 18',
+        time: '10:00AM to 2:00PM ET',
+        type: 'In Person - Refugee Coffee Co.',
+        link: 'bit.ly/IRCATLGrantClinic',
+          },
     ],
     upcoming: {
       text: 'Click here for Georgia Small Business Development Center-Minority Office to see a list of upcoming events and trainers in the network.',
