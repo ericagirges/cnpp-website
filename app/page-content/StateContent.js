@@ -104,7 +104,7 @@ export const StateData = {
         type: 'Online',
         link: 'https://sdsbdc.ecenterdirect.com/events/17721',
       },
-                        {
+             {
         title: 'SDAC E-Track: Pitch Deconstruction',
         date: 'December 12',
         time: '5:30 PM - 8:30 PM (PST)',
@@ -132,7 +132,7 @@ export const StateData = {
         type: 'In Person - Downtown Works at 2011 Palomar Airport Rd, Carlsbad CA 92011',
         link: 'https://sdsbdc.ecenterdirect.com/events/17432',
       },
-                                                {
+                   {
         title: 'Before You Hire Employees: Preparing Your Business First',
         date: 'January 3',
         time: '4:00 PM - 5:00 PM (PST)',
@@ -170,7 +170,7 @@ export const StateData = {
     ],
     body: 'IRC CNPP will support the small business communities in metro Atlanta and the surrounding areas by providing information and tools to help stabilize and grow local business, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  This includes the current City of Atlanta Resurgence Grant.   Partners in this project also have business incubator programs for women and BIPOC entrepreneurs.  Interpretation services for all services and trainings are available upon request.',
     events: [
-                                 {
+             {
         title: 'Introduction to Strategic Planning',
         date: 'December 5',
         time: '10:00AM to 2:00PM ET',
@@ -364,7 +364,7 @@ export const StateData = {
         link: 'https://secure.touchnet.com/C21797_ustores/web/product_detail.jsp?PRODUCTID=4885&SINGLESTORE=true',
           },
                                {
-        title: 'Enhancing the Customer Experience and Retention ',
+        title: 'Enhancing the Customer Experience and Retention',
         date: 'December 14',
         time: '3:00 pm (CDT)',
         type: 'Online',
@@ -455,7 +455,7 @@ export const StateData = {
         link: 'https://clients.utahsbdc.org/reg.aspx?mode=event&event=6430103',
           }, 
                                   {
-        title: 'How to Make Your Website Sell, So You Don't Have To',
+        title: 'How to Make Your Website Sell, So You Dont Have To',
         date: 'December 21',
         time: '6:30 PM to 8:00 PM MT',
         type: 'Online',
