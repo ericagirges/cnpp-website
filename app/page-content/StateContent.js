@@ -112,24 +112,24 @@ export const StateData = {
         link: 'https://sdsbdc.ecenterdirect.com/events/17431',
       },
                               {
-        title: 'Mompreneur's Guide: Navigating Motherhood and Business Ownership',
+        title: 'Mompreneurs Guide: Navigating Motherhood and Business Ownership',
         date: 'December 13',
         time: '10:00 AM - 11:00 AM (PST)',
-        type: 'In Person - 7675 Dagget St, Suite 340, San Diego CA 92111-2260 ',
+        type: 'In Person - 7675 Dagget St, Suite 340, San Diego CA 92111-2260',
         link: 'https://sdsbdc.ecenterdirect.com/events/17661',
       },
                                     {
         title: 'Small Business, Big Ideas: A Coffee Networking Event',
         date: 'December 14',
         time: '9:00 AM - 11:00 AM (PST)',
-        type: 'In Person - 6225 Mission Gorge Rd, San Diego CA 92120-3505 ',
+        type: 'In Person - 6225 Mission Gorge Rd, San Diego CA 92120-3505',
         link: 'https://sdsbdc.ecenterdirect.com/events/17392',
       },
                                           {
         title: 'SDAC E-Track: SDAC Application Deadline and Celebration',
         date: 'December 19',
         time: '5:30 PM - 8:30 PM (PST)',
-        type: 'In Person - Downtown Works at 2011 Palomar Airport Rd, Carlsbad CA 92011 ',
+        type: 'In Person - Downtown Works at 2011 Palomar Airport Rd, Carlsbad CA 92011',
         link: 'https://sdsbdc.ecenterdirect.com/events/17432',
       },
                                                 {
