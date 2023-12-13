@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=UA-225505196-1`}
+        src={`https://www.googletagmanager.com/gtag/js?id=G-DN1ZXJFVX5`}
       />
       <Script
         dangerouslySetInnerHTML={{
