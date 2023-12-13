@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter()
   useEffect(() => {
     const handleRouteChange = (url: any) => {
-      window.gtag('config', 'UA-225505196-1', {
+      window.gtag('config', 'G-DN1ZXJFVX5', {
         page_path: url,
       })
     }
@@ -33,7 +33,7 @@ function MyApp({ Component, pageProps }: AppProps) {
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'UA-225505196-1', { page_path: window.location.pathname });
+              gtag('config', 'G-DN1ZXJFVX5', { page_path: window.location.pathname });
             `,
         }}
       />
