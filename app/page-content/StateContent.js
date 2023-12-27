@@ -133,7 +133,7 @@ export const StateData = {
         link: 'https://sdsbdc.ecenterdirect.com/events/17723',
       },
                                                                     {
-        title: 'A.I. Series Module 2: Improving Operational Efficiency Using A.I. (Artificial Intelligence)',
+        title: 'A.I. Series Module 2: Improving Operational Efficiency Using A.I.',
         date: 'January 11',
         time: '4:00 PM - 6:00 PM (PST)',
         type: 'Online',
@@ -175,7 +175,7 @@ export const StateData = {
         link: 'https://sdsbdc.ecenterdirect.com/events/17749',
       },
                               {
-        title: 'A.I. Series Module 3: Faster and More Effective Social Media Marketing with AI (Artificial Intelligence)',
+        title: 'A.I. Series Module 3: Faster and More Effective Social Media Marketing with AI',
         date: 'January 18',
         time: '4:00 PM - 6:00 PM (PST)',
         type: 'Online',
@@ -252,21 +252,21 @@ export const StateData = {
         link: 'https://sdsbdc.ecenterdirect.com/events/17712',
       },
                                  {
-        title: 'Opening and Operating a Successful Retail Store,
+        title: 'Opening and Operating a Successful Retail Store',
         date: 'January 26',
         time: '9:00 AM - 11:00 AM (PST)',
         type: 'Online',
         link: 'https://sdsbdc.ecenterdirect.com/events/17788',
       },
                                        {
-        title: 'Good Business- How To Include Charitable Giving Into Your Business,
+        title: 'Good Business- How To Include Charitable Giving Into Your Business',
         date: 'January 31',
         time: '9:00 AM - 11:00 AM (PST)',
         type: 'Online',
         link: 'https://sdsbdc.ecenterdirect.com/events/17878',
       },
                                              {
-        title: 'Starting Your Business: A Step-by-Step Guide,
+        title: 'Starting Your Business: A Step-by-Step Guide',
         date: 'February 1',
         time: '9:00 AM - 11:00 AM (PST)',
         type: 'Online',
