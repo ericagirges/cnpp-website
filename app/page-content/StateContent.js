@@ -75,7 +75,7 @@ export const StateData = {
         time: '4:00 PM - 5:00 PM (PST)',
         type: 'Online',
         link: 'https://sdsbdc.ecenterdirect.com/events/17733',
-      }
+      },
                                {
         title: 'You Have a Brilliant Business Idea, Now what?',
         date: 'January 3',
