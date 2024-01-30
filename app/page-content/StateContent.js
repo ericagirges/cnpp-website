@@ -69,7 +69,6 @@ export const StateData = {
       ],
     body: 'IRC CNPP will support the small business communities in San Diego County by providing information and tools to help stabilize and grow small businesses, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  This includes current San Diego County and California Relief Grant programs. Project partners also offer industry-specific trainings for entrepreneurs interested in or currently operating childcare centers.  Interpretation services for all services and trainings are available upon request.',
     events: [                        
-      },
          {
         title: 'Starting Your Business: A Step-by-Step Guide',
         date: 'February 1',
