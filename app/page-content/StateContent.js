@@ -27,7 +27,7 @@ export const StateData = {
     body: 'IRC CNPP will support the small business communities in Metro Phoenix and the surrounding area by providing information and tools to help stabilize and grow local small businesses, including individualized counseling, mentoring, and training.  Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness. This includes the current City of Phoenix Business Relief grant program. Project partners offer specialized supports to small agricultural and related businesses.  Interpretation services for all services and trainings are available upon request.',
     events: [
                 {
-        title: 'Alternatives to Financing Your Early-Stage Venture Pt. 2',
+        title: 'Alternatives to Financing Your Early-Stage Venture Pt 2',
         date: 'February 7',
         time: '10:00 AM - 11:30 AM (MST)',
         type: 'Online',
@@ -80,7 +80,7 @@ export const StateData = {
         {
         title: 'Women in Business Network / Red de Mujeres Empresarias',
         date: 'February 2',
-        time: '	8:30 AM	- 10:00 AM (PST)',
+        time: '8:30 AM	- 10:00 AM (PST)',
         type: 'In Person - 1250 W Main St, El Centro CA 92243-2817',
         link: 'https://sdsbdc.ecenterdirect.com/events/18264',
       },
@@ -148,7 +148,7 @@ export const StateData = {
         link: 'https://sdsbdc.ecenterdirect.com/events/17728',
       },
            {
-        title: 'Use These 3 Stages Of “Awareness” To Get Customers & Clients Using Social Media',
+        title: 'Use These 3 Stages Of Awareness To Get Customers & Clients Using Social Media',
         date: 'February 13',
         time: '10:00 AM - 12:00 PM (PST)',
         type: 'Online',
@@ -249,7 +249,7 @@ export const StateData = {
         title: 'Canva 102 – Learn the Possibilities - In Person',
         date: 'February 27',
         time: '3:00 PM - 5:00 PM (PST)',
-        type: 'In Person - 1250 W Main St, El Centro CA 92243-2817',
+        type: 'In Person - 1250 W Main St El Centro CA 92243-2817',
         link: 'https://sdsbdc.ecenterdirect.com/events/18350',
       },
                                    {
@@ -304,7 +304,7 @@ export const StateData = {
     ],
     body: 'IRC CNPP will support the small business communities in metro Atlanta and the surrounding areas by providing information and tools to help stabilize and grow local business, including individualized counseling, mentoring, and training. Business advisors can also help small business owners apply for small business relief grants and loans and assist small business owners who have already received COVID-19 relief loans prepare documentation in support of loan forgiveness.  This includes the current City of Atlanta Resurgence Grant.   Partners in this project also have business incubator programs for women and BIPOC entrepreneurs.  Interpretation services for all services and trainings are available upon request.',
     events: [
-                                             {
+                    {
         title: 'Value Added Producer Grant Workshop',
         date: 'February 7',
         time: '2 PM to 4 PM',
@@ -316,7 +316,7 @@ export const StateData = {
         date: 'February 10',
         time: '10 am - 1 pm ET',
         type: 'In Person - 2305 Parklake Dr NE, Suite 100 or on Zoom',
-        link: 'bit.ly/EmpowerIRCATL',
+        link: 'https://forms.office.com/Pages/ResponsePage.aspx?id=jDHxBYNnJkO3Kb9TenYduDoU0RSJOzdJjYPLlvv15IdURVYyTlIyTUxTSTFGUERCV0taNzhaV0xVWi4u',
           },
                                              {
         title: 'Myths and Realities of Small Business Funding',
@@ -377,14 +377,14 @@ export const StateData = {
         title: 'Always Ready: Getting Ready (In Person)',
         date: 'February 6',
         time: '12:00 pm - 1:00 pm CST',
-        type: 'In Person - 2210 Grand Ave, Des Moines, IA 50312',
+        type: 'In Person - 2210 Grand Ave Des Moines IA 50312',
         link: 'https://theiowacenter.org/event/always-ready-getting-ready-in-person/',
           },
                                        {
         title: 'Always Ready: Lending (In Person)',
         date: 'February 7',
         time: '3:00 pm - 4:00 pm CST',
-        type: 'In Person - 2210 Grand Ave, Des Moines, IA 50312',
+        type: 'In Person - 2210 Grand Ave Des Moines IA 50312',
         link: 'https://theiowacenter.org/event/always-ready-lending-in-person-2/',
           },
                                          {
@@ -412,7 +412,7 @@ export const StateData = {
         title: 'Always Ready: Marketing (In Person)',
         date: 'February 21',
         time: '3:00 pm - 4:00 pm CST',
-        type: 'In Person - 2210 Grand Ave, Des Moines, IA 50312',
+        type: 'In Person - 2210 Grand Ave Des Moines IA 50312',
         link: 'https://theiowacenter.org/event/always-ready-marketing-in-person-2/',
           },
     ],
