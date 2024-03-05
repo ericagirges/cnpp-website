@@ -118,7 +118,7 @@ export const StateData = {
         type: 'Online',
         link: 'https://sdsbdc.ecenterdirect.com/events/18207',
       },
-                                                        {
+                      {
         title: 'Business Plans That Get Results',
         date: 'March 13',
         time: '9:00 AM - 11:00 AM (PDT)',
@@ -196,7 +196,7 @@ export const StateData = {
         link: 'https://sdsbdc.ecenterdirect.com/events/18229',
       },
                                                   {
-        title: 'Cybersecurity Awareness – A Guide to Safeguarding Your Business',
+        title:'Cybersecurity Awareness – A Guide to Safeguarding Your Business',
         date: 'March 21',
         time: '1:00 PM - 3:00 PM (PDT)',
         type: 'Online',
@@ -279,7 +279,7 @@ export const StateData = {
         title: 'Small Business Grant Clinic',
         date: 'March 14',
         time: '11:00am - 1:00pm ET',
-        type: 'In Person - IRC Atlanta Office,
+        type: 'In Person - IRC Atlanta Office',
         link: 'bit.ly/IRCATLGrantClinic',
           },
                    {
