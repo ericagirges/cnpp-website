@@ -293,7 +293,7 @@ export const StateData = {
         title: 'Womens Entrepreneur Empowerment Series',
         date: 'March 30',
         time: '10:00am - 12:00pm ET',
-        type: 'In Person - IRC Atlanta Office,
+        type: 'In Person - IRC Atlanta Office',
         link: 'bit.ly/EmpowerIRCATL',
           },
     ],
