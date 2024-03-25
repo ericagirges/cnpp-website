@@ -32,7 +32,7 @@ const TextComponent = () => (
       rates that are available CEO include:
       <ul className="indent my-2 list-disc pl-10">
         <li>Credit Building loans of up to $1,000 with 0% APR</li>
-        <li>Business Recovery loans of up to $10,000 with 0% APR</li>
+        <li>Business Recovery loans of up to $10,000</li>
       </ul>
     </p>
     <p className="mt-3 text-base text-black md:text-lg">
